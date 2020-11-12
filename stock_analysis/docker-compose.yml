@@ -1,0 +1,24 @@
+version: "3"
+   
+services:
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_DATABASE: stock_market
+    ports:
+      - "27017:27017"
+
+  web:
+    build: .
+    container_name: stock_market
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/stock_market
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+
+

@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+
+      $(document).ready(function(){
+      endpoint = "/stocks/returns";
+      $.ajax({
+          url: endpoint,
+          type: "GET",
+          success: function(data){
+              drawTable(data)
+              console.log(endpoint);
+          },
+          error: function(error){
+              console.log(error);
+          }
+      })
+  }
+  )
+
+      function drawTable(statement_data) {
+        var data = new google.visualization.DataTable();
+        var columns = ['Name', 'Salary', 'Full Time Employee'];
+        for (i of columns) {
+          data.addColumn('string', i);
+        };
+<!--        data.addColumn('string', 'Name');-->
+<!--        data.addColumn('number', 'Salary');-->
+<!--        data.addColumn('boolean', 'Full Time Employee');-->
+        data.addRows([
+          ['Mike',  '$10,000', 'true'],
+          ['Jim',   '$8,000',  'false'],
+          ['Alice', '$12,500', 'true'],
+          ['Bob',   '$7,000',  'true']
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '50%', height: '100%'});
+      }
+    </script>
+  </head>
+  <body>
+    <div id="table_div"></div>
+  </body>
+</html>

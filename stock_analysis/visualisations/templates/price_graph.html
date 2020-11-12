@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!-- ajax cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- chart.js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<!--search-bar icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="search-container">
+    <form>
+      <input type="text" id="ticker-input" placeholder="Search..">
+      <button type="button"><i class="fa fa-search" id="submit"></i></button>
+    </form>
+  </div>
+</div>
+
+    <div class="col-md-6">
+    <canvas id="myChartline"></canvas>
+    </div>
+
+<!--
+<form>
+    <input type="text" id="ticker-input">
+    <input type="button" id="submit">
+</form>
+-->
+</body>
+
+
+<script>
+
+$(document).ready(function(){
+    $("#submit").click(function(){
+        const endpoint = "/stocks/" + document.getElementById("ticker-input").value;
+        $.ajax({
+            url: endpoint,
+            type: "GET",
+            success: function(data){
+                drawLineGraph(data, "myChartline")
+                console.log(endpoint);
+            },
+            error: function(error){
+                console.log(error);
+            }
+        })
+    })
+})
+
+
+function drawLineGraph(data, id) {
+const labels = data.Date;
+const chartLabel = "Stock Price";
+const chartdata = data.Adj_Close;
+const ctx = document.getElementById(id).getContext('2d');
+if (window.chart != undefined)
+    window.chart.destroy();
+window.chart = new Chart(ctx, {
+	// The type of chart we want to create
+	type: 'line',
+
+	// The data for our dataset
+	data: {
+	labels: labels,
+	datasets: [{
+		label: chartLabel,
+		backgroundColor: 'rgba(100, 100, 255, 0.5)',
+		borderColor: 'rgb(55, 99, 132)',
+		data: chartdata,
+	}]
+	},
+
+	// Configuration options go here
+	options: {
+	scales: {
+		xAxes: [{
+		display: true
+		}],
+		yAxes: [{
+		ticks: {
+			beginAtZero: true
+		}
+		}]
+	}
+	}
+
+});
+}
+</script>
+</html>
