@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import View
+from django.http import HttpResponse, HttpResponseRedirect
 
 from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
@@ -84,19 +85,27 @@ class FinancialStatementBySector(APIView):
 
 class StockPriceGraph(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'price_graph.html')
+        if request.user.is_authenticated:
+            return render(request, 'price_graph.html')
+        return HttpResponseRedirect('/accounts/sign-up')
 
 
 class StockReturnsGraph(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'returns_graph.html')
+        if request.user.is_authenticated:
+            return render(request, 'returns_graph.html')
+        return HttpResponseRedirect('/accounts/sign-up')
 
 
 class FinancialStatementGraph(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'financial_statement_graph.html')
+        if request.user.is_authenticated:
+            return render(request, 'financial_statement_graph.html')
+        return HttpResponseRedirect('/accounts/sign-up')
 
 
 class FinancialStatementBarPlot(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'financial_statement_bar_plot.html')
+        if request.user.is_authenticated:
+            return render(request, 'financial_statement_bar_plot.html')
+        return HttpResponseRedirect('/accounts/sign-up')

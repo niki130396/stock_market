@@ -134,7 +134,7 @@ def parse_yahoo_data(url, statement_type):
 
 
 if __name__ == '__main__':
-    initial_data = pd.read_csv('~/PycharmProjects/stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
+    initial_data = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
 
