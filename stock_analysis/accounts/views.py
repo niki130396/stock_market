@@ -44,9 +44,3 @@ class RegistrationView(View):
         else:
             return HttpResponseRedirect('/accounts/sign-up')
 
-
-"""
-from django.contrib.auth.models import User
-email = 'georgi.georgiev@gmail.com'
-user = User.objects.filter(email=email)
-"""
