@@ -41,6 +41,4 @@ class RegistrationView(View):
             user = User.objects.get(email=email)
             login(request, user)
             return HttpResponseRedirect('/visualisations')
-        else:
-            return HttpResponseRedirect('/accounts/sign-up')
-
+        return HttpResponseRedirect('/accounts/sign-up')
