@@ -138,30 +138,30 @@ if __name__ == '__main__':
     cursor = Financials()
 
 
-    # id_ = 1
-    # statement_types = {'financials': 'financials',
-    #                    'balance-sheet': 'balance_sheet',
-    #                    'cash-flow': 'cash_flow'}
-    #
-    # for dict_ in initial_data:
-    #     document = {'id': id_,
-    #                 'symbol': dict_['Symbol'],
-    #                 'name': dict_['Name'],
-    #                 'sector': dict_['Sector'],
-    #                 'industry': dict_['Industry']}
-    #
-    #     for statement_type in statement_types:
-    #         document[statement_types[statement_type]] = []
-    #         url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement_type}?p={dict_["Symbol"]}'
-    #         statement_data = parse_yahoo_data(url, statement_type)
-    #         if not statement_data:
-    #             print('FAULT')
-    #             break
-    #         document[statement_types[statement_type]].extend(statement_data)
-    #     else:
-    #         cursor.collection.insert_one(document)
-    #         id_ += 1
-    #         print(dict_['Symbol'])
+    id_ = 1
+    statement_types = {'financials': 'financials',
+                       'balance-sheet': 'balance_sheet',
+                       'cash-flow': 'cash_flow'}
+
+    for dict_ in initial_data:
+        document = {'id': id_,
+                    'symbol': dict_['Symbol'],
+                    'name': dict_['Name'],
+                    'sector': dict_['Sector'],
+                    'industry': dict_['Industry']}
+
+        for statement_type in statement_types:
+            document[statement_types[statement_type]] = []
+            url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement_type}?p={dict_["Symbol"]}'
+            statement_data = parse_yahoo_data(url, statement_type)
+            if not statement_data:
+                print('FAULT')
+                break
+            document[statement_types[statement_type]].extend(statement_data)
+        else:
+            cursor.collection.insert_one(document)
+            id_ += 1
+            print(dict_['Symbol'])
 
 
 
