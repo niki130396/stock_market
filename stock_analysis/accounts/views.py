@@ -31,13 +31,22 @@ class RegistrationView(View):
         email = request.POST['email']
         password = request.POST['password']
 
-        duplicate_email = User.objects.get(email=email)
-        if not duplicate_email:
+        user = User.objects.filter(email=email)
+        if not user:
             User.objects.create_user(
                 username=username,
                 email=email,
                 password=password
                 )
+            user = User.objects.get(email=email)
+            login(request, user)
             return HttpResponseRedirect('/visualisations')
         else:
             return HttpResponseRedirect('/accounts/sign-up')
+
+
+"""
+from django.contrib.auth.models import User
+email = 'georgi.georgiev@gmail.com'
+user = User.objects.filter(email=email)
+"""
