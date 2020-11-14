@@ -3,7 +3,7 @@ from django.views.generic import View
 from django.contrib.auth import authenticate, login
 from django.http.response import HttpResponseRedirect
 from django.contrib.auth.models import User
-
+from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
 
 
@@ -18,7 +18,7 @@ class LoginView(View):
         user = authenticate(username=username, password=password)
         if user is not None:
             login(request, user)
-            return HttpResponseRedirect('/visualisations')
+            return HttpResponseRedirect('/accounts/profile')
         return HttpResponseRedirect('/accounts/register')
 
 
@@ -42,3 +42,19 @@ class RegistrationView(View):
             login(request, user)
             return HttpResponseRedirect('/visualisations')
         return HttpResponseRedirect('/accounts/sign-up')
+
+
+class ProfileInfo(LoginRequiredMixin, View):
+    login_url = '/accounts/sign-up'
+
+    def get(self, request):
+        user_context = {
+            'username': request.user.username,
+            'email': request.user.email
+        }
+        return render(request, 'profile.html', context=user_context)
+
+"""
+from django.contrib.auth.models import User
+user = User.objects.get(username='ivan.ivanov')
+"""
