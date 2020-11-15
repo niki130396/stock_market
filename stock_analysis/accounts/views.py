@@ -62,8 +62,7 @@ class LogoutView(LoginRequiredMixin, RedirectView):
     pattern_name = 'home'
 
     def get_redirect_url(self, *args, **kwargs):
-        if self.request.user.is_authenticated:
-            logout(self.request)
+        logout(self.request)
         return super(LogoutView, self).get_redirect_url(*args, **kwargs)
 
 
