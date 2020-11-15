@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import View
-from django.contrib.auth import authenticate, login
+from django.views.generic import View, RedirectView
+from django.contrib.auth import authenticate, login, logout
 from django.http.response import HttpResponseRedirect
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -53,6 +53,19 @@ class ProfileInfo(LoginRequiredMixin, View):
             'email': request.user.email
         }
         return render(request, 'profile.html', context=user_context)
+
+
+class LogoutView(LoginRequiredMixin, RedirectView):
+    login_url = 'accounts/sign-up'
+    permanent = False
+    query_string = True
+    pattern_name = 'home'
+
+    def get_redirect_url(self, *args, **kwargs):
+        if self.request.user.is_authenticated:
+            logout(self.request)
+        return super(LogoutView, self).get_redirect_url(*args, **kwargs)
+
 
 """
 from django.contrib.auth.models import User
