@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import View
 from django.http import HttpResponse, HttpResponseRedirect
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
@@ -15,6 +16,7 @@ from visualisations.serializers import \
     CashFlowSerializer
 from visualisations.models import StockData, AggregatedData, FinancialsData
 
+from accounts.permissions import is_premium
 # Create your views here.
 
 
@@ -83,29 +85,32 @@ class FinancialStatementBySector(APIView):
         return Response(response)
 
 
-class StockPriceGraph(View):
+class StockPriceGraph(LoginRequiredMixin, View):
+    login_url = 'accounts/sign-up'
+
+    @is_premium
     def get(self, request, *args, **kwargs):
-        if request.user.is_authenticated:
-            return render(request, 'price_graph.html')
-        return HttpResponseRedirect('/accounts/sign-up')
+        return render(request, 'price_graph.html')
 
 
-class StockReturnsGraph(View):
+class StockReturnsGraph(LoginRequiredMixin, View):
+    login_url = 'accounts/sign-up'
+
     def get(self, request, *args, **kwargs):
-        if request.user.is_authenticated:
-            return render(request, 'returns_graph.html')
-        return HttpResponseRedirect('/accounts/sign-up')
+        return render(request, 'returns_graph.html')
 
 
-class FinancialStatementGraph(View):
+class FinancialStatementGraph(LoginRequiredMixin, View):
+    login_url = 'accounts/sign-up'
+
+    @is_premium
     def get(self, request, *args, **kwargs):
-        if request.user.is_authenticated:
-            return render(request, 'financial_statement_graph.html')
-        return HttpResponseRedirect('/accounts/sign-up')
+        return render(request, 'financial_statement_graph.html')
 
 
-class FinancialStatementBarPlot(View):
+class FinancialStatementBarPlot(LoginRequiredMixin, View):
+    login_url = 'accounts/sign-up'
+
+    @is_premium
     def get(self, request, *args, **kwargs):
-        if request.user.is_authenticated:
-            return render(request, 'financial_statement_bar_plot.html')
-        return HttpResponseRedirect('/accounts/sign-up')
+        return render(request, 'financial_statement_bar_plot.html')

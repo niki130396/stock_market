@@ -78,7 +78,7 @@ class GoPremiumView(LoginRequiredMixin, RedirectView):
         user = StockMarketUser.objects.get(user__username=self.request.user.username)
         user.account_type = 2
         user.save()
-        return super().get_redirect_url(*args, **kwargs)
+        return super(GoPremiumView, self).get_redirect_url(*args, **kwargs)
 
 
 """
