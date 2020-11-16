@@ -20,9 +20,11 @@ from accounts.permissions import is_premium
 # Create your views here.
 
 
-SERIALIZERS_DICT = {'financials': IncomeStatementSerializer,
-                                'balance_sheet': BalanceSheetSerializer,
-                                'cash_flow': CashFlowSerializer}
+SERIALIZERS_DICT = {
+    'financials': IncomeStatementSerializer,
+    'balance_sheet': BalanceSheetSerializer,
+    'cash_flow': CashFlowSerializer
+}
 
 
 class CompaniesByRevenue(APIView):
