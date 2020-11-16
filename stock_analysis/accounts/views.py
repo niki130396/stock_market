@@ -4,6 +4,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.http.response import HttpResponseRedirect
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
+
+from accounts.models import StockMarketUser
 # Create your views here.
 
 
@@ -66,7 +68,27 @@ class LogoutView(LoginRequiredMixin, RedirectView):
         return super(LogoutView, self).get_redirect_url(*args, **kwargs)
 
 
+class GoPremiumView(LoginRequiredMixin, RedirectView):
+    login_url = 'accounts/sign-up'
+    permanent = False
+    query_string = True
+    pattern_name = 'stock_prices'
+
+    def get_redirect_url(self, *args, **kwargs):
+        user = StockMarketUser.objects.get(user__username=self.request.user.username)
+        user.account_type = 2
+        user.save()
+        return super().get_redirect_url(*args, **kwargs)
+
+
 """
 from django.contrib.auth.models import User
 user = User.objects.get(username='ivan.ivanov')
+"""
+
+
+"""
+from accounts.models import StockMarketUser
+username = 'ivan.ivanov'
+user = StockMarketUser.objects.get(user__username=username)
 """
