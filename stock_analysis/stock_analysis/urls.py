@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.HomeView.as_view(), name='home'),
     path('accounts/', include('accounts.urls')),
     path('visualisations/', include('visualisations.urls')),
+    path('api/', include('api.urls')),
 ]

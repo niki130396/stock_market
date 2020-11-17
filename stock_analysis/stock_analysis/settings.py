@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'visualisations',
     'accounts',
+    'api',
 
     'rest_framework',
 ]
