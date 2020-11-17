@@ -1,15 +1,14 @@
 from pymongo import MongoClient
 from pandas_datareader import DataReader
+from pandas_datareader._utils import RemoteDataError
 from datetime import datetime
-from abc import ABC, abstractmethod
 import pandas as pd
 import numpy as np
 
 
-class MongoConnector(ABC):
-    @abstractmethod
+class MongoConnector:
     def __init__(self):
-        self.client = MongoClient()
+        self.client = MongoClient('mongodb://127.0.0.1:27017')
         self.db = self.client.stock_market
         self.collection = self.db.visualisations_stockdata
 
@@ -28,13 +27,14 @@ class DocumentInserter(MongoConnector):
             document = {'id': self.from_id, 'symbol': symbol, 'info': info}
             self.collection.insert_one(document)
             self.from_id += 1
+            return
         raise Exception()
 
     def get_last_id(self):
         ids = [document['id'] for document in self.collection.find({}, {'id': 1, '_id': 0}).sort([('id', -1)]).limit(1)]
         if not ids:
             return 1
-        return ids[0]
+        return ids[0] + 1
 
     @property
     def present_symbols(self):
@@ -74,7 +74,7 @@ class StockDataDownloader:
 
 
 def get_non_existent_symbols(symbols_list, present_symbols):
-    return set(present_symbols).difference(symbols_list)
+    return set(symbols_list).difference(present_symbols)
 
 
 if __name__ == '__main__':
@@ -88,5 +88,7 @@ if __name__ == '__main__':
             df = downloader.get_data(symbol)
             engine.insert_document(df, symbol)
             print(f'INSERTED {symbol}')
-        except:
-            print(f'{symbol} already exists')
+        except RemoteDataError:
+            print(f'Could not fetch data for symbol {symbol}')
+        except KeyError as key_error:
+            print(f'Missing fields {key_error.args} for {symbol}')

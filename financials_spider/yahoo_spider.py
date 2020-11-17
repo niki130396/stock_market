@@ -137,7 +137,6 @@ if __name__ == '__main__':
     initial_data = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
-
     id_ = 1
     statement_types = {'financials': 'financials',
                        'balance-sheet': 'balance_sheet',
