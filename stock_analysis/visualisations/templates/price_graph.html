@@ -120,7 +120,7 @@ body {
 
 $(document).ready(function(){
     $("#submit").click(function(){
-        const endpoint = "/visualisations/stocks/" + document.getElementById("ticker-input").value;
+        const endpoint = "/api/stocks/" + document.getElementById("ticker-input").value;
         $.ajax({
             url: endpoint,
             type: "GET",

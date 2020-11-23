@@ -2,14 +2,14 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.filters import SearchFilter
-from visualisations.serializers import \
+from api.serializers import \
     StockSerializer,\
     AggregatedDataSerializer,\
     SingleFinancialStatementSerializer,\
     IncomeStatementSerializer,\
     BalanceSheetSerializer,\
     CashFlowSerializer
-from visualisations.models import StockData, AggregatedData, FinancialsData
+from api.models import StockData, AggregatedData, FinancialsData
 
 # Create your views here.
 

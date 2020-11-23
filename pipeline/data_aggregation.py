@@ -12,7 +12,7 @@ class DBTarget:
     def __init__(self):
         self.client = MongoClient()
         self.db = self.client.stock_market
-        self.collection = self.db.visualisations_aggregateddata
+        self.collection = self.db.api_aggregateddata
         self.target_document = self.collection.find_one({})
 
     def insert_one(self, document):

@@ -8,7 +8,7 @@ from pipeline.mongo_pipeline import MongoConnector
 class Financials(MongoConnector):
     def __init__(self):
         super().__init__()
-        self.collection = self.db.visualisations_financialsdata
+        self.collection = self.db.api_financialsdata
 
 
 def toValidInt(string):

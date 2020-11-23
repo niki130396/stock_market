@@ -10,7 +10,7 @@ class MongoConnector:
     def __init__(self):
         self.client = MongoClient('mongodb://127.0.0.1:27017')
         self.db = self.client.stock_market
-        self.collection = self.db.visualisations_stockdata
+        self.collection = self.db.api_stockdata
 
 
 class DocumentInserter(MongoConnector):
