@@ -8,7 +8,7 @@ from accounts.permissions import is_premium
 
 
 class StockPriceGraph(LoginRequiredMixin, View):
-    login_url = 'accounts/sign-up'
+    login_url = '/accounts/sign-up'
 
     @is_premium
     def get(self, request, *args, **kwargs):
@@ -16,14 +16,15 @@ class StockPriceGraph(LoginRequiredMixin, View):
 
 
 class StockReturnsGraph(LoginRequiredMixin, View):
-    login_url = 'accounts/sign-up'
+    login_url = '/accounts/sign-up'
 
+    @is_premium
     def get(self, request, *args, **kwargs):
         return render(request, 'returns_graph.html')
 
 
 class FinancialStatementGraph(LoginRequiredMixin, View):
-    login_url = 'accounts/sign-up'
+    login_url = '/accounts/sign-up'
 
     @is_premium
     def get(self, request, *args, **kwargs):
@@ -31,7 +32,7 @@ class FinancialStatementGraph(LoginRequiredMixin, View):
 
 
 class FinancialStatementBarPlot(LoginRequiredMixin, View):
-    login_url = 'accounts/sign-up'
+    login_url = '/accounts/sign-up'
 
     @is_premium
     def get(self, request, *args, **kwargs):
