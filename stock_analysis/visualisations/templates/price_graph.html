@@ -115,9 +115,10 @@ body {
 -->
 </body>
 
+{% load static %}
+<script src="{% static 'chart_blueprints.js' %}"></script>
 
 <script>
-
 $(document).ready(function(){
     $("#submit").click(function(){
         const endpoint = "/api/stocks/" + document.getElementById("ticker-input").value;
@@ -125,7 +126,13 @@ $(document).ready(function(){
             url: endpoint,
             type: "GET",
             success: function(data){
-                drawLineGraph(data, "myChartline")
+                drawChart({
+                    'x_axis_labels': data.Date,
+                    'data_labels': 'Stock Prices',
+                    'chart_data': data.Adj_Close,
+                    'chart_type': 'line',
+                    'container_id': 'myChartline'
+                })
                 console.log(endpoint);
             },
             error: function(error){
@@ -135,44 +142,5 @@ $(document).ready(function(){
     })
 })
 
-
-function drawLineGraph(data, id) {
-const labels = data.Date;
-const chartLabel = "Stock Price";
-const chartdata = data.Adj_Close;
-const ctx = document.getElementById(id).getContext('2d');
-if (window.chart != undefined)
-    window.chart.destroy();
-window.chart = new Chart(ctx, {
-	// The type of chart we want to create
-	type: 'line',
-
-	// The data for our dataset
-	data: {
-	labels: labels,
-	datasets: [{
-		label: chartLabel,
-		backgroundColor: 'rgba(100, 100, 255, 0.5)',
-		borderColor: 'rgb(55, 99, 132)',
-		data: chartdata,
-	}]
-	},
-
-	// Configuration options go here
-	options: {
-	scales: {
-		xAxes: [{
-		display: true
-		}],
-		yAxes: [{
-		ticks: {
-			beginAtZero: true
-		}
-		}]
-	}
-	}
-
-});
-}
 </script>
 </html>

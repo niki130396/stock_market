@@ -115,17 +115,23 @@ body {
 -->
 </body>
 
+{% load static %}
+<script src="{% static 'chart_blueprints.js' %}"></script>
 
 <script>
-
-
 $(document).ready(function(){
     endpoint = "/stocks/returns";
     $.ajax({
         url: endpoint,
         type: "GET",
         success: function(data){
-            drawBarGraph(data, "myBarGraph")
+            drawChart({
+                'x_axis_labels': data.Symbol,
+                'data_labels': 'Stock Returns',
+                'chart_data': data.Returns,
+                'chart_type': 'bar',
+                'container_id': 'myBarGraph'
+            })
             console.log(endpoint);
         },
         error: function(error){
