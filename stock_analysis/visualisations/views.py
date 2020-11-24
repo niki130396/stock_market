@@ -59,14 +59,12 @@ class IncomeStatementKeyMetricsAreaPlot(LoginRequiredMixin, TemplateView):
         self.ticker = None
 
     def get(self, request, *args, **kwargs):
-        ticker = self.request.GET.get('ticker', 'GOOG')
+        ticker = self.request.GET.get('ticker', 'MSFT')
         self.ticker = ticker
-        print(self.request.GET)
         return super(IncomeStatementKeyMetricsAreaPlot, self).get(request, *args, *kwargs)
 
     def get_context_data(self, **kwargs):
         context = super(IncomeStatementKeyMetricsAreaPlot, self).get_context_data(**kwargs)
-
         financial_statement = get_single_financial_statement(
             FinancialsData,
             SingleFinancialStatementSerializer,

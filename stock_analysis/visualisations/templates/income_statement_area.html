@@ -121,31 +121,44 @@ body {
 <script>
 
 $(document).ready(function(){
-    drawChart({
-        'x_axis_labels': [1, 2, 3, 4, 5],
-        'chart_type': 'line',
-        'chart_data': [
-            {
-            label: 'Revenue',
-            backgroundColor: 'rgba(100, 100, 255, 0.5)',
-            borderColor: 'rgb(55, 99, 132)',
-            data: {{ revenue }}
+    $("#submit").click(function(){
+        const endpoint = "/visualisations/income_statement_area/" + "?ticker=" + document.getElementById("ticker-input").value;
+        $.ajax({
+            url: endpoint,
+            type: "GET",
+            success: function(data){
+                drawChart({
+                    'x_axis_labels': [1, 2, 3, 4, 5],
+                    'chart_type': 'line',
+                    'chart_data': [
+                        {
+                        label: 'Revenue',
+                        backgroundColor: 'rgba(100, 100, 255, 0.5)',
+                        borderColor: 'rgb(55, 99, 132)',
+                        data: {{ revenue }}
+                        },
+                        {
+                        label: 'Gross Profit',
+                        backgroundColor: 'rgba(50, 50, 255, 0.5)',
+                        borderColor: 'rgb(99, 99, 132)',
+                        data: {{ gross_profit }}
+                        },
+                        {
+                        label: 'EBIT',
+                        backgroundColor: 'rgba(150, 150, 255, 0.5)',
+                        borderColor: 'rgb(120, 120, 132)',
+                        data: {{ ebit }}
+                        }
+                    ],
+                    'container_id': 'IncomeStatementAreaPlot',
+                    'is_stacked': true
+                })
+                console.log(endpoint);
             },
-            {
-            label: 'Gross Profit',
-            backgroundColor: 'rgba(50, 50, 255, 0.5)',
-            borderColor: 'rgb(99, 99, 132)',
-            data: {{ gross_profit }}
-            },
-            {
-            label: 'EBIT',
-            backgroundColor: 'rgba(150, 150, 255, 0.5)',
-            borderColor: 'rgb(120, 120, 132)',
-            data: {{ ebit }}
+            error: function(error){
+                console.log(error);
             }
-        ],
-        'container_id': 'IncomeStatementAreaPlot',
-        'is_stacked': true
+        })
     })
 })
 
