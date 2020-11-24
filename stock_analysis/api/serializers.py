@@ -3,7 +3,14 @@ from abc import ABC
 from rest_framework import serializers
 from api.models import StockData, AggregatedData, IncomeStatement, BalanceSheet, CashFlow, FinancialsData
 
-from datetime import datetime
+from datetime import datetime, timedelta
+
+
+def date_handler(date_string):
+    if date_string == 'ttm':
+        return str(datetime.now().date().strftime('%m/%d/%Y'))
+    return date_string
+    #return datetime.strptime(date_string, '%m/%d/%Y').date()
 
 
 class NormalizedInfoField(serializers.RelatedField, ABC):
@@ -51,7 +58,7 @@ class IncomeStatementField(serializers.RelatedField, ABC):
 
     def to_representation(self, value):
         dict_ = {
-        'period': value['period'],
+        'period': date_handler(value['period']),
         'total_revenue': value['total_revenue'],
         'cost_of_revenue': value['cost_of_revenue'],
         'gross_profit': value['gross_profit'],
@@ -92,7 +99,7 @@ class BalanceSheetField(serializers.RelatedField, ABC):
 
     def to_representation(self, value):
         dict_ = {
-        'period': value['period'],
+        'period': date_handler(value['period']),
         'total_assets': value['total_assets'],
         'total_liabilities_net_minority_interest': value['total_liabilities_net_minority_interest'],
         'total_equity_gross_minority_interest': value['total_equity_gross_minority_interest'],
@@ -116,7 +123,7 @@ class CashFlowField(serializers.RelatedField, ABC):
 
     def to_representation(self, value):
         dict_ = {
-        'period': value['period'],
+        'period': date_handler(value['period']),
         'operating_cash_flow': value['operating_cash_flow'],
         'investing_cash_flow': value['investing_cash_flow'],
         'financing_cash_flow': value['financing_cash_flow'],

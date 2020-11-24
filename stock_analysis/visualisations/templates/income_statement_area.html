@@ -96,15 +96,15 @@ body {
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
   <div class="search-container">
-    <form>
-      <input type="text" id="ticker-input" placeholder="Search..">
+    <form action="/visualisations/income_statement_area/" method="get">
+      <input name="ticker" type="text" id="ticker-input" value="ticker" placeholder="Search..">
       <button type="button"><i class="fa fa-search" id="submit"></i></button>
     </form>
   </div>
 </div>
 
     <div class="col-md-6">
-    <canvas id="myChartline"></canvas>
+    <canvas id="IncomeStatementAreaPlot"></canvas>
     </div>
 
 <!--
@@ -119,30 +119,33 @@ body {
 <script src="{% static 'chart_blueprints.js' %}"></script>
 
 <script>
+
 $(document).ready(function(){
-    $("#submit").click(function(){
-        const endpoint = "/api/stocks/" + document.getElementById("ticker-input").value;
-        $.ajax({
-            url: endpoint,
-            type: "GET",
-            success: function(data){
-                drawChart({
-                    'x_axis_labels': data.Date,
-                    'chart_data': [{
-                        label: 'Stock Prices',
-                        backgroundColor: 'rgba(100, 100, 255, 0.5)',
-                        borderColor: 'rgb(55, 99, 132)',
-                        data: data.Adj_Close
-                        }],
-                    'chart_type': 'line',
-                    'container_id': 'myChartline'
-                })
-                console.log(endpoint);
+    drawChart({
+        'x_axis_labels': [1, 2, 3, 4, 5],
+        'chart_type': 'line',
+        'chart_data': [
+            {
+            label: 'Revenue',
+            backgroundColor: 'rgba(100, 100, 255, 0.5)',
+            borderColor: 'rgb(55, 99, 132)',
+            data: {{ revenue }}
             },
-            error: function(error){
-                console.log(error);
+            {
+            label: 'Gross Profit',
+            backgroundColor: 'rgba(50, 50, 255, 0.5)',
+            borderColor: 'rgb(99, 99, 132)',
+            data: {{ gross_profit }}
+            },
+            {
+            label: 'EBIT',
+            backgroundColor: 'rgba(150, 150, 255, 0.5)',
+            borderColor: 'rgb(120, 120, 132)',
+            data: {{ ebit }}
             }
-        })
+        ],
+        'container_id': 'IncomeStatementAreaPlot',
+        'is_stacked': true
     })
 })
 

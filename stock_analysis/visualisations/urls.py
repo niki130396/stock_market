@@ -5,5 +5,6 @@ urlpatterns = [
     path('returns_graph/', views.StockReturnsGraph.as_view(), name='returns_graph'),
     path('financials_bar_plot/', views.FinancialStatementBarPlot.as_view(), name='financials_bar_plot'),
     path('financials_graph/', views.FinancialStatementGraph.as_view(), name='financials_graph'),
-    path('', views.StockPriceGraph.as_view(), name='stock_prices')
+    path('', views.StockPriceGraph.as_view(), name='stock_prices'),
+    path('income_statement_area/', views.IncomeStatementKeyMetricsAreaPlot.as_view(), name='income_area')
 ]
