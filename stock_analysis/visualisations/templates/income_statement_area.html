@@ -122,32 +122,39 @@ body {
 
 $(document).ready(function(){
     $("#submit").click(function(){
-        const endpoint = "/visualisations/income_statement_area/" + "?ticker=" + document.getElementById("ticker-input").value;
+        const endpoint = "/api/financials/" + document.getElementById("ticker-input").value + "/?statement=financials";
         $.ajax({
             url: endpoint,
             type: "GET",
             success: function(data){
+                required_fields = [
+                    'period',
+                    'total_revenue',
+                    'gross_profit',
+                    'ebit'
+                ]
+                chart_data = extractChartData(data, required_fields)
                 drawChart({
-                    'x_axis_labels': [1, 2, 3, 4, 5],
+                    'x_axis_labels': chart_data['period'],
                     'chart_type': 'line',
                     'chart_data': [
                         {
                         label: 'Revenue',
                         backgroundColor: 'rgba(100, 100, 255, 0.5)',
                         borderColor: 'rgb(55, 99, 132)',
-                        data: {{ revenue }}
+                        data: chart_data['total_revenue']
                         },
                         {
                         label: 'Gross Profit',
                         backgroundColor: 'rgba(50, 50, 255, 0.5)',
                         borderColor: 'rgb(99, 99, 132)',
-                        data: {{ gross_profit }}
+                        data: chart_data['gross_profit']
                         },
                         {
                         label: 'EBIT',
                         backgroundColor: 'rgba(150, 150, 255, 0.5)',
                         borderColor: 'rgb(120, 120, 132)',
-                        data: {{ ebit }}
+                        data: chart_data['ebit']
                         }
                     ],
                     'container_id': 'IncomeStatementAreaPlot',

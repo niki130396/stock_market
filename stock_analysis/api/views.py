@@ -2,13 +2,14 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.filters import SearchFilter
-from api.serializers import \
-    StockSerializer,\
-    AggregatedDataSerializer,\
-    SingleFinancialStatementSerializer,\
-    IncomeStatementSerializer,\
-    BalanceSheetSerializer,\
+from api.serializers import (
+    StockSerializer,
+    AggregatedDataSerializer,
+    SingleFinancialStatementSerializer,
+    IncomeStatementSerializer,
+    BalanceSheetSerializer,
     CashFlowSerializer
+)
 from api.models import StockData, AggregatedData, FinancialsData
 
 # Create your views here.
@@ -35,8 +36,10 @@ class StockPriceLister(APIView):
         param = self.kwargs['symbol']
         queryset = StockData.objects.get(symbol=param)
         serialized_queryset = StockSerializer(queryset).data
-        refactored_queryset = {'Date': [item['Date'] for item in serialized_queryset['info']],
-                               'Adj_Close': [item['Adj_Close'] for item in serialized_queryset['info']]}
+        refactored_queryset = {
+            'Date': [item['Date'] for item in serialized_queryset['info']],
+            'Adj_Close': [item['Adj_Close'] for item in serialized_queryset['info']]
+        }
         return Response(refactored_queryset)
 
 
@@ -46,8 +49,10 @@ class ListStockReturns(APIView):
         queryset = AggregatedData.objects.all().order_by('-date')[:1]
         serialized = AggregatedDataSerializer(queryset, many=True).data
         s = sorted(serialized[0]['aggregated_returns'], key=lambda x: -x["average_returns"])
-        refactored = {'Symbol': [item['symbol'] for item in s[:20]],
-                      'Returns': [item['average_returns']*100 for item in s[:20]]}
+        refactored = {
+            'Symbol': [item['symbol'] for item in s[:20]],
+            'Returns': [item['average_returns']*100 for item in s[:20]]
+        }
         return Response(refactored)
 
 
@@ -57,7 +62,10 @@ class SingleFinancialStatementView(APIView):
         param = self.kwargs['symbol']
         queryset = FinancialsData.objects.get(symbol=param)
         serialized_queryset = SingleFinancialStatementSerializer(queryset).data
-        return Response(serialized_queryset)
+        if 'statement' not in self.request.GET:
+            return Response(serialized_queryset)
+        statement = self.request.GET['statement']
+        return Response(serialized_queryset[statement])
 
 
 class FinancialStatementTTMView(APIView):

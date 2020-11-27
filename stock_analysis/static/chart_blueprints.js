@@ -1,4 +1,16 @@
 
+function extractChartData(data, fields) {
+    extractedData = {}
+    for (upper = 0; upper < fields.length; upper++) {
+        extractedData[fields[upper]] = []
+        for (inner = 0; inner < data.length; inner++){
+            extractedData[fields[upper]].push(data[inner][fields[upper]])
+        };
+        extractedData[fields[upper]].reverse()
+    };
+    return extractedData;
+};
+
 function drawChart(chart_args) {
     var x_axis_labels = chart_args.x_axis_labels;
     var chart_data = chart_args.chart_data;
