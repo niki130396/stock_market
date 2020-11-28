@@ -10,21 +10,22 @@ def date_handler(date_string):
     if date_string == 'ttm':
         return str(datetime.now().date().strftime('%m/%d/%Y'))
     return date_string
-    #return datetime.strptime(date_string, '%m/%d/%Y').date()
 
 
 class NormalizedInfoField(serializers.RelatedField, ABC):
     queryset = StockData.objects.all()
 
     def to_representation(self, value):
-        dict_ = {'Date': datetime.strftime(value['Date'], '%Y-%m-%d'),
-                 'High': float(value['High']),
-                 'Low': float(value['Low']),
-                 'Open': float(value['Open']),
-                 'Volume': float(value['Volume']),
-                 'Adj_Close': float(value['Adj_Close']),
-                 'Daily_Returns': float(value['Daily_Returns']),
-                 'Daily_Log_Returns': float(value['Daily_Log_Returns'])}
+        dict_ = {
+            'Date': datetime.strftime(value['Date'], '%Y-%m-%d'),
+            'High': float(value['High']),
+            'Low': float(value['Low']),
+            'Open': float(value['Open']),
+            'Volume': float(value['Volume']),
+            'Adj_Close': float(value['Adj_Close']),
+            'Daily_Returns': float(value['Daily_Returns']),
+            'Daily_Log_Returns': float(value['Daily_Log_Returns'])
+        }
         return dict_
 
 

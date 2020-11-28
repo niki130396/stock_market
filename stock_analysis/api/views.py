@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
+from rest_framework.generics import RetrieveAPIView
 from rest_framework.response import Response
 from rest_framework.filters import SearchFilter
 from api.serializers import (
@@ -12,6 +13,7 @@ from api.serializers import (
 )
 from api.models import StockData, AggregatedData, FinancialsData
 
+from utils.mixins import FilterQuerysetViewMixin, JsonObjectMixin
 # Create your views here.
 
 
@@ -30,16 +32,13 @@ class CompaniesByRevenueLister(APIView):
         return Response(data)
 
 
-class StockPriceLister(APIView):
+class StockPriceLister(JsonObjectMixin):
     """Returns stock daily stock prices for 5 years back for a chosen company"""
     def get(self, request, symbol):
         param = self.kwargs['symbol']
         queryset = StockData.objects.get(symbol=param)
         serialized_queryset = StockSerializer(queryset).data
-        refactored_queryset = {
-            'Date': [item['Date'] for item in serialized_queryset['info']],
-            'Adj_Close': [item['Adj_Close'] for item in serialized_queryset['info']]
-        }
+        refactored_queryset = self.to_list(serialized_queryset['info'], ['Date', 'Adj_Close'])
         return Response(refactored_queryset)
 
 
@@ -56,16 +55,11 @@ class ListStockReturns(APIView):
         return Response(refactored)
 
 
-class SingleFinancialStatementView(APIView):
+class SingleFinancialStatementView(RetrieveAPIView):
     """Returns the full set of financial statements for a given company"""
-    def get(self, request, symbol):
-        param = self.kwargs['symbol']
-        queryset = FinancialsData.objects.get(symbol=param)
-        serialized_queryset = SingleFinancialStatementSerializer(queryset).data
-        if 'statement' not in self.request.GET:
-            return Response(serialized_queryset)
-        statement = self.request.GET['statement']
-        return Response(serialized_queryset[statement])
+    lookup_field = 'symbol'
+    serializer_class = SingleFinancialStatementSerializer
+    queryset = FinancialsData.objects.all()
 
 
 class FinancialStatementTTMView(APIView):
