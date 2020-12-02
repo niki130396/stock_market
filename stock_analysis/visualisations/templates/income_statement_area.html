@@ -133,7 +133,7 @@ $(document).ready(function(){
                     'gross_profit',
                     'ebit'
                 ]
-                chart_data = extractChartData(data, required_fields)
+                chart_data = extractChartData(data['financials'], required_fields)
                 drawChart({
                     'x_axis_labels': chart_data['period'],
                     'chart_type': 'line',

@@ -13,7 +13,7 @@ from api.serializers import (
 )
 from api.models import StockData, AggregatedData, FinancialsData
 
-from utils.mixins import FilterQuerysetViewMixin, JsonObjectMixin
+from utils.mixins import RetrieveSpecificStatementView, JsonObjectMixin
 # Create your views here.
 
 
@@ -55,8 +55,9 @@ class ListStockReturns(APIView):
         return Response(refactored)
 
 
-class SingleFinancialStatementView(RetrieveAPIView):
+class SingleFinancialStatementView(RetrieveSpecificStatementView):
     """Returns the full set of financial statements for a given company"""
+    model = FinancialsData
     lookup_field = 'symbol'
     serializer_class = SingleFinancialStatementSerializer
     queryset = FinancialsData.objects.all()

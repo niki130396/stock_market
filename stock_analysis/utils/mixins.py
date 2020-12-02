@@ -2,21 +2,34 @@ from rest_framework.generics import (
     RetrieveAPIView,
     ListAPIView
 )
+
+from api.serializers import (
+    IncomeStatementSerializer,
+    BalanceSheetSerializer,
+    CashFlowSerializer
+)
+
 from rest_framework.views import APIView
 
+SERIALIZERS_DICT = {
+    'financials': IncomeStatementSerializer,
+    'balance_sheet': BalanceSheetSerializer,
+    'cash_flow': CashFlowSerializer
+}
 
-class FilterQuerysetViewMixin(RetrieveAPIView):
 
+class RetrieveSpecificStatementView(RetrieveAPIView):
+    """
+    Checks if a query parameter is provided and if so filters the queryset
+    and returns the specified statement and some meta data.
+    If a query parameter is not provided it returns all three statements.
+    """
     def get_queryset(self):
-        if not hasattr(self, 'model'):
-            raise AttributeError('A model has to be provided')
-        query_params = self.request.GET
-        self.lookup_field = 'symbol'
-        if query_params:
-            self.queryset = self.model.objects.get(**{self.lookup_field: query_params[self.lookup_field]})
-            return self.queryset
-        data = self.model.objects.all()
-        return data
+        statement_type = self.request.GET.get('statement')
+        if statement_type:
+            self.serializer_class = SERIALIZERS_DICT[statement_type]
+            return self.queryset.values('symbol', 'name', 'sector', 'industry', statement_type)
+        return self.queryset
 
 
 class JsonObjectMixin:

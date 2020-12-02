@@ -40,8 +40,6 @@ class DocumentInserter(MongoConnector):
 
 
 class DocumentUpdater(MongoConnector):
-    def __init__(self):
-        super().__init__()
 
     @staticmethod
     def __get_new_data(symbol, start_date) -> pd.DataFrame:
