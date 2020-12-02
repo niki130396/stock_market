@@ -91,8 +91,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'stock_market',
-        'HOST': '127.0.0.1',
-        'PORT': 27017
+        'CLINET': {
+            'HOST': '127.0.0.1',
+            'PORT': 27017
+        }
     }
 }
 

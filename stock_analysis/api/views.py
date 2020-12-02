@@ -32,7 +32,7 @@ class CompaniesByRevenueLister(APIView):
         return Response(data)
 
 
-class StockPriceLister(JsonObjectMixin):
+class StockPriceLister(APIView, JsonObjectMixin):
     """Returns stock daily stock prices for 5 years back for a chosen company"""
     def get(self, request, symbol):
         param = self.kwargs['symbol']

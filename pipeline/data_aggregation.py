@@ -1,22 +1,14 @@
-from pipeline.mongo_pipeline import MongoConnector
-from pymongo import MongoClient
+from pipeline.db_connections import StockMarketDBConnector
+
 from datetime import datetime
 
 
-class DBSource(MongoConnector):
-    def __init__(self):
-        super().__init__()
+class DBSource(StockMarketDBConnector):
+    COLLECTION = 'api_stockdata'
 
 
-class DBTarget:
-    def __init__(self):
-        self.client = MongoClient()
-        self.db = self.client.stock_market
-        self.collection = self.db.api_aggregateddata
-        self.target_document = self.collection.find_one({})
-
-    def insert_one(self, document):
-        self.collection.insert_one(document)
+class DBTarget(StockMarketDBConnector):
+    COLLECTION = 'api_aggregateddata'
 
 
 def aggregate(document):
@@ -39,5 +31,5 @@ if __name__ == '__main__':
         average_yearly_return = aggregate(document)
         ready_document['aggregated_returns'].append({'symbol': doc['symbol'],
                                                   'average_returns': average_yearly_return})
-    target.insert_one(ready_document)
+    target.collection.insert_one(ready_document)
 

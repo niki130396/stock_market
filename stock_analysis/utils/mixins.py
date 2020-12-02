@@ -19,7 +19,7 @@ class FilterQuerysetViewMixin(RetrieveAPIView):
         return data
 
 
-class JsonObjectMixin(APIView):
+class JsonObjectMixin:
 
     @staticmethod
     def to_list(list_of_dicts: list, required_fields: list) -> dict[list]:

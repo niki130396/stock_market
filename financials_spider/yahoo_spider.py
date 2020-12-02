@@ -2,13 +2,11 @@ import requests
 from lxml import html
 import pandas as pd
 
-from pipeline.mongo_pipeline import MongoConnector
+from pipeline.db_connections import StockMarketDBConnector
 
 
-class Financials(MongoConnector):
-    def __init__(self):
-        super().__init__()
-        self.collection = self.db.api_financialsdata
+class Financials(StockMarketDBConnector):
+    COLLECTION = 'api_financialsdata'
 
 
 def toValidInt(string):

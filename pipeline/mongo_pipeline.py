@@ -1,16 +1,13 @@
-from pymongo import MongoClient
 from pandas_datareader import DataReader
 from pandas_datareader._utils import RemoteDataError
 from datetime import datetime
 import pandas as pd
 import numpy as np
+from pipeline.db_connections import StockMarketDBConnector
 
 
-class MongoConnector:
-    def __init__(self):
-        self.client = MongoClient('mongodb://127.0.0.1:27017')
-        self.db = self.client.stock_market
-        self.collection = self.db.api_stockdata
+class MongoConnector(StockMarketDBConnector):
+    COLLECTION = 'api_stockdata'
 
 
 class DocumentInserter(MongoConnector):
