@@ -32,6 +32,21 @@ class RetrieveSpecificStatementView(RetrieveAPIView):
         return self.queryset
 
 
+class FilterStatementsMixin(ListAPIView):
+
+    def get_queryset(self):
+        self.queryset = self.model.objects.all()
+        query_parameters = self.request.GET
+        print(query_parameters)
+        if query_parameters:
+            for key, value in query_parameters.items():
+                self.queryset = self.queryset.filter(**{key: value})
+        if hasattr(self, 'values'):
+            self.serializer_class = SERIALIZERS_DICT[self.statement_type]
+            return self.queryset.values('symbol', 'name', 'sector', 'industry', self.statement_type)
+        return self.queryset
+
+
 class JsonObjectMixin:
 
     @staticmethod

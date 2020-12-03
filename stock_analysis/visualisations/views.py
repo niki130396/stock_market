@@ -53,3 +53,12 @@ class FinancialStatementBarPlot(LoginRequiredMixin, View):
 class IncomeStatementKeyMetricsAreaPlot(LoginRequiredMixin, TemplateView):
     login_url = '/accounts/sign-up'
     template_name = 'income_statement_area.html'
+
+
+class CompareCompaniesView(LoginRequiredMixin, TemplateView):
+    login_url = '/accounts/sign-up'
+    template_name = 'compare_companies.html'
+
+    def get_context_data(self, **kwargs):
+        symbols = [i["symbol"] for i in FinancialsData.objects.values('symbol')]
+        return {'symbols': symbols}

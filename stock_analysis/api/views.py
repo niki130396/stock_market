@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework.generics import RetrieveAPIView
+from rest_framework.generics import RetrieveAPIView, ListAPIView
 from rest_framework.response import Response
 from rest_framework.filters import SearchFilter
 from api.serializers import (
@@ -11,9 +11,16 @@ from api.serializers import (
     BalanceSheetSerializer,
     CashFlowSerializer
 )
-from api.models import StockData, AggregatedData, FinancialsData
-
-from utils.mixins import RetrieveSpecificStatementView, JsonObjectMixin
+from api.models import (
+    StockData,
+    AggregatedData,
+    FinancialsData
+)
+from utils.mixins import (
+    RetrieveSpecificStatementView,
+    JsonObjectMixin,
+    FilterStatementsMixin
+)
 # Create your views here.
 
 
@@ -63,18 +70,12 @@ class SingleFinancialStatementView(RetrieveSpecificStatementView):
     queryset = FinancialsData.objects.all()
 
 
-class FinancialStatementTTMView(APIView):
-        def get(self, request, type):
-            param = self.kwargs['type']
-            queryset = FinancialsData.objects.values('symbol', 'name', 'sector', 'industry', param)
-            serialized_queryset = SERIALIZERS_DICT[param](queryset, many=True).data
-            ttm = {}
-            for ordered_dict in serialized_queryset:
-                ttm[ordered_dict['symbol']] = ordered_dict[param][0]
-            return Response(ttm)
+class FinancialStatementTTMView(FilterStatementsMixin):
+    serializer_class = SingleFinancialStatementSerializer
+    model = FinancialsData
 
 
-class FinancialStatementBySector(APIView):
+class FinancialStatementBySector(FilterStatementsMixin):
     def get(self, request, type, sector):
         type_ = self.kwargs['type']
         sector = self.kwargs['sector']

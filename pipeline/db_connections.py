@@ -11,3 +11,29 @@ class StockMarketDBConnector:
             self.collection = eval(f'self.db.{self.COLLECTION}')
         else:
             raise AttributeError('Please provide a collection to work with')
+
+
+if __name__ == "__main__":
+
+    class Cursor(StockMarketDBConnector):
+        COLLECTION = 'api_financialsdata'
+
+    cursor = Cursor()
+    response = cursor.collection.aggregate(
+        [
+            {
+                "$group":
+                    {
+                        "_id": "$sector",
+                        "industries_count": {
+                            "$sum": {
+
+                            }
+                        }
+                    }
+            }
+        ]
+    )
+
+    for item in response:
+        print(item)
