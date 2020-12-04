@@ -20,16 +20,18 @@ def aggregate(document):
 
 
 if __name__ == '__main__':
-    cursor = DBSource()
+    source = DBSource()
     target = DBTarget()
 
-    ready_document = {'id': cursor.collection.find_one({}, {'id': 1, '_id': 0})['id'] + 1,
+    ready_document = {'id': source.collection.find_one({}, {'id': 1, '_id': 0})['id'] + 1,
                       'date': str(datetime.now().date()),
                       'aggregated_returns': []}
-    for doc in cursor.collection.find({}, {'symbol': 1, '_id': 0}):
-        document = cursor.collection.find_one({'symbol': f"{doc['symbol']}"})
+    for doc in source.collection.find({}, {'symbol': 1, '_id': 0}):
+        document = source.collection.find_one({'symbol': doc['symbol']})
         average_yearly_return = aggregate(document)
-        ready_document['aggregated_returns'].append({'symbol': doc['symbol'],
-                                                  'average_returns': average_yearly_return})
+        ready_document['aggregated_returns'].append({
+            'symbol': doc['symbol'],
+            'average_returns': average_yearly_return
+        })
     target.collection.insert_one(ready_document)
 

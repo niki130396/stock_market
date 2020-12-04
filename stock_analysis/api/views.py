@@ -70,20 +70,6 @@ class SingleFinancialStatementView(RetrieveSpecificStatementView):
     queryset = FinancialsData.objects.all()
 
 
-class FinancialStatementTTMView(FilterStatementsMixin):
+class FilteredStatementsView(FilterStatementsMixin):
     serializer_class = SingleFinancialStatementSerializer
     model = FinancialsData
-
-
-class FinancialStatementBySector(FilterStatementsMixin):
-    def get(self, request, type, sector):
-        type_ = self.kwargs['type']
-        sector = self.kwargs['sector']
-
-        queryset = FinancialsData.objects.values('symbol', 'name', 'sector', 'industry', type_)
-        serialized_queryset = SERIALIZERS_DICT[type_](queryset, many=True).data
-        response = {}
-        for ordered_dict in serialized_queryset:
-            if ordered_dict['sector'] == sector:
-                response[ordered_dict['name']] = ordered_dict[type_][0]
-        return Response(response)

@@ -35,9 +35,10 @@ class RetrieveSpecificStatementView(RetrieveAPIView):
 class FilterStatementsMixin(ListAPIView):
 
     def get_queryset(self):
+        if not hasattr(self, 'model'):
+            raise AttributeError('Please provide a model')
         self.queryset = self.model.objects.all()
         query_parameters = self.request.GET
-        print(query_parameters)
         if query_parameters:
             for key, value in query_parameters.items():
                 self.queryset = self.queryset.filter(**{key: value})

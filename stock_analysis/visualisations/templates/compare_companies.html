@@ -28,9 +28,11 @@
             <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
                 <div class="form-group">
                     <select class="mul-select" multiple="true">
-                        {% for symbol in symbols %}
-                            <option value="{{ symbol }}">{{ symbol }}</option>
-                        {% endfor %}
+                        <option value="AAPL">AAPL</option>
+                        <option value="MSFT">MSFT</option>
+<!--                        {% for symbol in symbols %}-->
+<!--                            <option value="{{ symbol }}">{{ symbol }}</option>-->
+<!--                        {% endfor %}-->
                     </select>
                 </div>
            </div>
@@ -38,15 +40,48 @@
     </div>
 
     <script>
+
+        function getSelectValues(select) {
+          var result = [];
+          var options = select && select.options;
+          var opt;
+
+          for (var i=0, iLen=options.length; i<iLen; i++) {
+            opt = options[i];
+
+            if (opt.selected) {
+              result.push(opt.value || opt.text);
+            }
+          }
+          return result;
+        }
+
         $(document).ready(function(){
+            var elements = document.getElementsByTagName('select')[0];
+            var option_values = getSelectValues(elements);
+            var URL = "/stocks/returns" + option_values.join("&");
             $(".mul-select").select2({
-                    placeholder: "select country", //placeholder
+                    placeholder: "Stocks",
                     tags: true,
-                    tokenSeparators: ['/',',',';'," "]
+                    tokenSeparators: ['/',',',';'," "],
+                    ajax: {
+                        url: URL,
+                        dataType: 'json',
+                        type: 'GET'
+                    },
+                    data: ['AAPL', 'MSFT']
                 });
-            var values = $(".mul_select").val();
-            console.log(values);
             })
     </script>
 </body>
 </html>
+
+<!--         $(document).ready(function(){-->
+<!--            $(".mul-select").select2({-->
+<!--                    placeholder: "select country", //placeholder-->
+<!--                    tags: true,-->
+<!--                    tokenSeparators: ['/',',',';'," "]-->
+<!--                });-->
+<!--            var values = $(".mul_select").val();-->
+<!--            console.log(values);-->
+<!--            })-->

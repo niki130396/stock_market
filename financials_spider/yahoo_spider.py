@@ -90,7 +90,7 @@ STATEMENT_COLUMNS = {
         'Free Cash Flow': ('free_cash_flow', toValidInt)
     }
 
-                     }
+}
 
 
 def parse_yahoo_data(url, statement_type):
