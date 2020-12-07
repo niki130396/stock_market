@@ -11,7 +11,6 @@ class MongoConnector(StockMarketDBConnector):
 
 
 class DocumentInserter(MongoConnector):
-    ID = 1
 
     def __init__(self):
         super().__init__()
@@ -26,17 +25,6 @@ class DocumentInserter(MongoConnector):
             self.from_id += 1
             return
         raise Exception()
-
-    def get_last_id(self):
-        ids = [document['id'] for document in self.collection.find({}, {'id': 1, '_id': 0}).sort([('id', -1)]).limit(1)]
-        if not ids:
-            return 1
-        return ids[0] + 1
-
-    @property
-    def present_symbols(self):
-        symbols = [document['symbol'] for document in self.collection.find({}, {'symbol': 1, '_id': 0})]
-        return symbols
 
 
 class DocumentUpdater(MongoConnector):
@@ -76,7 +64,7 @@ if __name__ == '__main__':
     engine = DocumentInserter()
     symbols = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')['Symbol'].to_list()
     downloader = StockDataDownloader()
-    symbols = get_non_existent_symbols(symbols, engine.present_symbols)
+    symbols = get_non_existent_symbols(symbols, engine.get_present_symbols())
 
     for symbol in symbols:
         try:

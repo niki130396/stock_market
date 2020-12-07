@@ -8,6 +8,10 @@ from pipeline.db_connections import StockMarketDBConnector
 class Financials(StockMarketDBConnector):
     COLLECTION = 'api_financialsdata'
 
+    def __init__(self):
+        super().__init__()
+        self.from_id = self.get_last_id()
+
 
 def toValidInt(string):
     if string:
@@ -24,9 +28,80 @@ def toValidFloat(string):
     return None
 
 
-STATEMENT_COLUMNS = {
+class YahooFinancialStatementParser:
+    TABLE_ROW_NAMES = None
 
-    'financials': {
+    def __init__(self, url):
+        self.url = url
+
+    @staticmethod
+    def make_get_request(url):
+        response = requests.get(url).content
+        return response
+
+    @staticmethod
+    def build_html_tree(response):
+        tree = html.fromstring(response)
+        return tree
+
+    @staticmethod
+    def get_table_div(tree, table_xpath="//div[contains(@class, 'D(tbr)')]"):
+        table = tree.xpath(table_xpath)
+        return table
+
+    @staticmethod
+    def parse_rows(table):
+        if not table:
+            return
+        parsed_rows = []
+        for row in table:
+            element = row.xpath("./div")
+            parsed_row = []
+            for item in element:
+                try:
+                    text = item.xpath(".//span/text()[1]")
+                    if text:
+                        parsed_row.extend(text)
+                    else:
+                        parsed_row.append(None)
+                except ValueError:
+                    parsed_row.append(None)
+            parsed_rows.append(parsed_row)
+        return parsed_rows
+
+    def extract_elements_by_column(self, rows: list):
+        container = []
+        for column in range(1, len(rows[0])):
+            period = rows[0][column]
+            rows_by_period = {}
+            for row in rows[1:]:
+                if row[0] in self.TABLE_ROW_NAMES:
+                    rows_by_period.update({row[0]: row[column]})
+            validated_statement = self.validate_rows(rows_by_period, period)
+            container.append(validated_statement)
+        return container
+
+    def validate_rows(self, rows: dict, period: str):
+        validated_statement = {'period': period}
+        for row in self.TABLE_ROW_NAMES:
+            if row not in rows:
+                validated_statement.update({self.TABLE_ROW_NAMES[row][0]: None})
+            else:
+                row_name, row_type = self.TABLE_ROW_NAMES[row]
+                validated_statement.update({row_name: row_type(rows[row])})
+        return validated_statement
+
+    def fetch_statement(self):
+        response = self.make_get_request(self.url)
+        tree = self.build_html_tree(response)
+        table = self.get_table_div(tree)
+        parsed_rows = self.parse_rows(table)
+        extracted_statement = self.extract_elements_by_column(parsed_rows)
+        return extracted_statement
+
+
+class IncomeStatementParser(YahooFinancialStatementParser):
+    TABLE_ROW_NAMES = {
         'Total Revenue': ('total_revenue', toValidInt),
         'Cost of Revenue': ('cost_of_revenue', toValidInt),
         'Gross Profit': ('gross_profit', toValidInt),
@@ -57,9 +132,11 @@ STATEMENT_COLUMNS = {
         'Normalized EBITDA': ('normalized_ebitda', toValidInt),
         'Tax Rate for Calcs': ('tax_rate_for_calcs', toValidInt),
         'Tax Effect of Unusual Items': ('tax_effect_of_unusual_items', toValidInt)
-    },
+    }
 
-    'balance-sheet': {
+
+class BalanceSheetParser(YahooFinancialStatementParser):
+    TABLE_ROW_NAMES = {
         'Total Assets': ('total_assets', toValidInt),
         'Total Liabilities Net Minority Interest': ('total_liabilities_net_minority_interest', toValidInt),
         'Total Equity Gross Minority Interest': ('total_equity_gross_minority_interest', toValidInt),
@@ -73,9 +150,11 @@ STATEMENT_COLUMNS = {
         'Net Debt': ('net_debt', toValidInt),
         'Share Issued': ('share_issued', toValidInt),
         'Ordinary Shares Number': ('ordinary_shares_number', toValidInt),
-    },
+    }
 
-    'cash-flow': {
+
+class CashFlowParser(YahooFinancialStatementParser):
+    TABLE_ROW_NAMES = {
         'Operating Cash Flow': ('operating_cash_flow', toValidInt),
         'Investing Cash Flow': ('investing_cash_flow', toValidInt),
         'Financing Cash Flow': ('financing_cash_flow', toValidInt),
@@ -90,108 +169,47 @@ STATEMENT_COLUMNS = {
         'Free Cash Flow': ('free_cash_flow', toValidInt)
     }
 
-}
 
-
-def parse_yahoo_data(url, statement_type):
-    response = requests.get(url).content
-    tree = html.fromstring(response)
-    table = tree.xpath("//div[contains(@class, 'D(tbr)')]")
-    if not table:
-        return
-    parsed_rows = []
-    for item in table:
-        element = item.xpath("./div")
-        parsed_row = []
-        for rs in element:
-            try:
-                text = rs.xpath(".//span/text()[1]")
-                if text:
-                    parsed_row.extend(text)
-                else:
-                    parsed_row.append(None)
-            except ValueError:
-                parsed_row.append(None)
-        parsed_rows.append(parsed_row)
-
-    container = []
-    for column in range(1, len(parsed_rows[0])):
-        period = {}
-        for row in parsed_rows[1:]:
-            if row[0] in STATEMENT_COLUMNS[statement_type]:
-                period.update({row[0]: row[column]})
-        validated_statement = {'period': parsed_rows[0][column]}
-        for row in STATEMENT_COLUMNS[statement_type]:
-            if row not in period:
-                validated_statement.update({STATEMENT_COLUMNS[statement_type][row][0]: None})
-            else:
-                row_name, row_type = STATEMENT_COLUMNS[statement_type][row]
-                validated_statement.update({row_name: row_type(period[row])})
-        container.append(validated_statement)
-    return container
+def filter_out_present_symbols(haystack, needle):
+    output = []
+    for item in haystack:
+        if item['Symbol'] not in needle:
+            output.append(item)
+    return output
 
 
 if __name__ == '__main__':
     initial_data = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
-    id_ = 1
-    statement_types = {'financials': 'financials',
-                       'balance-sheet': 'balance_sheet',
-                       'cash-flow': 'cash_flow'}
+    data_to_work = filter_out_present_symbols(initial_data, cursor.get_present_symbols())
+    statements = {
+        'financials': ('financials', IncomeStatementParser),
+        'balance-sheet': ('balance_sheet', BalanceSheetParser),
+        'cash-flow': ('cash_flow', CashFlowParser)
+    }
 
-    for dict_ in initial_data:
-        document = {'id': id_,
-                    'symbol': dict_['Symbol'],
-                    'name': dict_['Name'],
-                    'sector': dict_['Sector'],
-                    'industry': dict_['Industry']}
+    from_id = cursor.from_id
+    for dict_ in data_to_work:
+        document = {
+            'id': from_id,
+            'symbol': dict_['Symbol'],
+            'name': dict_['Name'],
+            'sector': dict_['Sector'],
+            'industry': dict_['Industry']
+        }
 
-        for statement_type in statement_types:
-            document[statement_types[statement_type]] = []
-            url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement_type}?p={dict_["Symbol"]}'
-            statement_data = parse_yahoo_data(url, statement_type)
-            if not statement_data:
-                print('FAULT')
+        for statement in statements:
+            statement_type, obj = statements[statement]
+            document[statement_type] = []
+            url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement}?p={dict_["Symbol"]}'
+            try:
+                statement_data = obj(url).fetch_statement()
+                document[statement_type].extend(statement_data)
+            except TypeError:
+                print(f'{statement} FOR {document["name"]} MISSING')
                 break
-            document[statement_types[statement_type]].extend(statement_data)
         else:
+            from_id += 1
             cursor.collection.insert_one(document)
-            id_ += 1
-            print(dict_['Symbol'])
-
-
-
-"""
-from visualisations.models import FinancialsData
-from visualisations.serializers import IncomeStatementSerializer, BalanceSheetSerializer, CashFlowSerializer
-serializers_dict = {'financials': IncomeStatementSerializer,
-                                'balance_sheet': BalanceSheetSerializer,
-                                'cash_flow': CashFlowSerializer}
-param = 'cash_flow'
-sector = 'Finance'
-q = FinancialsData.objects.values('symbol', 'name', 'sector', 'industry', param)
-s = serializers_dict[param](q, many=True).data
-ttm = {}
-for ordered_dict in s:
-    if ordered_dict['sector'] == sector:
-        ttm[ordered_dict['name']] = ordered_dict[param][0]
-"""
-
-
-"""
-from visualisations.models import FinancialsData
-from visualisations.serializers import SingleFinancialStatementSerializer
-serializers_dict = {'financials': IncomeStatementSerializer,
-                                'balance_sheet': BalanceSheetSerializer,
-                                'cash_flow': CashFlowSerializer}
-param = 'GOOG'
-q = FinancialsData.objects.get(symbol=param)
-s = SingleFinancialStatementSerializer(q).data
-"""
-
-
-"""
-from visualisations.models import FinancialsData
-q = FinancialsData.revenues.get_revenues(1000000)
-"""
+            print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')

@@ -24,13 +24,6 @@ from utils.mixins import (
 # Create your views here.
 
 
-SERIALIZERS_DICT = {
-    'financials': IncomeStatementSerializer,
-    'balance_sheet': BalanceSheetSerializer,
-    'cash_flow': CashFlowSerializer
-}
-
-
 class CompaniesByRevenueLister(APIView):
     """Returns companies' financial statements whose revenues are above the given param value"""
     def get(self, request, revenue):

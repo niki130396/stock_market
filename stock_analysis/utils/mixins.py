@@ -1,3 +1,8 @@
+import operator
+from functools import reduce
+
+from django.db.models import Q
+
 from rest_framework.generics import (
     RetrieveAPIView,
     ListAPIView
@@ -40,12 +45,20 @@ class FilterStatementsMixin(ListAPIView):
         self.queryset = self.model.objects.all()
         query_parameters = self.request.GET
         if query_parameters:
-            for key, value in query_parameters.items():
-                self.queryset = self.queryset.filter(**{key: value})
+            query = self.build_query(query_parameters)
+            self.queryset = self.queryset.filter(reduce(operator.or_, query))
         if hasattr(self, 'values'):
             self.serializer_class = SERIALIZERS_DICT[self.statement_type]
             return self.queryset.values('symbol', 'name', 'sector', 'industry', self.statement_type)
         return self.queryset
+
+    def build_query(self, query_params):
+        query = []
+        for key in query_params:
+            values = query_params.getlist(key)
+            for value in values:
+                query.append(Q(**{key: value}))
+        return query
 
 
 class JsonObjectMixin:
@@ -63,3 +76,12 @@ class JsonObjectMixin:
             for dict_ in list_of_dicts:
                 result[field].append(dict_[field])
         return result
+
+
+"""
+from django.db.models import Q
+from api.models import FinancialsData
+
+q = Q(symbol='GOOG') | Q(symbol='MSFT')
+data = FinancialsData.objects.filter(q)
+"""
