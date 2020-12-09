@@ -178,7 +178,13 @@ def filter_out_present_symbols(haystack, needle):
     return output
 
 
-if __name__ == '__main__':
+def check_faults_status(faults):
+    if faults > 10:
+        return False
+    return True
+
+
+def run():
     initial_data = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
@@ -190,7 +196,9 @@ if __name__ == '__main__':
     }
 
     from_id = cursor.from_id
+    faults = 0
     for dict_ in data_to_work:
+        status = True
         document = {
             'id': from_id,
             'symbol': dict_['Symbol'],
@@ -208,8 +216,14 @@ if __name__ == '__main__':
                 document[statement_type].extend(statement_data)
             except TypeError:
                 print(f'{statement} FOR {document["name"]} MISSING')
+                faults += 1
+                status = check_faults_status(faults)
                 break
         else:
             from_id += 1
             cursor.collection.insert_one(document)
+            faults = 0
             print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')
+        if not status:
+            return
+
