@@ -2,6 +2,8 @@ import operator
 from functools import reduce
 
 from django.db.models import Q
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 
 from rest_framework.generics import (
     RetrieveAPIView,
@@ -14,7 +16,6 @@ from api.serializers import (
     CashFlowSerializer
 )
 
-from rest_framework.views import APIView
 
 SERIALIZERS_DICT = {
     'financials': IncomeStatementSerializer,
@@ -29,12 +30,17 @@ class RetrieveSpecificStatementView(RetrieveAPIView):
     and returns the specified statement and some meta data.
     If a query parameter is not provided it returns all three statements.
     """
+
     def get_queryset(self):
         statement_type = self.request.GET.get('statement')
         if statement_type:
             self.serializer_class = SERIALIZERS_DICT[statement_type]
             return self.queryset.values('symbol', 'name', 'sector', 'industry', statement_type)
         return self.queryset
+
+    @method_decorator(cache_page(60*60))
+    def dispatch(self, request, *args, **kwargs):
+        return super(RetrieveSpecificStatementView, self).dispatch(request, *args, **kwargs)
 
 
 class FilterStatementsMixin(ListAPIView):
@@ -47,9 +53,6 @@ class FilterStatementsMixin(ListAPIView):
         if query_parameters:
             query = self.build_query(query_parameters)
             self.queryset = self.queryset.filter(reduce(operator.or_, query))
-        if hasattr(self, 'values'):
-            self.serializer_class = SERIALIZERS_DICT[self.statement_type]
-            return self.queryset.values('symbol', 'name', 'sector', 'industry', self.statement_type)
         return self.queryset
 
     def build_query(self, query_params):
@@ -59,6 +62,10 @@ class FilterStatementsMixin(ListAPIView):
             for value in values:
                 query.append(Q(**{key: value}))
         return query
+
+    @method_decorator(cache_page(60*60))
+    def dispatch(self, request, *args, **kwargs):
+        return super(FilterStatementsMixin, self).dispatch(request, *args, **kwargs)
 
 
 class JsonObjectMixin:

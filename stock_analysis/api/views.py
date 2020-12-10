@@ -66,3 +66,4 @@ class SingleFinancialStatementView(RetrieveSpecificStatementView):
 class FilteredStatementsView(FilterStatementsMixin):
     serializer_class = SingleFinancialStatementSerializer
     model = FinancialsData
+
