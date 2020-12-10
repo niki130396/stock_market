@@ -62,7 +62,7 @@ def get_non_existent_symbols(symbols_list, present_symbols):
 
 if __name__ == '__main__':
     engine = DocumentInserter()
-    symbols = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')['Symbol'].to_list()
+    symbols = pd.read_csv('~/PycharmProjects/stock_market_project/barchart.csv')['Symbol'].to_list()
     downloader = StockDataDownloader()
     symbols = get_non_existent_symbols(symbols, engine.get_present_symbols())
 

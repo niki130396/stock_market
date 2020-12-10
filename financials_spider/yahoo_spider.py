@@ -185,7 +185,7 @@ def check_faults_status(faults):
 
 
 def run():
-    initial_data = pd.read_csv('~/PycharmProjects/test_stock_market/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
+    initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
     data_to_work = filter_out_present_symbols(initial_data, cursor.get_present_symbols())
