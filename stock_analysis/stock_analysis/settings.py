@@ -87,6 +87,7 @@ WSGI_APPLICATION = 'stock_analysis.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -102,7 +103,7 @@ DATABASES = {
 #     'default': {
 #         'ENGINE': 'djongo',
 #         'NAME': 'stock_market',
-#         'HOST': 'mongodb',
+#         'HOST': 'mongodb_docker',
 #         'PORT': 27017,
 #         'USER': 'root',
 #         'PASSWORD': 'mongoadmin',

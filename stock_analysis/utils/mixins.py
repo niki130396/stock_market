@@ -64,7 +64,7 @@ class FilterStatementsMixin(ListAPIView):
 class JsonObjectMixin:
 
     @staticmethod
-    def to_list(list_of_dicts: list, required_fields: list) -> dict[list]:
+    def to_list(list_of_dicts: list, required_fields: list):
         """
         This method converts a list of dictionaries
         into a dictionary of lists, which is a proper
