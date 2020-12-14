@@ -4,6 +4,8 @@ import pandas as pd
 
 from pipeline.db_connections import StockMarketDBConnector
 
+from schedulers.celery import celery_app
+
 
 class Financials(StockMarketDBConnector):
     COLLECTION = 'api_financialsdata'
@@ -184,11 +186,13 @@ def check_faults_status(faults):
     return True
 
 
+@celery_app.task
 def run():
-    initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/barchart.csv')[['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
+    initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/barchart.csv')
+    active_data = initial_data.loc[initial_data['IsActive'] == True][['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
-    data_to_work = filter_out_present_symbols(initial_data, cursor.get_present_symbols())
+    data_to_work = filter_out_present_symbols(active_data, cursor.get_present_symbols())
     statements = {
         'financials': ('financials', IncomeStatementParser),
         'balance-sheet': ('balance_sheet', BalanceSheetParser),
@@ -226,4 +230,3 @@ def run():
             print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')
         if not status:
             return
-
