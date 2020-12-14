@@ -1,1002 +1,1002 @@
-Symbol,Name,Sector,Industry,"Market Cap"
-MSFT,"Microsoft Corp","Computers and Technology","Computer - Software",1256062592000
-AAPL,"Apple Inc","Computers and Technology","Computer - Mini",1172584832000
-AMZN,"Amazon.com Inc",Retail-Wholesale,"Internet Commerce",1017000320000
-GOOG,"Alphabet Cl C","Computers and Technology","Internet - Services",832611328000
-GOOGL,"Alphabet Cl A","Computers and Technology","Internet - Services",829257408000
-BABA,"Alibaba Group Holding",Retail-Wholesale,"Internet Commerce",499642848000
-FB,"Facebook Inc","Computers and Technology","Internet - Services",499370176000
-BRK.B,"Berkshire Hathaway Cl B",Finance,"Insurance - Proprty & Casualty",472193056000
-BRK.A,"Berkshire Hathaway Cl A",Finance,"Insurance - Proprty & Casualty",471769120000
-JNJ,"Johnson & Johnson",Medical,"Large Cap Pharma",372332000000
-WMT,"Wal-Mart Stores",Retail-Wholesale,"Retail - Supermarket",344971360000
-V,"Visa Inc","Business Services","Financial Transaction Services",340867680000
-JPM,"JP Morgan Chase & Company",Finance,"Banks - Major Regional",313062144000
-PG,"Procter & Gamble Company","Consumer Staples","Soap and Cleaning Products",283147488000
-MA,"Mastercard Inc","Business Services","Financial Transaction Services",270776096000
-TSM,"Taiwan Semiconductor Manufacturing","Computers and Technology","Semi Fab Foundries",250643072000
-UNH,"Unitedhealth Group Inc",Medical,"Medical - HMO",250546592000
-INTC,"Intel Corp","Computers and Technology","Semi General",244589072000
-VZ,"Verizon Communications Inc",Utilities,"Wireless National",237564016000
-T,"AT&T Inc",Utilities,"Wireless National",220736816000
-BAC,"Bank of America Corp",Finance,"Banks - Major Regional",216897824000
-HD,"Home Depot",Retail-Wholesale,"Building Prds Retail - Wsale",216466592000
-KO,"Coca-Cola Company","Consumer Staples","Beverages - Soft",210223520000
-MRK,"Merck & Company",Medical,"Large Cap Pharma",209216832000
-PFE,"Pfizer Inc",Medical,"Large Cap Pharma",196330944000
-NVS,"Novartis Ag",Medical,"Large Cap Pharma",194459232000
-DIS,"Walt Disney Company","Consumer Discretionary","Media Conglomerates",188668368000
-PEP,"Pepsico Inc","Consumer Staples","Beverages - Soft",185684912000
-XOM,"Exxon Mobil Corp",Oils-Energy,"Oil - International Integrated",182534400000
-CSCO,"Cisco Systems Inc","Computers and Technology","Computer - Networks",174724256000
-TM,"Toyota Motor Corp Ltd Ord",Auto-Tires-Trucks,"Auto - Foreign",174275904000
-CMCSA,"Comcast Corp A","Consumer Discretionary","Cable TV",173015296000
-ORCL,"Oracle Corp","Computers and Technology","Computer - Software",167707600000
-NFLX,"Netflix Inc","Consumer Discretionary","Broadcast - Radio & TV",162674528000
-NVDA,"Nvidia Corp","Computers and Technology","Semi General",161053200000
-CHL,"China Mobile [Hong Kong] Ltd","Computers and Technology","Wireless Non-US",160855360000
-CVX,"Chevron Corp",Oils-Energy,"Oil - International Integrated",157404992000
-ADBE,"Adobe Systems Inc","Computers and Technology","Computer - Software",153549984000
-RDS.A,"Royal Dutch Shell ADR Cl A",Oils-Energy,"Oil - International Integrated",153117728000
-ABT,"Abbott Laboratories",Medical,"Medical Products",151725776000
-RDS.B,"Royal Dutch Shell Cl B",Oils-Energy,"Oil - International Integrated",147624720000
-SAP,"SAP Ag","Computers and Technology","Computer - Software",144914976000
-NVO,"Novo Nordisk A/S",Medical,"Large Cap Pharma",142080064000
-LLY,"Eli Lilly and Company",Medical,"Large Cap Pharma",139469152000
-CRM,"Salesforce.com Inc","Computers and Technology","Computer - Software",138322256000
-MCD,"McDonald's Corp",Retail-Wholesale,"Retail - Restaurants",136938608000
-WFC,"Wells Fargo & Company",Finance,"Banks - Major Regional",135768016000
-MDT,"Medtronic Inc",Medical,"Medical Products",135396976000
-NKE,"Nike Inc","Consumer Staples","Shoes and Related Apparel",135164320000
-BMY,"Bristol-Myers Squibb Company",Medical,"Large Cap Pharma",132989912000
-COST,"Costco Wholesale",Retail-Wholesale,"Retail - Discount",132478416000
-AMGN,"Amgen Inc",Medical,"Medical - Biomedical",128255768000
-TMO,"Thermo Fisher Scientific Inc",Medical,"Medical Instruments",126580032000
-PYPL,"Paypal Holdings","Computers and Technology","Internet - Software",124145664000
-NEE,"Nextera Energy",Utilities,"Utility - Electric Power",120048128000
-ABBV,"Abbvie Inc",Medical,"Large Cap Pharma",117764672000
-PM,"Philip Morris International Inc","Consumer Staples",Tobacco,117312360000
-AZN,"Astrazeneca Plc",Medical,"Large Cap Pharma",117204544000
-ASML,"Asml Hld NY Reg","Computers and Technology","Semi-Eqpt Wafer Fabrication",116207880000
-AMT,"American Tower Corp",Finance,"REIT - Equity Trust Other",114979704000
-SNY,"Sanofi-Aventis S.A.",Medical,"Large Cap Pharma",113838112000
-ACN,"Accenture Plc","Business Services",Consulting,113098760000
-HSBC,"HSBC Holdings Plc",Finance,"Banks - Foreign",108718760000
-IBM,"International Business Machines","Computers and Technology","Computer - Integrated Systems",107941576000
-LMT,"Lockheed Martin Corp",Aerospace,"Aerospace - Defense",104515528000
-TSLA,"Tesla Inc",Auto-Tires-Trucks,"Auto - Domestic",103908960000
-LIN,"Linde Plc",Oils-Energy,"Oil - Field Services",103249536000
-HON,"Honeywell International Inc",Conglomerates,"Conglomerates - Div Operations",102208208000
-AVGO,"Broadcom Ltd","Computers and Technology","Electronics - Semiconductors",101666848000
-DHR,"Danaher Corp",Conglomerates,"Conglomerates - Div Operations",101558512000
-UNP,"Union Pacific Corp",Transportation,"Transportation - Rail",100921336000
-TXN,"Texas Instruments","Computers and Technology","Semi General",100579880000
-C,"Citigroup Inc",Finance,"Banks - Major Regional",99476040000
-BUD,"Anheuser-Busch Inbev S.A.","Consumer Staples","Beverages - Alcohol",98601968000
-CHTR,"Charter Communicatio","Consumer Discretionary","Cable TV",97982736000
-TOT,"Totalfinaelf S.A.",Oils-Energy,"Oil - International Integrated",97982536000
-GSK,"Glaxosmithkline Plc",Medical,"Large Cap Pharma",97016376000
-GILD,"Gilead Sciences Inc",Medical,"Medical - Biomedical",92550200000
-RY,"Royal Bank of Canada",Finance,"Banks - Foreign",89818912000
-DEO,"Diageo Plc","Consumer Staples","Beverages - Alcohol",86840888000
-SBUX,"Starbucks Corp",Retail-Wholesale,"Retail - Restaurants",86712952000
-BTI,"British American Tobacco Industries","Consumer Staples",Tobacco,86104000000
-UN,"Unilever NV","Consumer Staples","Soap and Cleaning Products",85684912000
-BA,"Boeing Company",Aerospace,"Aerospace - Defense",85508992000
-MMM,"3M Company",Conglomerates,"Conglomerates - Div Operations",84981040000
-UPS,"United Parcel Service",Transportation,"Transportation - Air Freight",84724088000
-BP,"BP Plc",Oils-Energy,"Oil - International Integrated",84000848000
-QCOM,"Qualcomm Inc","Computers and Technology","Wireless Equipment",81819016000
-CVS,"CVS Corp",Retail-Wholesale,"Retail - Drug Stores",78862560000
-TD,"Toronto Dominion Bank",Finance,"Banks - Foreign",77879168000
-FIS,"Fidelity National Information Services","Business Services","Financial Transaction Services",77114216000
-SNE,"Sony Corp","Consumer Discretionary","Audio & Video Products",77021184000
-AXP,"American Express Company",Finance,"Finance - Misc Services",76618448000
-MO,"Altria Group","Consumer Staples",Tobacco,76025792000
-MDLZ,"Mondelez Intl Inc","Consumer Staples","Food - Misc & Diversified",75000240000
-HDB,"Hdfc Bank Ltd",Finance,"Banks - Foreign",74001328000
-TMUS,"T-Mobile US",Utilities,"Wireless National",73610544000
-LOW,"Lowe's Companies",Retail-Wholesale,"Building Prds Retail - Wsale",71954184000
-PTR,"Petrochina Company Ltd",Oils-Energy,"Oil - International Integrated",69566280000
-CAT,"Caterpillar Inc","Industrial Products","Machinery - Construct & Mining",68776880000
-SYK,"Stryker Corp",Medical,"Medical Products",68488576000
-CCI,"Crown Castle International Corp",Finance,"REIT - Equity Trust Other",68405176000
-D,"Dominion Resources",Utilities,"Utility - Electric Power",68372416000
-SPGI,"S&P Global Inc","Business Services","Business Information",68318248000
-CME,"CME Group Inc",Finance,"Securities Exchanges",68154296000
-PLD,"Prologis Inc",Finance,"REIT - Equity Trust Other",67796728000
-CI,"Cigna Corp",Finance,"Insurance - Multi Line",67626032000
-FISV,"Fiserv Inc","Business Services","Financial Transaction Services",67106060000
-BDX,"Becton Dickinson and Company",Medical,"Medical - Dental Suppliers",67101760000
-DUK,"Duke Energy Corp",Utilities,"Utility - Electric Power",66290156000
-INTU,"Intuit Inc","Computers and Technology","Computer - Software",65669280000
-MS,"Morgan Stanley",Finance,"Finance - Investment Brokers",64723552000
-VRTX,"Vertex Pharmaceutic",Medical,"Medical - Biomedical",63938332000
-SO,"Southern Company",Utilities,"Utility - Electric Power",63601580000
-BHP,"Bhp Billiton Ltd","Basic Materials","Mining - Misc",63453056000
-GS,"Goldman Sachs Group",Finance,"Finance - Investment Brokers",63362220000
-GE,"General Electric Company",Conglomerates,"Conglomerates - Div Operations",62413004000
-SNP,"China Petroleum & Chemical Corp",Oils-Energy,"Emerging Markets Integrated",61746208000
-ADP,"Automatic Data Procs","Business Services",Outsourcing,61533580000
-JD,"Jd.com Inc Ads",Retail-Wholesale,"Internet Commerce",61505960000
-ZTS,"Zoetis Inc Cl A",Medical,"Medical - Drugs",61144664000
-ANTM,"Anthem Inc",Medical,"Medical - HMO",61133136000
-UL,"Unilever Plc","Consumer Staples","Soap and Cleaning Products",60448108000
-AGN,"Allergan Plc",Medical,"Medical - Generic Drugs",59944164000
-CL,"Colgate-Palmolive Company","Consumer Staples","Soap and Cleaning Products",59775152000
-RIO,"Rio Tinto Plc","Basic Materials","Mining - Misc",59481536000
-EL,"Estee Lauder Companies","Consumer Staples","Cosmetics & Toiletries",59262816000
-ISRG,"Intuitive Surg Inc",Medical,"Medical Instruments",58817484000
-TJX,"TJX Companies",Retail-Wholesale,"Retail - Discount",58459640000
-BKNG,"Booking Holdings Inc",Retail-Wholesale,"Internet Commerce",58334320000
-ENB,"Enbridge Inc",Oils-Energy,"Oil - Production & Pipeline",58112164000
-USB,"U.S. Bancorp",Finance,"Banks - Major Regional",57883980000
-AMD,"Adv Micro Devices","Computers and Technology","Electronics - Semiconductors",56645824000
-CNI,"Canadian National Railway",Transportation,"Transportation - Rail",56632032000
-LFC,"China Life Insurance Company Ltd",Finance,"Insurance - Life",56472880000
-REGN,"Regeneron Pharmaceuticals",Medical,"Medical - Biomedical",56434832000
-NOC,"Northrop Grumman Corp",Aerospace,"Aerospace - Defense",56319184000
-RTX,"Raytheon Technologies Corp.",Aerospace,"Aerospace - Defense Equipment",56049536000
-BIIB,"Biogen Inc",Medical,"Medical - Biomedical",55883244000
-EQIX,"Equinix Inc",Finance,"REIT - Equity Trust Retail",55549396000
-CB,"Chubb Ltd",Finance,"Insurance - Proprty & Casualty",55188764000
-BAM,"Brookfield Asset Management Inc",Finance,"Real Estate Operations",55156100000
-VMW,"Vmware Inc","Computers and Technology","Computer - Software",54938788000
-NOW,"Servicenow Inc","Computers and Technology","IT Services",52775788000
-TGT,"Target Corp",Retail-Wholesale,"Retail - Discount",52200240000
-ECL,"Ecolab Inc","Basic Materials","Chemical - Specialty",51829536000
-BSX,"Boston Scientific Corp",Medical,"Medical Products",51421864000
-MUFG,"Mitsubishi Ufj Financial Group Inc",Finance,"Banks - Foreign",51390812000
-MU,"Micron Technology","Computers and Technology","Semi Memory",51305144000
-TAK,"Takeda Pharmaceutical Co. Ltd",Medical,"Medical - Drugs",50601604000
-ITW,"Illinois Tool Works Inc","Industrial Products","Machinery - General Industrial",50574268000
-CEO,"Cnooc Ltd",Oils-Energy,"Emerging Markets Integrated",49808752000
-BNS,"Bank of Nova Scotia",Finance,"Banks - Foreign",49759220000
-CSX,"CSX Corp",Transportation,"Transportation - Rail",49524864000
-MMC,"Marsh & Mclennan Companies",Finance,"Insurance - Brokers",48700716000
-SHOP,"Shopify Inc","Computers and Technology","Internet - Services",48636632000
-TFC,"Truist Financial Corp.",Finance,"Banks - Major Regional",48568020000
-APD,"Air Products and Chemicals","Basic Materials","Chemical - Diversified",48399100000
-ICE,"Intercontinental Exchange",Finance,"Securities Exchanges",47983676000
-PGR,"Progressive Corp",Finance,"Insurance - Proprty & Casualty",47052188000
-SCHW,"The Charles Schwab Corp",Finance,"Finance - Investment Brokers",47037068000
-UBER,"Uber Technologies Inc","Computers and Technology","Internet - Services",46731540000
-ATVI,"Activision Blizzard","Consumer Discretionary","Toys & Game & Hobby",46507100000
-NEM,"Newmont Mining Corp","Basic Materials","Mining - Misc",46294332000
-PDD,"Pinduoduo Inc ADR",Retail-Wholesale,"Internet Commerce",45715280000
-DE,"Deere & Company","Industrial Products","Machinery - Farm",45710116000
-AMAT,"Applied Materials","Computers and Technology","Semi-Eqpt Wafer Fabrication",45538744000
-GPN,"Global Payments Inc","Business Services","Financial Transaction Services",45328332000
-MCO,"Moody's Corp",Finance,"Finance - Misc Services",45244428000
-ITUB,"Itau Unibanco Banco Holding S.A.",Finance,"Banks - Foreign",45208680000
-PNC,"PNC Bank",Finance,"Banks - Major Regional",45196400000
-SHW,"Sherwin-Williams Company",Construction,"Paint & Related Products",45181340000
-HUM,"Humana Inc",Medical,"Medical - HMO",45173192000
-EW,"Edwards Lifesciences Corp",Medical,"Medical Instruments",45053460000
-KMB,"Kimberly-Clark Corp","Consumer Staples","Consumer Prdts - Misc Staple",44898576000
-TRP,"Transcananda Pipelines",Oils-Energy,"Other Alt Energy",44508600000
-AON,"AON Plc",Finance,"Insurance - Brokers",44475324000
-EQNR,"Equinor ASA",Oils-Energy,"Other Alt Energy",44237256000
-NSC,"Norfolk Southern Corp",Transportation,"Transportation - Rail",44193800000
-BAX,"Baxter International Inc",Medical,"Medical Products",44076168000
-RELX,"Relx Plc","Computers and Technology","Internet - Content",44007004000
-PBR,"Petroleo Brasileiro S.A. Petrobras",Oils-Energy,"Emerging Markets Integrated",43829504000
-VALE,"Vale S.A.","Basic Materials","Mining - Iron",43590408000
-PBR.A,"Petroleo Brasileiro Sa Petrobr ADR",Oils-Energy,"Emerging Markets Integrated",42785948000
-AEP,"American Electric Power Company",Utilities,"Utility - Electric Power",42709036000
-DG,"Dollar General Corp",Retail-Wholesale,"Retail - Discount",42566396000
-WM,"Waste Management","Business Services","Waste Removal Svcs",42299156000
-ILMN,"Illumina Inc",Medical,"Medical - Biomedical",42280140000
-NTES,"Netease Inc Ads","Computers and Technology","Internet Software Services",41887704000
-NGG,"National Grid Transco Plc",Utilities,"Utility - Electric Power",41668580000
-LHX,"L3Harris Technologies Inc",Aerospace,"Aerospace - Defense",41381584000
-GD,"General Dynamics Corp",Aerospace,"Aerospace - Defense",40922936000
-GOLD,"Barrick Gold Corp","Basic Materials","Mining - Gold",40021812000
-HMC,"Honda Motor Company",Auto-Tires-Trucks,"Auto - Foreign",39290976000
-ABB,"Abb Ltd","Industrial Products","Machinery - Electrical",39243480000
-CNC,"Centene Corp",Medical,"Medical - HMO",38975984000
-SAN,"Banco Santander",Finance,"Banks - Foreign",38701300000
-WBA,"Walgreens Boots Alliance",Retail-Wholesale,"Retail - Drug Stores",38580132000
-DLR,"Digital Realty Trust",Finance,"REIT - Equity Trust Other",38448480000
-SRE,"Sempra Energy",Utilities,"Utility - Gas Distribution",38166060000
-EXC,"Exelon Corp",Utilities,"Utility - Electric Power",38129360000
-VOD,"Vodafone Grp Plc Ads","Computers and Technology","Wireless Non-US",38068332000
-AMX,"America Movil S.A.B. DE C.V.","Computers and Technology","Wireless Non-US",37928488000
-KDP,"Keurig Dr Pepper Inc","Consumer Staples","Beverages - Soft",37791644000
-ABEV,"Ambev S.A.","Consumer Staples","Beverages - Alcohol",37745308000
-LRCX,"Lam Research Corp","Computers and Technology","Semi-Eqpt Wafer Fabrication",37592140000
-COP,Conocophillips,Oils-Energy,"Oil - US Integrated",37399348000
-BCE,"BCE Inc",Utilities,"Diversified Comm Services",37119216000
-PHG,"Koninklijke Philips Electronics","Computers and Technology","Electronics Products - Misc",37037748000
-UBS,"UBS Group Ag",Finance,"Banks - Foreign",36782340000
-E,"Eni S.P.A.",Oils-Energy,"Oil - International Integrated",36705280000
-HCA,"Hca Holdings Inc",Medical,"Medical - Hospitals",36574960000
-LVS,"Las Vegas Sands","Consumer Discretionary",Gaming,36552116000
-PSA,"Public Storage",Finance,"REIT - Equity Trust Other",36452768000
-ADI,"Analog Devices","Computers and Technology","Semi Analog & Mixed",36376456000
-ADSK,"Autodesk Inc","Computers and Technology","Computer - Software",36199012000
-INFY,"Infosys Ltd","Computers and Technology","IT Services",36120388000
-EPD,"Enterprise Products Partners LP",Oils-Energy,"Oil Gas Prod Pipeline MLP",35859520000
-WBK,"Westpac Banking Corp",Finance,"Banks - Foreign",35544460000
-TRI,"Thomson Reuters Corp","Business Services","Technology Services",35167024000
-BBD,"Banco Bradesco S.A.",Finance,"Banks - Foreign",35101140000
-GIS,"General Mills","Consumer Staples","Food - Misc & Diversified",34792380000
-KMI,"Kinder Morgan",Oils-Energy,"Oil - Production & Pipeline",34791368000
-XEL,"XCEL Energy Inc",Utilities,"Utility - Electric Power",34769812000
-SMFG,"Sumitomo Mitsui Financial Group Inc",Finance,"Banks - Foreign",34741236000
-ZM,"Zoom Video Communications Cl A","Computers and Technology","Internet - Software",34738292000
-BMO,"Bank of Montreal",Finance,"Banks - Foreign",34392852000
-GM,"General Motors Company",Auto-Tires-Trucks,"Auto - Domestic",34381788000
-KHC,"Kraft Heinz Company","Consumer Staples","Food - Misc & Diversified",34343588000
-BBL,"Bhp Billiton Plc","Basic Materials","Mining - Misc",34267200000
-BIDU,"Baidu Inc","Computers and Technology","Internet - Services",34237072000
-SBAC,"SBA Communications",Finance,"REIT - Equity Trust Other",34229008000
-PUK,"Prudential Public Ltd Company",Finance,"Insurance - Multi Line",34070380000
-WDAY,"Workday Inc","Computers and Technology","Internet - Software",33735120000
-ETN,"Eaton Corp","Industrial Products","Machinery - Electrical",33507432000
-ROP,"Roper Industries","Industrial Products","Machinery - General Industrial",33472400000
-ORAN,"Orange ADR","Computers and Technology","Wireless Non-US",33197496000
-BK,"Bank of New York Mellon Corp",Finance,"Banks - Major Regional",32870794000
-BBDO,"Banco Bradesco S.A.",Finance,"Banks - Foreign",32692254000
-MNST,"Monster Beverage Cp","Consumer Staples","Beverages - Soft",32487576000
-MET,"Metlife Inc",Finance,"Insurance - Multi Line",32475260000
-STZ.B,"Constellation Brd Cl B","Consumer Staples","Beverages - Alcohol",32073874000
-FDX,"Fedex Corp",Transportation,"Transportation - Air Freight",31948262000
-STZ,"Constellation Brands Inc","Consumer Staples","Beverages - Alcohol",31859232000
-ALL,"Allstate Corp",Finance,"Insurance - Proprty & Casualty",31799150000
-EMR,"Emerson Electric Company","Industrial Products","Machinery - Electrical",31681126000
-ROST,"Ross Stores Inc",Retail-Wholesale,"Retail - Discount",31537042000
-WEC,"Wisconsin Energy Corp",Utilities,"Utility - Electric Power",30982026000
-CP,"Canadian Pacific Railway",Transportation,"Transportation - Rail",30739388000
-EA,"Electronic Arts Inc","Consumer Discretionary","Toys & Game & Hobby",30647512000
-DELL,"Dell Technologies Inc","Computers and Technology","IT Services",30327786000
-HSY,"Hershey Foods Corp","Consumer Staples","Food - Confectionery",30184836000
-DD,"Du Pont De.Nemours Inc","Basic Materials","Chemical - Diversified",30152242000
-BF.B,"Brown Forman Inc Cl B","Consumer Staples","Beverages - Alcohol",30070162000
-CTSH,"Cognizant Tech Sol","Computers and Technology","Business Software Services",29780016000
-ES,"Eversource Energy",Utilities,"Utility - Electric Power",29762912000
-MFG,"Mizuho Financial Group",Finance,"Banks - Foreign",29419896000
-ED,"Consolidated Edison Company of New York",Utilities,"Utility - Electric Power",29352174000
-IBN,"Icici Bank Ltd",Finance,"Banks - Foreign",29241480000
-RACE,"Ferrari N.V.",Auto-Tires-Trucks,"Auto - Truck Original Parts",29096842000
-TAL,"Tal Education Group","Consumer Discretionary",Schools,28808332000
-BF.A,"Brown Forman Inc Cl A","Consumer Staples","Beverages - Alcohol",28444490000
-LYG,"Lloyds Banking Group Plc",Finance,"Banks - Foreign",28012400000
-TRV,"The Travelers Companies Inc",Finance,"Insurance - Proprty & Casualty",27987102000
-CHT,"Chunghwa Telecom Co. Ltd",Utilities,"Diversified Comm Services",27849066000
-INFO,"IHS Markit Ltd","Business Services","Business Information",27824228000
-AFL,"Aflac Incorporated",Finance,"Insurance - Accident & Health",27513220000
-COF,"Capital One Financial Corp",Finance,"Finance - Consumer Loans",27495576000
-CM,"Canadian Imperial Bank of Commerce",Finance,"Banks - Foreign",27404694000
-CHA,"China Telecom Corp Ltd",Utilities,"Wireline Non-US",27152686000
-DOW,"Dow Inc","Basic Materials","Chemical - Diversified",27152382000
-ERIC,"Ericsson ADR","Computers and Technology","Wireless Equipment",27072080000
-PSX,"Phillips 66",Oils-Energy,"Oil - Refining and Marketing",27034720000
-EBAY,"Ebay Inc",Retail-Wholesale,"Internet Commerce",26931422000
-PEG,"Public Service Enterprise Group Inc",Utilities,"Utility - Electric Power",26746476000
-MELI,"Mercadolibre Inc",Retail-Wholesale,"Internet Commerce",26509346000
-LULU,"Lululemon Athletica","Consumer Staples","Textile - Apparel",26489676000
-MSCI,"MSCI Inc","Computers and Technology","Business Software Services",26413308000
-MAR,"Marriot Int Cl A","Consumer Discretionary","Hotels & Motels",26361920000
-MSI,"Motorola Solutions","Computers and Technology","Wireless Equipment",26228738000
-RSG,"Republic Services","Business Services","Waste Removal Svcs",26113100000
-EOG,"Eog Resources",Oils-Energy,"Oil - US Exploration & Product",26087704000
-ALC,"Alcon Inc",Medical,"Medical Instruments",26035708000
-EQR,"Equity Residential",Finance,"REIT - Equity Trust Resident",25822712000
-SQ,Square,"Computers and Technology","Internet - Software",25770146000
-HRL,"Hormel Foods Corp","Consumer Staples","Food - Meat Products",25565872000
-ORLY,"O'Reilly Automotive",Retail-Wholesale,"Retail - Wholesale Auto Parts",25426852000
-WLTW,"Willis Towers WT",Finance,"Insurance - Brokers",25231498000
-SYY,"Sysco Corp","Consumer Staples","Food - Misc & Diversified",25216962000
-DXCM,Dexcom,Medical,"Medical Instruments",25213080000
-NXPI,"Nxp Semiconductors","Computers and Technology","Semi Analog & Mixed",25169198000
-SU,"Suncor Energy Inc",Oils-Energy,"Oil - C$ Integrated",24871738000
-MFC,"Manulife Financial Corp",Finance,"Insurance - Life",24825140000
-IQV,"Iqvia Holdings Inc","Business Services","Technology Services",24721332000
-EC,"Ecopetrol S.A.",Oils-Energy,"Emerging Markets Integrated",24505552000
-APH,"Amphenol Corp","Computers and Technology","Electronics - Connectors",24417456000
-TEF,"Telefonica S.A.",Utilities,"Diversified Comm Services",24403014000
-A,"Agilent Technologies","Computers and Technology","Electronic Test Equipment",24254964000
-FE,"Firstenergy Corp",Utilities,"Utility - Electric Power",24242416000
-YUM,"Yum! Brands",Retail-Wholesale,"Retail - Restaurants",24183334000
-KR,"Kroger Company",Retail-Wholesale,"Retail - Supermarket",24161326000
-VEEV,"Veeva Systems Inc","Computers and Technology","Internet - Software",24087116000
-VRSK,"Verisk Analytics Inc","Business Services","Business Information",24085132000
-SCCO,"Southern Peru Copper Corp","Basic Materials","Mining - Non Ferrous",24057566000
-PAYX,"Paychex Inc","Business Services",Outsourcing,23868896000
-AWK,"American Water Works",Utilities,"Utility - Water Supply",23849386000
-TEL,"Te Connectivity Ltd","Computers and Technology","Electronics - Misc Components",23749642000
-SLF,"Sun Life Financial Inc",Finance,"Insurance - Life",23694754000
-SPOT,"Spotify Technology S.A.","Business Services","Technology Services",23635508000
-MCK,"Mckesson Corp",Medical,"Medical - Dental Suppliers",23588308000
-AVB,"Avalonbay Communities",Finance,"REIT - Equity Trust Resident",23553410000
-KLAC,"K L A-Tencor Corp","Computers and Technology","Electronics Products - Misc",23534612000
-CRH,"CRH Plc",Construction,"Building & Construction - Misc",23492284000
-JCI,"Johnson Controls Intl","Industrial Products","Protection - Safety",23379838000
-VFC,"V.F. Corp","Consumer Staples","Textile - Apparel",23371370000
-PCAR,"Paccar Inc",Auto-Tires-Trucks,"Auto - Domestic",23301788000
-PRU,"Prudential Financial Inc",Finance,"Insurance - Multi Line",23247784000
-WELL,"Welltower Inc",Finance,"REIT - Equity Trust Other",23237468000
-AIG,"American International Group",Finance,"Insurance - Multi Line",23180620000
-SIRI,"Sirius XM Holdings","Consumer Discretionary","Broadcast - Radio & TV",23173206000
-CSGP,"Costar Group Inc","Computers and Technology","IT Services",23133260000
-RMD,"Resmed Inc",Medical,"Medical Products",23112690000
-ING,"ING Groep N.V. ADR",Finance,"Banks - Foreign",23102686000
-WCN,"Waste Connections Inc","Business Services","Waste Removal Svcs",23062328000
-CLX,"Clorox Company","Consumer Staples","Soap and Cleaning Products",23044670000
-PPG,"PPG Industries","Basic Materials","Chemical - Diversified",22923374000
-HPQ,"HP Inc","Computers and Technology","Computer - Mini",22833332000
-VRSN,"Verisign Inc","Computers and Technology","Internet Software Services",22826076000
-SLB,"Schlumberger N.V.",Oils-Energy,"Oil - Field Services",22802962000
-BLL,"Ball Corp","Industrial Products","Containers - Metal & Glass",22785404000
-ZBH,"Zimmer Biomet Holdings",Medical,"Medical Products",22778746000
-CAJ,"Canon Inc","Computers and Technology","Office Automation & Equipment",22553408000
-CMI,"Cummins Inc",Auto-Tires-Trucks,"Engines - Internal Combustion",22321984000
-TSN,"Tyson Foods","Consumer Staples","Food - Meat Products",22245354000
-CS,"Credit Suisse Group",Finance,"Banks - Foreign",22244186000
-IDXX,"Idexx Laboratories",Medical,"Medical Instruments",22066954000
-AZO,Autozone,Retail-Wholesale,"Retail - Wholesale Auto Parts",21970252000
-EIX,"Edison International",Utilities,"Utility - Electric Power",21854746000
-SPG,"Simon Property Group",Finance,"REIT - Equity Trust Retail",21844598000
-TT,"Trane Technologies Plc","Business Services","Technology Services",21837532000
-TWTR,"Twitter Inc","Computers and Technology","Internet - Software",21724110000
-RCI,"Rogers Communication","Consumer Discretionary","Cable TV",21711732000
-STT,"State Street Corp",Finance,"Banks - Major Regional",21597146000
-BBVA,"Banco Bilbao Viscaya Argentaria S.A.",Finance,"Banks - Foreign",21537640000
-FNV,"Franco Nev Corp","Basic Materials","Mining - Gold",21531864000
-FMX,"Fomento Economico Mexicano S.A.B. DE C.V.","Consumer Staples","Beverages - Soft",21494248000
-K,"Kellogg Company","Consumer Staples","Food - Misc & Diversified",21488388000
-CMG,"Chipotle Mexican Grill",Retail-Wholesale,"Retail - Restaurants",21439968000
-DTE,"Dte Energy Company",Utilities,"Utility - Electric Power",21424748000
-ALXN,"Alexion Pharm Inc",Medical,"Medical - Biomedical",21372684000
-F,"Ford Motor Company",Auto-Tires-Trucks,"Auto - Domestic",21291674000
-CCEP,"Coca Cola European Partners","Consumer Staples","Beverages - Soft",21138344000
-BCS,"Barclays Plc",Finance,"Banks - Foreign",21132910000
-LBRDK,"Liberty Broadbd C","Consumer Discretionary","Cable TV",21005928000
-NTR,"Nutrien Ltd","Basic Materials",Fertilizers,20947722000
-ADM,"Archer Daniels Midland","Consumer Staples","Agriculture Operations",20939878000
-STM,"Stmicroelectronics N.V.","Computers and Technology","Semi General",20939054000
-CTVA,"Corteva Inc","Consumer Staples","Agriculture Operations",20927474000
-CERN,"Cerner Corp",Medical,"Medical Information Systems",20804340000
-SGEN,"Seattle Genetics Inc",Medical,"Medical - Biomedical",20751110000
-FMS,"Fresenius Medical Care Corp",Medical,"Medical Instruments",20715968000
-XLNX,"Xilinx Inc","Computers and Technology","Semi Pro Logic Devices",20680844000
-CTAS,"Cintas Corp","Industrial Products","Uniform & Related",20678898000
-ETR,"Entergy Corp",Utilities,"Utility - Electric Power",20665974000
-SNPS,"Synopsys Inc","Computers and Technology","Computer - Software",20560072000
-FTV,"Fortive Corp","Computers and Technology","Electronic Test Equipment",20534772000
-AMTD,"TD Ameritrade HD",Finance,"Finance - Investment Brokers",20522958000
-MKC,"Mccormick & Company Inc","Consumer Staples","Food - Misc & Diversified",20508476000
-VLO,"Valero Energy Corp",Oils-Energy,"Oil - Refining and Marketing",20507784000
-PPL,"PPL Corp",Utilities,"Utility - Electric Power",20500636000
-ANSS,"Ansys Inc","Computers and Technology","Computer - Software",20440660000
-CHU,"China Unicom [Hong Kong] Ltd","Computers and Technology","Wireless Non-US",20408946000
-BSBR,"Banco Santander Brasil S.A.",Finance,"Banks - Foreign",20396008000
-LBRDA,"Liberty Broadbd A","Consumer Discretionary","Cable TV",20305608000
-WMB,"Williams Companies",Oils-Energy,"Oil - Production & Pipeline",20125728000
-CDNS,"Cadence Design Sys","Computers and Technology","Computer - Software",20074038000
-ARE,"Alexandria Real Estate Equities",Finance,"REIT - Equity Trust Other",19913570000
-TLK,"P.T. Telekomunikasi Indonesia Tbk",Utilities,"Diversified Comm Services",19713338000
-LYB,"Lyondellbasell Industries NV","Basic Materials","Chemical - Diversified",19656396000
-SPLK,"Splunk Inc","Computers and Technology","Internet - Software",19530880000
-AEE,"Ameren Corp",Utilities,"Utility - Electric Power",19492222000
-ROK,"Rockwell Automation Inc","Computers and Technology","Industrial Robotics",19477084000
-O,"Realty Income Corp",Finance,"REIT - Equity Trust Retail",19463800000
-TU,"Telus Corporation",Utilities,"Diversified Comm Services",19370700000
-SNAP,"Snap Inc","Computers and Technology","Internet - Software",19328772000
-FAST,"Fastenal Company",Retail-Wholesale,"Building Prds Retail - Wsale",19311192000
-FLT,"Fleetcor Technologies","Business Services","Financial Transaction Services",19220672000
-MTCH,"Match Group Inc CS","Computers and Technology","Internet - Services",19147424000
-HLT,"Hilton Inc","Consumer Discretionary","Hotels & Motels",18991314000
-IBKR,"Interactive Brokers",Finance,"Finance - Investment Brokers",18914482000
-LUV,"Southwest Airlines Company",Transportation,"Transportation - Airline",18865786000
-INCY,"Incyte Corp",Medical,"Medical - Biomedical",18818324000
-MCHP,"Microchip Technology","Computers and Technology","Semi Analog & Mixed",18791754000
-PH,"Parker-Hannifin Corp","Industrial Products","Machinery - General Industrial",18634458000
-WIT,"Wipro Ltd","Computers and Technology","Business Software Services",18629668000
-RBS,"Royal Bank Scotland Group Plc",Finance,"Banks - Foreign",18626004000
-TDG,"Transdigm Group Inc",Aerospace,"Aerospace - Defense Equipment",18497660000
-SWK,"Stanley Black & Decker Inc","Industrial Products","Machinery - Tools & Related",18385964000
-FTS,"Fortis Inc",Utilities,"Utility - Electric Power",18368822000
-DLTR,"Dollar Tree Inc",Retail-Wholesale,"Retail - Discount",18367060000
-NOK,"Nokia Corp","Computers and Technology","Wireless Equipment",18330250000
-EDU,"New Oriental Education & Technology Group","Consumer Discretionary",Schools,18269560000
-ABC,"Amerisourcebergen Corp",Medical,"Medical - Dental Suppliers",18079288000
-AME,"Amtek Inc","Computers and Technology","Electronic Test Equipment",17929534000
-TME,"Tencent Music Entertainment Group ADR","Computers and Technology","Internet - Content",17913934000
-RNG,"Ringcentral Inc","Computers and Technology","Internet Software Services",17868512000
-NDAQ,"Nasdaq Inc",Finance,"Securities Exchanges",17808094000
-NTRS,"Northern Trust Corp",Finance,"Banks - Major Regional",17764674000
-PANW,"Palo Alto Networks Inc","Computers and Technology",Security,17735526000
-CMS,"Cms Energy Corp",Utilities,"Utility - Electric Power",17714686000
-SNN,"Smith & Nephew Snats",Medical,"Medical Products",17680112000
-FTNT,"Fortinet Inc","Computers and Technology",Security,17584452000
-CPRT,"Copart Inc","Business Services","Auction Valuation Services",17525538000
-MTD,"Mettler-Toledo International","Computers and Technology","Industrial Scientific",17444260000
-KEYS,"Keysight Technologies Inc Comm","Computers and Technology","Electronics - Measuring Inst",17259080000
-YUMC,"Yum China Holdings Inc",Retail-Wholesale,"Retail - Restaurants",17090748000
-BBY,"Best Buy Company",Retail-Wholesale,"Retail - Consumer Electronics",17076694000
-CTXS,"Citrix Systems Inc","Computers and Technology","Computer - Software",17056704000
-CHWY,"Chewy Inc","Consumer Staples","Consumer Prdts - Misc Staple",16984346000
-VIV,"Telecomunicacoes DE Sao Paulo ADR",Utilities,"Diversified Comm Services",16937560000
-TEAM,"Atlassian Cls A Ord","Computers and Technology","Internet - Software",16819138000
-CHD,"Church & Dwight Company","Consumer Staples","Soap and Cleaning Products",16808620000
-FRC,"First Republic Bank",Finance,"Banks - West",16760775000
-MPC,"Marathon Petroleum Corp",Oils-Energy,"Oil - Refining and Marketing",16646788000
-IAC,"Iac Interactive",Retail-Wholesale,"Internet Commerce",16528853000
-AJG,"Arthur J. Gallagher & Company",Finance,"Insurance - Brokers",16465471000
-DOCU,"Docusign Inc","Business Services","Technology Services",16445356000
-BXP,"Boston Properties",Finance,"REIT - Equity Trust Other",16442931000
-ESS,"Essex Property Trust",Finance,"REIT - Equity Trust Resident",16341835000
-MRVL,"Marvell Tech Group","Computers and Technology","Semi Communications",16284597000
-GIB,"CGI Group","Computers and Technology","Computer - Services",16195655000
-ODFL,"Old Dominion Freight Line Inc.",Transportation,"Transportation - Truck",16156640000
-GLW,"Corning Inc","Computers and Technology","Communications Components",16152292000
-FCAU,"Fiat Chrysler Automobiles N.V.",Auto-Tires-Trucks,"Auto - Foreign",16087971000
-OKTA,"Okta Inc Cl A","Computers and Technology","Internet Software Services",16078484000
-ANET,"Arista Networks Inc","Computers and Technology","Communications Components",16053705000
-CNQ,"Canadian Natural Resources",Oils-Energy,"Oil - C$ Exploration & Product",15883876000
-APTV,"Aptiv Plc","Business Services","Technology Services",15882278000
-COO,"Cooper Companies",Medical,"Medical - Dental Suppliers",15816079000
-CAG,"Conagra Brands Inc","Consumer Staples","Food - Misc & Diversified",15810486000
-FOXA,"Fox Corp Cl A","Consumer Discretionary","Broadcast - Radio & TV",15771563000
-ZTO,"Zto Express [Cayman] Inc",Transportation,"Transportation - Services",15725362000
-WY,"Weyerhaeuser Company",Construction,"Building Products - Wood",15663354000
-ET,"Energy Transfer LP",Oils-Energy,"Oil Gas Prod Pipeline MLP",15628307000
-DAL,"Delta Air Lines Inc",Transportation,"Transportation - Airline",15611892000
-FOX,"Fox Corp Cl B","Consumer Discretionary","Broadcast - Radio & TV",15559171000
-TIF,"Tiffany & Company",Retail-Wholesale,"Retail - Jewelry",15498840000
-ATUS,"Altice USA Inc Cl A","Computers and Technology","Communications Components",15447644000
-AKAM,"Akamai Technologies","Computers and Technology","Internet - Services",15441924000
-DISCB,"Discovery Comm B","Consumer Discretionary","Broadcast - Radio & TV",15360211000
-CBRE,"CBRE Group Inc",Finance,"Real Estate Operations",15333854000
-CHKP,"Check Point Software","Computers and Technology",Security,15326403000
-MKTX,"Marketaxess Holdings",Finance,"Securities Exchanges",15295839000
-SWKS,"Skyworks Solutions","Computers and Technology","Semi Radio Frequency",15252192000
-ALGN,"Align Technology",Medical,"Medical - Dental Suppliers",15215452000
-CDW,"CDW Corp","Computers and Technology","IT Services",15170953000
-EFX,"Equifax Inc","Business Services","Financial Transaction Services",15151238000
-TFX,"Teleflex Inc",Medical,"Medical Instruments",15096540000
-DHI,"D.R. Horton",Construction,"Building - Residential & Comm",15035579000
-GWW,"W.W. Grainger","Industrial Products","Industrial Services",15021462000
-HIG,"Hartford Financial Services Group",Finance,"Insurance - Multi Line",15003595000
-GRMN,"Garmin Ltd","Computers and Technology","Electronics Products - Misc",14997533000
-VMC,"Vulcan Materials Company",Construction,"Building - CMT & CNT & AG",14991969000
-MTB,"M&T Bank Corp",Finance,"Banks - Major Regional",14911878000
-IX,"Orix Corp ADR",Finance,"Finance - Misc Services",14840045000
-CAH,"Cardinal Health",Medical,"Medical - Dental Suppliers",14714667000
-AMCR,"Amcor Plc","Industrial Products","Containers - Paper Products",14693070000
-GMAB,"Genmab A/S",Medical,"Medical - Biomedical",14550547000
-CPB,"Campbell Soup Company","Consumer Staples","Food - Misc & Diversified",14408324000
-PEAK,"Healthpeak Properties Inc.",Finance,"REIT - Equity Trust Other",14334667000
-WPM,"Wheaton Precious Metals","Basic Materials","Mining - Misc",14320100000
-BMRN,"Biomarin Pharmaceuticals",Medical,"Medical - Biomedical",14313113000
-EVRG,"Evergy Inc",Oils-Energy,"Other Alt Energy",14302182000
-LH,"Laboratory Corp of America Holdings",Medical,"Medical - Dental Suppliers",14254719000
-AGR,"Avangrid Inc",Utilities,"Utility - Electric Power",14189509000
-LEN,"Lennar Corp",Construction,"Building - Residential & Comm",14150438000
-MXIM,"Maxim Integrated","Computers and Technology","Semi Analog & Mixed",13951916000
-MKL,"Markel Corp",Finance,"Insurance - Proprty & Casualty",13855418000
-DB,"Deutsche Bank Ag",Finance,"Banks - Foreign",13826711000
-WORK,"Slack Technologies Inc","Business Services","Technology Services",13753133000
-OXY,"Occidental Petroleum Corp",Oils-Energy,"Oil - US Integrated",13750655000
-TCOM,"Trip.com Group Ltd","Consumer Discretionary","Leisure & Recreation Services",13724963000
-IFF,"International Flavors & Fragrances","Consumer Staples","Consumer Prdts - Misc Staple",13603371000
-GRFS,"Grifols S.A.",Medical,"Medical - Drugs",13592864000
-TRU,Transunion,"Business Services","Business Information",13567730000
-HPE,"Hewlett Packard Enterprise Comp","Computers and Technology","Computer - Integrated Systems",13566241000
-CINF,"Cincinnati Financial",Finance,"Insurance - Proprty & Casualty",13560521000
-TTWO,"Take-Two Interacti","Consumer Discretionary","Toys & Game & Hobby",13542826000
-LDOS,"Leidos Holdings Inc",Aerospace,"Aerospace - Defense",13540715000
-CQP,"Cheniere Energy Partners LP",Oils-Energy,"Oil - Production & Pipeline",13513671000
-WDC,"Western Digital Cp","Computers and Technology","Computer - Storage Devices",13466887000
-IP,"International Paper Company","Basic Materials","Paper & Related Products",13443537000
-DPZ,"Domino's Pizza Inc",Retail-Wholesale,"Retail - Restaurants",13410896000
-STX,"Seagate Tech Ord Shs","Computers and Technology","Computer - Storage Devices",13373995000
-GLPG,"Galapagos NV",Medical,"Medical - Biomedical",13355647000
-EXR,"Extra Space Storage Inc",Finance,"REIT - Equity Trust Other",13338475000
-MAA,"Mid-America Apartment Communities",Finance,"REIT - Equity Trust Resident",13330761000
-TWLO,Twilio,"Computers and Technology","Internet - Software",13319854000
-BKR,"Baker Hughes A Ge Co. Cl A",Oils-Energy,"Oil - Field Services",13257837000
-INVH,"Invitation Homes Inc",Finance,"REIT - Equity Trust Resident",13218976000
-RYAAY,"Ryanair Hlds Plc",Transportation,"Transportation - Airline",13162678000
-ALNY,"Alnylam Pharmaceuticals",Medical,"Medical - Biomedical",13159318000
-KSU,"Kansas City Southern",Transportation,"Transportation - Rail",13134227000
-QSR,"Restaurant Brands International",Retail-Wholesale,"Retail - Restaurants",13117013000
-MPLX,"Mplx LP",Oils-Energy,"Oil - Production & Pipeline",13103178000
-DRE,"Duke Realty Corp",Finance,"REIT - Equity Trust Other",13098277000
-PAYC,"Paycom Software Inc","Computers and Technology","Internet - Software",13063224000
-JKHY,"Jack Henry & Assoc","Computers and Technology","Electronic Misc Services",13054676000
-LNT,"Alliant Energy Corp",Utilities,"Utility - Electric Power",13020948000
-STE,"Steris Corp",Medical,"Medical Instruments",12950098000
-MLM,"Martin Marietta Materials",Construction,"Building - CMT & CNT & AG",12949210000
-SKM,"Sk Telecom Corp","Computers and Technology","Wireless Non-US",12890095000
-DOV,"Dover Corp","Industrial Products","Machinery - General Industrial",12882550000
-ATO,"Atmos Energy Corp",Utilities,"Utility - Gas Distribution",12866695000
-SJM,"J.M. Smucker Company","Consumer Staples","Food - Misc & Diversified",12857785000
-IQ,"Iqiyi Inc ADR","Consumer Discretionary","Movie & TV Production & Dist",12743415000
-SSNC,"SS&C Technologies","Computers and Technology","Computer - Software",12677480000
-FITB,"Fifth Third Bncp",Finance,"Banks - Major Regional",12672390000
-ACGL,"Arch Capital Grp Ltd",Finance,"Insurance - Proprty & Casualty",12653735000
-NMR,"Nomura Holdings Inc ADR",Finance,"Finance - Investment Brokers",12614132000
-VTR,"Ventas Inc",Finance,"REIT - Equity Trust Other",12602667000
-PXD,"Pioneer Natural Resources Company",Oils-Energy,"Oil - US Exploration & Product",12508168000
-XYL,"Xylem Inc","Industrial Products","Machinery - General Industrial",12496663000
-XP,"XP Inc Cl A",Finance,"Finance - Misc Services",12454104000
-SUI,"Sun Communities",Finance,"REIT - Equity Trust Resident",12432890000
-TYL,"Tyler Technologies","Computers and Technology","Business Software Services",12401912000
-HES,"Hess Corp",Oils-Energy,"Oil - US Integrated",12324582000
-OMC,"Omnicom Group Inc","Business Services","Advertising Marketing Services",12318102000
-WAT,"Waters Corp","Computers and Technology","Industrial Scientific",12178617000
-BR,"Broadridge Financial Solutions Llc","Business Services",Outsourcing,12158786000
-UDR,"United Dominion Realty Trust",Finance,"REIT - Equity Trust Resident",12125507000
-DFS,"Discover Financial Services",Finance,"Finance - Consumer Loans",12089933000
-DISH,"Dish Network Corp","Consumer Discretionary","Cable TV",12066694000
-WPC,"W.P. Carey & Co. Llc",Finance,"REIT - Equity Trust Other",12059459000
-WST,"West Pharmaceutical Services",Medical,"Medical - Dental Suppliers",12031566000
-TDY,"Teledyne Technologies Inc",Aerospace,"Aerospace - Defense Equipment",12016301000
-EXPD,"Expeditors Intl",Transportation,"Transportation - Services",12007853000
-VIACA,"Viacomcbs Inc. Cl A","Consumer Discretionary","Movie & TV Production & Dist",12004735000
-BIP,"Brookfield Infrastructure Partners LP",Utilities,"Utility - Electric Power",11990619000
-BIO.B,"Bio Rad Labs Cl B",Medical,"Medical - Biomedical",11983660000
-DGX,"Quest Diagnostics Inc",Medical,"Medical - Outpatient & Hm Care",11980255000
-CRWD,"Crowdstrike Holdings Inc","Computers and Technology","Internet - Software",11952384000
-FCX,"Freeport-Mcmoran Inc","Basic Materials","Mining - Non Ferrous",11883460000
-NUE,"Nucor Corp","Basic Materials","Steel - Producers",11868430000
-ROL,"Rollins Inc",Construction,"Building - Maint & Service",11806528000
-AEM,"Agnico-Eagle Mines Ltd","Basic Materials","Mining - Gold",11798997000
-PKX,"Posco ADR","Basic Materials","Steel - Producers",11773596000
-BIO,"Bio-Rad Laboratories",Medical,"Medical Products",11764318000
-LBTYA,"Liberty Global Ord A","Consumer Discretionary","Cable TV",11760090000
-OKE,"Oneok Inc",Utilities,"Utility - Gas Distribution",11753538000
-YNDX,"Yandex N.V.","Computers and Technology","Internet - Content",11735598000
-LN,"Line Corp","Computers and Technology","Internet - Software",11726039000
-DISCA,"Discovery Comm A","Consumer Discretionary","Broadcast - Radio & TV",11725031000
-BURL,"Burlington Stores Inc",Retail-Wholesale,"Retail - Discount",11718962000
-LBTYB,"Liberty Global Ord B","Consumer Discretionary","Cable TV",11658874000
-FMC,"FMC Corp","Basic Materials","Chemical - Diversified",11649689000
-KEY,Keycorp,Finance,"Banks - Major Regional",11648379000
-NLOK,"Nortonlifelock Inc.","Industrial Products","Protection - Safety",11629438000
-CTL,Centurylink,Utilities,"Wireless National",11603601000
-IEX,"Idex Corp","Industrial Products","Machinery - General Industrial",11551732000
-ELS,"Equity Lifestyle Properties",Finance,"REIT - Equity Trust Resident",11505087000
-PODD,"Insulet Corp",Medical,"Medical Products",11500156000
-ULTA,"Ulta Beauty Inc",Retail-Wholesale,"Retail - Misc & Diversified",11401444000
-PBA,"Pembina Pipeline Cor",Oils-Energy,"Oil - Production & Pipeline",11248212000
-L,"Loews Corp",Finance,"Insurance - Multi Line",11161260000
-KB,"KB Financial Group Inc",Finance,"Banks - Foreign",11121779000
-MGA,"Magna International",Auto-Tires-Trucks,"Auto - Truck Original Parts",11107695000
-TEVA,"Teva Pharmaceutical Industries Ltd",Medical,"Medical - Generic Drugs",11096640000
-ROKU,"Roku Inc","Consumer Discretionary","Broadcast - Radio & TV",11091872000
-HEI,"Heico Corp",Aerospace,"Aerospace - Defense Equipment",11042038000
-SHG,"Shinhan Financial Group Co. Ltd",Finance,"Banks - Foreign",11022623000
-LBTYK,"Liberty Global Ord C","Consumer Discretionary","Broadcast - Radio & TV",11000966000
-BRO,"Brown & Brown",Finance,"Insurance - Brokers",10989014000
-DDOG,"Datadog Inc Cl A","Computers and Technology","Internet - Software",10976810000
-GDDY,"Godaddy Inc","Computers and Technology","Internet Services - Delivery",10937996000
-ZBRA,"Zebra Technologies","Industrial Products","Machinery - Thermal Processing",10867488000
-KMX,"Carmax Inc",Retail-Wholesale,"Retail - Wholesale Auto Parts",10865102000
-HOLX,"Hologic Inc",Medical,"Medical Instruments",10824345000
-J,"Jacobs Engineering Group Inc","Industrial Products","Engineering & R&D Services",10818295000
-BAP,"Credicorp Ltd",Finance,"Banks - Foreign",10817051000
-NVR,"NVR Inc",Construction,"Building - Residential & Comm",10798471000
-TDOC,"Teladoc Health Inc",Medical,"Medical Services",10707354000
-WRB,"W.R. Berkley Corp",Finance,"Insurance - Proprty & Casualty",10697171000
-IEP,"Icahn Enterprises",Conglomerates,"Conglomerates - Div Operations",10686823000
-LEN.B,"Lennar Corp Cl B",Construction,"Building - Residential & Comm",10669683000
-MAS,"Masco Corp",Construction,"Building & Construction - Misc",10647789000
-TW,"Tradeweb Markets Inc",Finance,"Finance - Investment Brokers",10645867000
-EPAM,"Epam Systems Inc","Computers and Technology","IT Services",10625751000
-FDS,"Factset Research Systems Inc","Business Services","Business Information",10581836000
-DISCK,"Discovery Comm Inc","Consumer Discretionary","Broadcast - Radio & TV",10579844000
-MT,Arcelormittal,"Basic Materials","Steel - Producers",10574700000
-RF,"Regions Financial Corp",Finance,"Banks - Southeast",10540897000
-JBHT,"J B Hunt Transport",Transportation,"Transportation - Truck",10539831000
-WAB,"Wabtec Corp",Transportation,"Transportation - Equip & Lease",10500616000
-MRNA,"Moderna Inc",Medical,"Medical - Biomedical",10482035000
-GPC,"Genuine Parts Company",Auto-Tires-Trucks,"Auto - Truck Replacement Parts",10419528000
-BAH,"Booz Allen Hamilton Holding Corp","Business Services","Government Services",10410963000
-CXO,"Concho Resources Inc",Oils-Energy,"Oil - US Exploration & Product",10374328000
-HAS,"Hasbro Inc","Consumer Discretionary","Toys & Game & Hobby",10367320000
-SYF,"Synchrony Financial",Finance,"Finance - Misc Services",10347045000
-VIPS,"Vipshop Holdings Ltd","Computers and Technology","Internet Services - Delivery",10342208000
-CBOE,"CBOE Global Markets Inc",Finance,"Securities Exchanges",10316837000
-BNTX,"Biontech Se ADR",Medical,"Medical - Biomedical",10274557000
-VAR,"Varian Medical Systems",Medical,"Medical Instruments",10258858000
-TAP,"Molson Coors Brewing Company","Consumer Staples","Beverages - Alcohol",10256413000
-TSCO,"Tractor Supply Company",Retail-Wholesale,"Retail - Misc & Diversified",10236886000
-TER,"Teradyne Inc","Computers and Technology","Electronic Test Equipment",10188508000
-UI,"Ubiquiti Networks","Computers and Technology","Wireless Equipment",10169381000
-VIAC,"Viacomcbs Inc. Cl B","Consumer Discretionary","Movie & TV Production & Dist",10163518000
-NI,"NiSource Inc",Utilities,"Utility - Electric Power",10160551000
-KEP,"Korea Electric Power Corp",Utilities,"Utility - Electric Power",10117369000
-LSXMA,"Liberty Srs XM CS A","Computers and Technology","Satellite Communication",10106070000
-CE,"Celanese Corp","Basic Materials","Chemical - Specialty",10031861000
-OTEX,"Open Text Cp","Computers and Technology","Computer - Software",10004096000
-WTRG,"Essential Utilities Inc.",Utilities,"Utility - Water Supply",9961769000
-EXAS,"Exact Sciences Cor",Medical,"Medical - Biomedical",9922666000
-MASI,"Masimo Corp",Medical,"Medical Instruments",9889747000
-LNG,"Cheniere Energy",Oils-Energy,"Oil - US Exploration & Product",9802561000
-HEI.A,"Heico Cp Cl A",Aerospace,"Aerospace - Defense Equipment",9797789000
-BGNE,"Beigene Ltd Ads",Medical,"Medical - Biomedical",9796003000
-AES,"The Aes Corp",Utilities,"Utility - Electric Power",9774625000
-ELAN,"Elanco Animal Health Inc",Medical,"Medical - Outpatient & Hm Care",9764034000
-CABO,"Cable One Inc","Consumer Discretionary","Cable TV",9756944000
-TTD,"Trade Desk Inc","Computers and Technology","Internet - Services",9741685000
-NICE,"Nice Ltd","Computers and Technology","Internet - Software",9717500000
-RJF,"Raymond James Financial",Finance,"Finance - Investment Brokers",9671881000
-CHRW,"C.H. Robinson Ww",Transportation,"Transportation - Services",9616715000
-QRVO,"Qorvo Inc","Computers and Technology","Semi Radio Frequency",9614580000
-PINS,"Pinterest Inc","Computers and Technology","Internet - Software",9591335000
-AVY,"Avery Dennison Corp","Industrial Products","Office Supply & Forms",9581538000
-SIVB,"Svb Financial Group",Finance,"Banks - West",9571763000
-IMO,"Imperial Oil Ltd",Oils-Energy,"Oil - C$ Integrated",9528603000
-MPW,"Medical Properties Trust",Finance,"REIT - Equity Trust Other",9527755000
-IT,"Gartner Inc","Business Services",Consulting,9524005000
-BKI,"Black Knight Inc","Business Services","Business Information",9522698000
-NTAP,"Netapp Inc","Computers and Technology","Computer - Storage Devices",9450893000
-CFG,"Citizens Financial Group Inc/Ri",Finance,"Finance - Savings & Loan",9450566000
-DVA,"Davita Healthcare Partners Inc",Medical,"Medical - Outpatient & Hm Care",9397391000
-MOH,"Molina Healthcare Inc",Medical,"Medical - HMO",9326475000
-CVNA,"Carvana Co. Cl A",Retail-Wholesale,"Internet Commerce",9310660000
-LYFT,"Lyft Inc Cl A","Computers and Technology","Internet - Services",9300331000
-SUZ,"Suzano Papel E Celul","Basic Materials","Paper & Related Products",9297426000
-PNW,"Pinnacle West Capital Corp",Utilities,"Utility - Electric Power",9249970000
-ETFC,"E*Trade Finl Corp",Finance,"Finance - Investment Brokers",9229962000
-ENIA,"Enersis Americas S.A. American",Oils-Energy,"Other Alt Energy",9226952000
-HBAN,"Huntington Bcshs",Finance,"Banks - Midwest",9198225000
-XRAY,"Dentsply Sirona Inc",Medical,"Medical - Dental Suppliers",9170618000
-CNA,"Cna Financial Corp",Finance,"Insurance - Proprty & Casualty",9151907000
-QGEN,"Qiagen N.V.",Medical,"Medical - Biomedical",9066807000
-UHS,"Universal Health Services",Medical,"Medical - Hospitals",9062166000
-KOF,"Coca Cola Femsa S.A.B. DE C.V.","Consumer Staples","Beverages - Soft",9057356000
-CNP,"Centerpoint Energy Inc",Utilities,"Utility - Electric Power",8951573000
-MMP,"Magellan Midstream Partners LP",Oils-Energy,"Oil Gas Prod Pipeline MLP",8935890000
-NBIX,"Neurocrine Bioscienc",Medical,"Medical - Drugs",8922790000
-AU,"Anglogold Ashanti Ltd","Basic Materials","Mining - Gold",8906897000
-CY,"Cypress Semiconductor","Computers and Technology","Semi Communications",8900200000
-CPT,"Camden Property Trust",Finance,"REIT - Equity Trust Resident",8876035000
-BCH,"Banco DE Chile",Finance,"Banks - Foreign",8864153000
-ALLE,"Allegion Plc","Industrial Products","Protection - Safety",8860564000
-WPP,"Wpp Plc ADR","Business Services","Advertising Marketing Services",8854235000
-CNHI,"CNH Industrial N.V.",Auto-Tires-Trucks,"Auto - Foreign",8829863000
-NDSN,"Nordson Corp","Industrial Products","Machinery - General Industrial",8829131000
-COUP,"Coupa Software Inc","Computers and Technology","Internet - Software",8787163000
-FICO,"Fair Isaac and Company Inc","Computers and Technology","IT Services",8776754000
-BILI,"Bilibili Inc ADR","Computers and Technology","Internet - Services",8749799000
-EXPE,"Expedia Group Inc",Retail-Wholesale,"Internet Commerce",8738051000
-PKI,Perkinelmer,"Computers and Technology","Industrial Scientific",8719555000
-NLY,"Annaly Capital Management Inc",Finance,"REIT - Mortgage Trusts",8682674000
-VST,"Vistra Energy Corp",Utilities,"Utility - Electric Power",8680560000
-RE,"Everest Re Group",Finance,"Insurance - Proprty & Casualty",8664598000
-GL,"Globe Life Inc",Finance,"Finance - Misc Services",8634719000
-TRMB,"Trimble Navigation","Computers and Technology","Electronics Products - Misc",8620720000
-ASX,"Ase Industrial Holding Co. Ltd","Computers and Technology","Electronics - Semiconductors",8594816000
-PKG,"Packaging Corp of America","Industrial Products","Containers - Paper Products",8580130000
-HST,"Host Marriott Financial Trust",Finance,"REIT - Equity Trust Other",8541590000
-RPM,"RPM International Inc",Construction,"Paint & Related Products",8539965000
-LW,"Lamb Weston Holdings Inc","Consumer Staples","Food - Misc & Diversified",8528678000
-ATHM,"Autohome Inc","Computers and Technology","Internet - Services",8527473000
-Z,"Zillow Group Cl C",Finance,"Real Estate Operations",8502722000
-SRPT,"Sarepta Therapeutics",Medical,"Medical - Biomedical",8458249000
-SJR,"Shaw Communications Inc","Consumer Discretionary","Cable TV",8457905000
-CCK,"Crown Cork & Seal Company","Industrial Products","Containers - Metal & Glass",8440354000
-RCL,"Royal Caribbean Cruises Ltd","Consumer Discretionary","Leisure & Recreation Services",8405980000
-PSXP,"Phillips 66 Partners LP",Oils-Energy,"Oil Refining & Marketing MLP",8390025000
-Y,"Alleghany Corp",Finance,"Insurance - Proprty & Casualty",8389243000
-ZG,"Zillow Grp Inc Cl A","Computers and Technology","Internet - Services",8385529000
-HTHT,"Huazhu Group Ltd","Consumer Discretionary","Hotels & Motels",8370649000
-IHG,"Intercontinental Hotels Group","Consumer Discretionary","Hotels & Motels",8361992000
-EBR.B,"Centrais Eletricas Brasileiras ADR",Utilities,"Utility - Electric Power",8359266000
-WRK,"Westrock Company","Basic Materials","Paper & Related Products",8311945000
-VNO,"Vornado Realty Trust",Finance,"REIT - Equity Trust Other",8309202000
-MYL,"Mylan NV Ord Shs",Medical,"Medical - Generic Drugs",8300126000
-WU,"Western Union Company","Business Services","Financial Transaction Services",8295486000
-CTLT,"Catalent Inc",Medical,"Medical - Drugs",8266647000
-ICLR,"Icon Plc",Medical,"Medical Services",8226152000
-LYV,"Live Nation Entertainment","Consumer Discretionary","Leisure & Recreation Services",8210102000
-BEP,"Brookfield Renewable",Utilities,"Utility - Electric Power",8206141000
-EMN,"Eastman Chemical Company","Basic Materials","Chemical - Diversified",8114231000
-ZS,"Zscaler Inc","Computers and Technology","Internet - Services",8096142000
-PPD,"Ppd Inc.",Medical,"Medical Services",8087056000
-GGG,"Graco Inc","Industrial Products","Machinery - General Industrial",8082034000
-VICI,"Vici Properties Inc",Finance,"REIT - Equity Trust Other",8041554000
-POOL,"Pool Corp","Consumer Discretionary","Leisure & Recreational Prdcts",8029865000
-WB,"Weibo Corp Ads","Computers and Technology","Internet - Content",8015925000
-PTON,"Peloton Interactive Inc","Consumer Discretionary","Leisure & Recreational Prdcts",7984976000
-CGNX,"Cognex Cp","Computers and Technology","Electronic Test Equipment",7981032000
-URI,"United Rentals",Construction,"Building & Construction - Misc",7978942000
-AVTR,"Avantor Inc",Medical,"Medical Services",7974838000
-MDB,"Mongodb Inc Cl A","Computers and Technology","Internet - Software",7963172000
-FNF,"Fidelity National Financial",Finance,"Insurance - Proprty & Casualty",7954047000
-BSAC,"Banco Santander Chile ADR",Finance,"Banks - Foreign",7914732000
-LII,"Lennox International",Construction,"Building Prdcts - Air Heating",7885388000
-DOX,"Amdocs Ltd Ord","Computers and Technology","IT Services",7876134000
-OHI,"Omega Healthcare Investors",Finance,"REIT - Equity Trust Other",7845358000
-HII,"Huntington Ingalls Industries",Aerospace,"Aerospace - Defense",7834889000
-UAL,"United Continental Holdings",Transportation,"Transportation - Airline",7810457000
-IRM,"Iron Mountain Inc",Finance,"REIT - Equity Trust Other",7804129000
-GSX,"Gsx Techedu Inc ADR","Business Services","Technology Services",7799530000
-ZEN,"Zendesk Inc","Computers and Technology","Internet - Software",7788347000
-DRI,"Darden Restaurants",Retail-Wholesale,"Retail - Restaurants",7773751000
-CCC,"Clarivate Analytics Plc","Computers and Technology","Internet - Software",7772138000
-RDY,"Dr. Reddy's Laboratories Ltd",Medical,"Medical - Generic Drugs",7767297000
-CONE,"Cyrusone Inc",Finance,"REIT - Equity Trust Other",7744908000
-EQH,"Axa Equitable Holdings Inc",Finance,"Finance - Misc Services",7709482000
-NRG,"NRG Energy",Utilities,"Utility - Electric Power",7706672000
-WUBA,"58.com Inc","Computers and Technology","Internet Software Services",7695676000
-CDAY,"Ceridian Hcm Holding Inc","Computers and Technology","Internet - Software",7689752000
-TS,"Tenaris S.A.","Basic Materials","Steel - Pipe & Tube",7673511000
-ERIE,"Erie Indemnity Company",Finance,"Insurance - Brokers",7672030000
-FFIV,"F5 Networks Inc","Computers and Technology","Internet - Software",7624214000
-WYNN,"Wynn Resorts Ltd","Consumer Discretionary",Gaming,7596005000
-DBX,"Dropbox Inc","Computers and Technology","Internet - Services",7564503000
-CHE,"Chemed Inc",Medical,"Medical - Outpatient & Hm Care",7561103000
-COG,"Cabot Oil & Gas Corp",Oils-Energy,"Oil - US Exploration & Product",7525115000
-KL,"Kirkland Lake Gold Ltd","Basic Materials","Mining - Gold",7517117000
-MPWR,"Monolithic Power Sys","Computers and Technology","Semi Analog & Mixed",7490014000
-HSIC,"Henry Schein Inc",Medical,"Medical - Dental Suppliers",7459001000
-HRC,"Hill-Rom Holdings Inc",Medical,"Medical Products",7444709000
-LOGI,"Logitech Int S.A.","Computers and Technology","Computers - Peripheral Equpt",7435619000
-AMH,"American Homes 4 Rent",Finance,"REIT - Equity Trust Resident",7426777000
-AEG,"Aegon N.V.",Finance,"Insurance - Multi Line",7425456000
-MBT,"Mobile Telesystems","Computers and Technology","Wireless Non-US",7423651000
-REG,"Regency Centers Corp",Finance,"REIT - Equity Trust Retail",7399630000
-TECH,"Bio-Techne Cp",Medical,"Medical - Biomedical",7390047000
-PTC,"Ptc Inc","Computers and Technology","Computer - Software",7384687000
-AAP,"Advance Auto Parts Inc",Retail-Wholesale,"Retail - Wholesale Auto Parts",7382850000
-AQN,"Algonquin Pwr & Util",Utilities,"Utility - Electric Power",7379762000
-IONS,"Ionis Pharmaceuticals",Medical,"Medical - Drugs",7378660000
-SCI,"Service Corp International","Consumer Staples","Funeral Services & Related",7323316000
-RNR,"Renaissancere Holdings Ltd",Finance,"Insurance - Proprty & Casualty",7272941000
-W,"Wayfair Inc",Retail-Wholesale,"Internet Commerce",7233276000
-AFG,"American Financial Group",Finance,"Insurance - Proprty & Casualty",7232590000
-ABMD,"Abiomed Inc",Medical,"Medical Instruments",7213683000
-COLD,"Americold Realty Trust",Finance,"REIT - Equity Trust Other",7195896000
-JNPR,"Juniper Networks","Computers and Technology","Wireless Equipment",7173030000
-HAL,"Halliburton Company",Oils-Energy,"Oil - Field Services",7170212000
-MGM,"MGM Resorts International","Consumer Discretionary",Gaming,7168655000
-PAGS,"Pagseguro Digital Ltd Cl A","Business Services","Financial Transaction Services",7149034000
-ALB,"Albemarle Corp","Basic Materials","Chemical - Diversified",7125499000
-PHM,Pultegroup,Construction,"Building - Residential & Comm",7111142000
-FBHS,"Fortune Brands Home & Security","Industrial Products","Protection - Safety",7101256000
-KGC,"Kinross Gold Corp","Basic Materials","Mining - Gold",7065363000
-AYX,"Alteryx Inc","Computers and Technology","Internet - Software",7058507000
-CSL,"Carlisle Companies Inc",Conglomerates,"Conglomerates - Div Operations",7054808000
-EHC,"Encompass Health Corp",Medical,"Medical - Outpatient & Hm Care",7026147000
-KRC,"Kilroy Realty Corp",Finance,"REIT - Equity Trust Other",7012330000
-CIEN,"Ciena Corp","Computers and Technology","Fiber Optics",7007413000
-NVCR,"Novocure Ltd Ord Sh",Medical,"Medical Services",6974870000
-STNE,"Stoneco Ltd Cl A","Computers and Technology","Internet - Software",6965590000
-TTC,"Toro Company","Consumer Discretionary","Tools - Hand Held",6958984000
-DT,"Dynatrace Inc","Computers and Technology","IT Services",6952658000
-LKQ,"LKQ Corp",Auto-Tires-Trucks,"Auto - Truck Replacement Parts",6920045000
-GWRE,"Guidewire Software Inc","Computers and Technology","Business Software Services",6913522000
-WBC,"Wabco Holdings Inc",Auto-Tires-Trucks,"Auto - Truck Original Parts",6906715000
-RGA,"Reinsurance Group of America Inc",Finance,"Insurance - Life",6903232000
-RGLD,"Royal Gold Inc","Basic Materials","Mining - Gold",6887787000
-CRL,"Charles River Laboratories Intl",Medical,"Medical Services",6876436000
-NTCO,"Natura &Co Holding S.A. ADR","Consumer Staples","Cosmetics & Toiletries",6875567000
-ATR,Aptargroup,"Industrial Products","Containers - Paper Products",6871073000
-PRGO,"Perrigo Company",Medical,"Medical Products",6867607000
-BFAM,"Bright Horizons Family Solutions Inc","Consumer Discretionary",Schools,6811728000
-ACAD,"Acadia Pharmaceutica",Medical,"Medical - Biomedical",6803892000
-EBR,"Centrais Electricas Brazil",Utilities,"Utility - Electric Power",6803739000
-HUBB,"Hubbell Inc B","Industrial Products","Machinery - Elect Utilities",6773766000
-AIZ,"Assurant Inc",Finance,"Insurance - Multi Line",6723620000
-MLCO,"Melco Resorts & Entertainment","Consumer Discretionary",Gaming,6722929000
-ENTG,"Entegris Inc","Computers and Technology","Electrical - Manufacturing",6713998000
-CIB,"Bancolombia S.A.",Finance,"Banks - Foreign",6713532000
-MLNX,"Mellanox Technologies","Computers and Technology","Electronics - Semiconductors",6713425000
-CF,"Cf Industries Holdings","Basic Materials",Fertilizers,6703463000
-TXT,"Textron Inc",Aerospace,"Aerospace - Defense",6701869000
-LNC,"Lincoln National Corp",Finance,"Insurance - Life",6699306000
-SNA,"Snap-On Inc","Consumer Discretionary","Tools - Hand Held",6678377000
-CBSH,"Commerce Bancshares",Finance,"Banks - Midwest",6668260000
-PFPT,"Proofpoint Inc","Computers and Technology",Security,6651797000
-MTN,"Vail Resorts","Consumer Discretionary","Leisure & Recreation Services",6631406000
-AGNC,"American Capital Age",Finance,"REIT - Mortgage Trusts",6604914000
-AZPN,"Aspen Technology","Computers and Technology","Computer - Software",6603763000
-ZNGA,"Zynga Inc Cl A","Consumer Discretionary",Gaming,6575211000
-LSXMK,"Liberty Srs XM CS C","Computers and Technology","Satellite Communication",6566864000
-WHR,"Whirlpool Corp","Consumer Discretionary","Appliances - Household",6565521000
-CCL,"Carnival Corp","Consumer Discretionary","Leisure & Recreation Services",6553786000
-OLED,"Universal Display","Computers and Technology","Electronics - Misc Components",6528930000
-AOS,"Smith [A.O.] Corp","Industrial Products","Machinery - Electrical",6512814000
-OGE,"Oge Energy Corp",Utilities,"Utility - Electric Power",6509756000
-FRT,"Federal Realty Investment Trust",Finance,"REIT - Equity Trust Retail",6503578000
-GH,"Guardant Health Inc",Medical,"Medical - Biomedical",6500158000
-NET,"Cloudflare Inc Cl A","Computers and Technology","Internet - Software",6409810000
-POST,"Post Holdings Inc","Consumer Staples","Food - Misc & Diversified",6384145000
-TXG,"10X Genomics Inc",Medical,"Medical Information Systems",6364642000
-PCG,"Pacific Gas & Electric Company",Utilities,"Utility - Electric Power",6352134000
-BHC,"Bausch Health Companies Inc",Medical,"Medical - Generic Drugs",6341790000
-GNRC,"Generac Holdings Inc","Computers and Technology","Electrical Power",6340641000
-ETSY,"Etsy Inc","Computers and Technology","Internet - Services",6331502000
-IPGP,"Ipg Photonics Corp","Computers and Technology","Lasers - Systems & Components",6326554000
-TSU,"Tim Participacoes S.A.","Computers and Technology","Wireless Non-US",6314099000
-IPG,"Interpublic Group of Companies","Business Services","Advertising Marketing Services",6313775000
-ALLY,"Ally Financial",Finance,"Finance - Consumer Loans",6301051000
-REYN,"Reynolds Consumer Products Inc","Consumer Discretionary","Consumer Prdts - Misc Discr",6270060000
-MHK,"Mohawk Industries","Consumer Discretionary","Textile - Home Furnishings",6264903000
-UGI,"Ugi Corp",Utilities,"Utility - Gas Distribution",6264782000
-GLIBA,"Gci Liberty Inc Cl A",Utilities,"Wireless National",6250587000
-TSG,"The Stars Group Inc","Consumer Discretionary",Gaming,6248969000
-AMED,"Amedisys Inc",Medical,"Medical - Outpatient & Hm Care",6200732000
-SMG,"Scotts Miracle-Gro Company","Basic Materials",Fertilizers,6188391000
-WSO,"Watsco Inc",Construction,"Building Prdcts - Air Heating",6181614000
-JAZZ,"Jazz Pharma Plc",Medical,"Medical - Drugs",6157228000
-HUBS,"Hubspot Inc","Computers and Technology","Internet - Software",6142566000
-ARGX,"Argenx Se Ads",Medical,"Medical - Biomedical",6134025000
-GLPI,"Gaming & Leisure",Finance,"REIT - Equity Trust Other",6117501000
-NNN,"National Retail Properties",Finance,"REIT - Equity Trust Retail",6084051000
-PEGA,"Pegasystems Inc","Computers and Technology","Computer - Software",6044372000
-SQM,"Sociedad Quimica Y Minera S.A.","Basic Materials",Fertilizers,6011489000
-RS,"Reliance Steel & Aluminum Company","Basic Materials","Metal Products - Distribution",6006792000
-NWL,"Newell Rubbermaid Inc","Consumer Staples","Consumer Prdts - Misc Staple",5992525000
-KNX,"Knight-Swift Transporation Inc",Transportation,"Transportation - Truck",5985401000
-GDS,"Gds Holdings Ltd","Business Services","Technology Services",5975042000
-CEA,"China Eastern Airlines Corp Ltd",Transportation,"Transportation - Airline",5965414000
-AIV,"Apartment Investment and Management",Finance,"REIT - Equity Trust Resident",5952732000
-JLL,"Jones Lang Lasalle Inc",Finance,"Real Estate Operations",5949053000
-RL,"Ralph Lauren Corp","Consumer Staples","Textile - Apparel",5929594000
-HTA,"Healthcare Trust of America",Finance,"REIT - Equity Trust Other",5926363000
-WSO.B,"Watsco Inc Cl B",Construction,"Building Prdcts - Air Heating",5920538000
-LITE,"Lumentum Hld","Computers and Technology","Lasers - Systems & Components",5916239000
-HZNP,"Horizon Therapeutics",Medical,"Medical - Biomedical",5900541000
-GNTX,"Gentex Corp",Auto-Tires-Trucks,"Auto - Truck Original Parts",5898472000
-ARMK,"Aramark Holdings Corp","Consumer Staples","Food - Misc & Diversified",5875322000
-WLK,"Westlake Chemical Corp","Basic Materials","Chemical - Plastics",5856005000
-DEI,"Douglas Emmett",Finance,"REIT - Equity Trust Other",5825925000
-MSG,"The Madison Square Garden Comp","Consumer Discretionary","Leisure & Recreation Services",5808695000
-ASND,"Ascendis Pharma Ads",Medical,"Medical - Biomedical",5793727000
-BG,"Bunge Ltd","Basic Materials","Agriculture Products",5791899000
-DLB,"Dolby Laboratories","Consumer Discretionary","Audio & Video Products",5781428000
-HWM,"Howmet Aerospace Inc.","Industrial Products","Engineering & R&D Services",5775927000
-FWONK,"Liberty Media F1 Series K","Consumer Discretionary","Media Conglomerates",5772793000
-CACI,"Caci International","Computers and Technology","Computer - Services",5767563000
-CACC,"Credit Acceptance",Finance,"Finance - Consumer Loans",5756950000
-VOYA,"VOYA Financial Inc",Finance,"Insurance - Life",5755644000
-G,"Genpact Ltd","Business Services",Outsourcing,5753858000
-AVLR,"Avalara Inc","Computers and Technology","Internet - Software",5750898000
-XPO,"Xpo Logistics Inc",Transportation,"Transportation - Services",5716961000
-WIX,"Wix.com Ltd","Computers and Technology","IT Services",5707318000
-PEN,"Penumbra Inc",Medical,"Medical Instruments",5706464000
-JHX,"James Hardie Industries Se",Construction,"Building & Construction - Misc",5705283000
-NWS,"News Cp Cl B","Consumer Discretionary","Movie & TV Production & Dist",5700288000
-VER,"Vereit Inc",Finance,"REIT - Equity Trust Other",5690684000
-BRKR,"Bruker Corp","Computers and Technology","Industrial Scientific",5674634000
-PRAH,"Pra Health",Medical,"Medical Services",5671163000
-SBS,"Cia DE Saneamento Basico Do Estado",Utilities,"Utility - Water Supply",5632123000
-ON,"On Semiconductor","Computers and Technology","Semi Analog & Mixed",5621762000
-SC,"Santander Consumer USA Holdings",Finance,"Finance - Consumer Loans",5603783000
-NWSA,"News Cp Cl A","Consumer Discretionary","Movie & TV Production & Dist",5582635000
-ARCC,"Ares Capital Corp",Finance,"Finance - SBIC & Commercial",5568706000
-FANG,"Diamondback Energy",Oils-Energy,"Oil - US Exploration & Product",5517780000
-FWONA,"Liberty Media F1 Series A","Consumer Discretionary","Media Conglomerates",5508708000
-PNR,"Pentair Ltd","Industrial Products","Machinery - Thermal Processing",5505133000
-EXEL,"Exelixis Inc",Medical,"Medical - Biomedical",5503182000
-INGR,"Ingredion Inc","Consumer Staples","Food - Misc & Diversified",5491013000
-UHAL,"A M E R C O",Transportation,"Transportation - Equip & Lease",5448443000
-IR,"Ingersoll Rand Inc.","Industrial Products","Machinery - General Industrial",5438118000
-LEA,"Lear Corp",Auto-Tires-Trucks,"Auto - Truck Original Parts",5433725000
-LEVI,"Levi Strauss & Co. Cl A",Retail-Wholesale,"Retail - Apparel & Shoes",5430905000
-HNP,"Huaneng Power Intl",Utilities,"Utility - Electric Power",5430343000
-ESLT,"Elbit Systems Ltd",Aerospace,"Aerospace - Defense Equipment",5416665000
-PCTY,"Paylocity Hld Corp","Computers and Technology","Internet - Software",5415046000
-CZR,"Caesars Entertainment Corp","Consumer Discretionary",Gaming,5410393000
-ST,"Sensata Technologies Holding N.V.","Computers and Technology","Industrial Controls",5410344000
-DCI,"Donaldson Company","Industrial Products","Pollution Controls",5409319000
-ATH,"Athene Holding Ltd",Finance,"Insurance - Life",5394076000
-UMC,"United Microelectronics Corp","Computers and Technology","Electronics - Semiconductors",5393040000
-H,"Hyatt Hotels Corp","Consumer Discretionary","Hotels & Motels",5385321000
-CUBE,Cubesmart,Finance,"REIT - Equity Trust Other",5374991000
-ZNH,"China Southern Airlines Company",Transportation,"Transportation - Airline",5368039000
-WEX,"Wex Inc","Business Services","Financial Transaction Services",5330199000
-AAL,"American Airlines Gp",Transportation,"Transportation - Airline",5329998000
-FAF,"First American Corp",Finance,"Insurance - Proprty & Casualty",5328276000
-ORCC,"Owl Rock Capital Corp",Finance,"Finance - Misc Services",5327916000
-BWA,"Borgwarner Inc",Auto-Tires-Trucks,"Auto - Truck Original Parts",5320561000
-MORN,"Morningstar Inc","Business Services","Business Information",5320200000
-RP,"Realpage Inc","Computers and Technology","Business Software Services",5316788000
-SWI,"Solarwinds Corp","Computers and Technology","Internet - Software",5314967000
-CASY,"Casey's General Stor",Retail-Wholesale,"Retail - Convenience Stores",5274051000
-ACM,"Aecom Technology Corp","Industrial Products","Engineering & R&D Services",5247249000
-SMAR,"Smartsheet Inc Cl A","Computers and Technology","Internet - Software",5242998000
-TGE,"Tallgrass Energy Gp LP",Oils-Energy,"E&P MLP",5223979000
-PBCT,"People's United Finl",Finance,"Finance - Savings & Loan",5223343000
-HDS,"HD Supply Hlds Cmm","Industrial Products","Industrial Services",5194891000
-PSO,"Pearson Plc","Consumer Discretionary","Media Conglomerates",5194096000
-ORI,"Old Republic International Corp",Finance,"Insurance - Multi Line",5185046000
-FCN,"Fti Consulting","Business Services",Consulting,5180545000
-SYNH,"Syneos Health Inc",Medical,"Medical Information Systems",5171694000
-RGEN,"Repligen Cp",Medical,"Medical - Biomedical",5153711000
-PB,"Prosperity Bancshares",Finance,"Banks - Southwest",5116122000
-NYT,"New York Times Company","Consumer Staples","Publishing - Newspapers",5113411000
-STLD,"Steel Dynamics Inc","Basic Materials","Steel - Producers",5095789000
-LAMR,"Lamar Advertis A",Finance,"REIT - Equity Trust Other",5091085000
-CGC,"Canopy Growth Corp",Medical,"Medical Products",5090204000
-GFI,"Gold Fields Ltd","Basic Materials","Mining - Gold",5085290000
-ZION,"Zions Bancorp",Finance,"Banks - West",5083583000
-SON,"Sonoco Products Company","Industrial Products","Containers - Paper Products",5070079000
-COLM,"Columbia Sprtswr","Consumer Staples","Textile - Apparel",5069379000
-REXR,"Rexford Industrial Realty Inc",Finance,"REIT - Equity Trust Other",5068007000
-HAE,"Haemonetics Corp",Medical,"Medical Products",5052937000
-NLSN,"Nielsen Holdings Plc","Business Services","Business Information",5040557000
-ALV,"Autoliv Inc",Auto-Tires-Trucks,"Auto - Truck Original Parts",5034641000
-GFL,"Gfl Environmental Hlds Inc.","Business Services","Waste Removal Svcs",5017060000
-TREX,"Trex Company",Construction,"Building Products - Wood",4992415000
-RHI,"Robert Half International Inc","Business Services",Staffing,4982394000
-HE,"Hawaiian Electric Industries",Utilities,"Utility - Electric Power",4977012000
-BERY,"Berry Global Group","Industrial Products","Containers - Paper Products",4964775000
-MDU,"Mdu Res Group Inc",Utilities,"Utility - Gas Distribution",4947723000
-NYCB,"New York Community Bancorp",Finance,"Finance - Savings & Loan",4939382000
-IDA,"Idacorp Inc",Utilities,"Utility - Electric Power",4934303000
-MOS,"Mosaic Company","Basic Materials",Fertilizers,4912570000
-PLAN,"Anaplan Inc","Computers and Technology","Internet - Software",4893336000
-TECD,"Tech Data Cp",Retail-Wholesale,"Retail - Wholesale Computers",4888213000
-BWXT,"Bwx Technologies Inc","Computers and Technology","Electronics - Misc Components",4885247000
-CMA,"Comerica Inc",Finance,"Banks - Major Regional",4876954000
-KMPR,"Kemper Corp",Finance,"Insurance - Multi Line",4866097000
-PLNT,"Planet Fitness","Consumer Discretionary","Leisure & Recreation Services",4841611000
-CUZ,"Cousins Properties Inc",Finance,"REIT - Equity Trust Other",4831912000
-SBNY,"Signature Bank",Finance,"Banks - Northeast",4829020000
-FIVN,"Five9 Inc","Computers and Technology","Internet - Software",4825028000
-GMED,"Globus Medical Inc",Medical,"Medical Instruments",4824027000
-SAM,"Boston Beer Company","Consumer Staples","Beverages - Alcohol",4820363000
-OGS,"One Gas Inc",Utilities,"Utility - Gas Distribution",4813432000
-NUAN,"Nuance Communicatns","Computers and Technology","Computer - Software",4806267000
-SEDG,"Solaredge Tech",Oils-Energy,Solar,4793247000
-PPC,"Pilgrim's Pride","Consumer Staples","Food - Meat Products",4787459000
-PWR,"Quanta Services","Industrial Products","Engineering & R&D Services",4781177000
-LSI,"Life Storage",Finance,"REIT - Equity Trust Other",4778344000
-OC,"Owens Corning Inc",Construction,"Building & Construction - Misc",4773561000
-SEE,"Sealed Air Corp","Industrial Products","Containers - Paper Products",4763867000
-DNKN,"Dunkin' Brands Group",Retail-Wholesale,"Retail - Restaurants",4754190000
-MKSI,"Mks Instruments Inc","Computers and Technology","Electrical - Manufacturing",4747438000
-XLRN,"Acceleron Pharma",Medical,"Medical - Biomedical",4740060000
-EEFT,"Euronet Worldwide",Finance,"Finance - Misc Services",4725281000
-ENPH,"Enphase Energy Inc",Oils-Energy,Solar,4713769000
-UAA,"Under Armour","Consumer Staples","Textile - Apparel",4712545000
-POR,"Portland General Electric Company",Utilities,"Utility - Electric Power",4698649000
-LECO,"Lincoln Elec Hld","Industrial Products","Machinery - Tools & Related",4698262000
-RETA,"Reata Pharma",Medical,"Medical - Biomedical",4691462000
-FLO,"Flowers Foods","Consumer Staples","Food - Misc & Diversified",4690618000
-KIM,"Kimco Realty Corp",Finance,"REIT - Equity Trust Retail",4679748000
-ACC,"American Campus Communities Inc",Finance,"REIT - Equity Trust Resident",4678640000
-FR,"First Industrial Realty Trust",Finance,"REIT - Equity Trust Other",4674380000
-NATI,"Natl Instruments Cor","Computers and Technology","Electronic Test Equipment",4662866000
-ARW,"Arrow Electronics","Computers and Technology","Electronics - Parts Distrib",4657145000
-PHI,"Philippine Long Distance Telephone","Computers and Technology","Wireless Non-US",4639680000
-FLIR,"Flir Systems Inc",Aerospace,"Electronics - Military",4638732000
-SRCL,"Stericycle Inc","Business Services","Waste Removal Svcs",4629266000
-FIVE,"Five Below Inc",Retail-Wholesale,"Retail - Misc & Diversified",4613937000
-YY,"YY Inc","Computers and Technology","Internet - Services",4611684000
-VIRT,"Virtu Financial Cm A",Finance,"Finance - Misc Services",4606411000
-FTSV,"Forty Seven Inc",Medical,"Medical - Drugs",4599379000
-CHGG,"Chegg Inc","Computers and Technology","Internet - Software",4589159000
-LPLA,"Lpl Financial Hld",Finance,"Finance - Investment Brokers",4584463000
-COTY,"Coty Inc","Consumer Staples","Cosmetics & Toiletries",4578511000
-COR,"Coresite Realty Corp",Finance,"REIT - Equity Trust Other",4578165000
-BPY,"Brookfield Property Partners L",Finance,"Real Estate Developers",4545785000
-MOMO,"Momo Inc Ads","Computers and Technology","Internet Software Services",4532563000
-EWBC,"East West Bancorp",Finance,"Banks - West",4530425000
-SAIC,"Science Applications International","Computers and Technology","IT Services",4529107000
-CLR,"Continental Resources",Oils-Energy,"Oil - US Exploration & Product",4527622000
-NEU,"Newmarket Corp","Basic Materials","Chemical - Specialty",4519413000
-ITT,"ITT Inc",Conglomerates,"Conglomerates - Div Operations",4508590000
-STOR,"Store Capital Corpstore Capital",Finance,"REIT - Equity Trust Retail",4499851000
-HR,"Healthcare Realty Trust Inc",Finance,"REIT - Equity Trust Other",4495502000
-NOV,National-Oilwell,Oils-Energy,"Oil Field Machinery & Equip",4476985000
-OSK,"Oshkosh Truck Corp",Auto-Tires-Trucks,"Auto - Truck Original Parts",4474067000
-BYND,"Beyond Meat Inc","Consumer Staples","Food - Meat Products",4471394000
-EGP,"Eastgroup Properties",Finance,"REIT - Equity Trust Other",4463227000
-HLF,"Herbalife Ltd",Retail-Wholesale,"Retail - Drug Stores",4462047000
-JBGS,"Jbg Smith Properties",Finance,"REIT - Equity Trust Other",4453837000
-AAXN,"Axon Inc","Industrial Products","Protection - Safety",4446741000
-CFR,"Cullen/Frost Bankers",Finance,"Banks - Southwest",4445679000
-FLEX,"Flextronics Intl Ltd","Computers and Technology","Electronics Products - Misc",4440170000
-BKH,"Black Hills Corp",Utilities,"Utility - Electric Power",4433986000
-ESTC,"Elastic N.V.","Business Services","Technology Services",4412934000
-MSA,"Msa Safety Inc","Industrial Products","Protection - Safety",4412326000
-"Downloaded from Barchart.com as of 04-13-2020 12:57pm CDT"
+Symbol,Name,Sector,Industry,Market Cap,IsActive
+MSFT,Microsoft Corp,Computers and Technology,Computer - Software,1256062592000.0,True
+AAPL,Apple Inc,Computers and Technology,Computer - Mini,1172584832000.0,True
+AMZN,Amazon.com Inc,Retail-Wholesale,Internet Commerce,1017000320000.0,True
+GOOG,Alphabet Cl C,Computers and Technology,Internet - Services,832611328000.0,True
+GOOGL,Alphabet Cl A,Computers and Technology,Internet - Services,829257408000.0,True
+BABA,Alibaba Group Holding,Retail-Wholesale,Internet Commerce,499642848000.0,True
+FB,Facebook Inc,Computers and Technology,Internet - Services,499370176000.0,True
+BRK.B,Berkshire Hathaway Cl B,Finance,Insurance - Proprty & Casualty,472193056000.0,True
+BRK.A,Berkshire Hathaway Cl A,Finance,Insurance - Proprty & Casualty,471769120000.0,True
+JNJ,Johnson & Johnson,Medical,Large Cap Pharma,372332000000.0,True
+WMT,Wal-Mart Stores,Retail-Wholesale,Retail - Supermarket,344971360000.0,True
+V,Visa Inc,Business Services,Financial Transaction Services,340867680000.0,True
+JPM,JP Morgan Chase & Company,Finance,Banks - Major Regional,313062144000.0,True
+PG,Procter & Gamble Company,Consumer Staples,Soap and Cleaning Products,283147488000.0,True
+MA,Mastercard Inc,Business Services,Financial Transaction Services,270776096000.0,True
+TSM,Taiwan Semiconductor Manufacturing,Computers and Technology,Semi Fab Foundries,250643072000.0,True
+UNH,Unitedhealth Group Inc,Medical,Medical - HMO,250546592000.0,True
+INTC,Intel Corp,Computers and Technology,Semi General,244589072000.0,True
+VZ,Verizon Communications Inc,Utilities,Wireless National,237564016000.0,True
+T,AT&T Inc,Utilities,Wireless National,220736816000.0,True
+BAC,Bank of America Corp,Finance,Banks - Major Regional,216897824000.0,True
+HD,Home Depot,Retail-Wholesale,Building Prds Retail - Wsale,216466592000.0,True
+KO,Coca-Cola Company,Consumer Staples,Beverages - Soft,210223520000.0,True
+MRK,Merck & Company,Medical,Large Cap Pharma,209216832000.0,True
+PFE,Pfizer Inc,Medical,Large Cap Pharma,196330944000.0,True
+NVS,Novartis Ag,Medical,Large Cap Pharma,194459232000.0,True
+DIS,Walt Disney Company,Consumer Discretionary,Media Conglomerates,188668368000.0,True
+PEP,Pepsico Inc,Consumer Staples,Beverages - Soft,185684912000.0,True
+XOM,Exxon Mobil Corp,Oils-Energy,Oil - International Integrated,182534400000.0,True
+CSCO,Cisco Systems Inc,Computers and Technology,Computer - Networks,174724256000.0,True
+TM,Toyota Motor Corp Ltd Ord,Auto-Tires-Trucks,Auto - Foreign,174275904000.0,True
+CMCSA,Comcast Corp A,Consumer Discretionary,Cable TV,173015296000.0,True
+ORCL,Oracle Corp,Computers and Technology,Computer - Software,167707600000.0,True
+NFLX,Netflix Inc,Consumer Discretionary,Broadcast - Radio & TV,162674528000.0,True
+NVDA,Nvidia Corp,Computers and Technology,Semi General,161053200000.0,True
+CHL,China Mobile [Hong Kong] Ltd,Computers and Technology,Wireless Non-US,160855360000.0,True
+CVX,Chevron Corp,Oils-Energy,Oil - International Integrated,157404992000.0,True
+ADBE,Adobe Systems Inc,Computers and Technology,Computer - Software,153549984000.0,True
+RDS.A,Royal Dutch Shell ADR Cl A,Oils-Energy,Oil - International Integrated,153117728000.0,True
+ABT,Abbott Laboratories,Medical,Medical Products,151725776000.0,True
+RDS.B,Royal Dutch Shell Cl B,Oils-Energy,Oil - International Integrated,147624720000.0,False
+SAP,SAP Ag,Computers and Technology,Computer - Software,144914976000.0,True
+NVO,Novo Nordisk A/S,Medical,Large Cap Pharma,142080064000.0,True
+LLY,Eli Lilly and Company,Medical,Large Cap Pharma,139469152000.0,True
+CRM,Salesforce.com Inc,Computers and Technology,Computer - Software,138322256000.0,True
+MCD,McDonald's Corp,Retail-Wholesale,Retail - Restaurants,136938608000.0,True
+WFC,Wells Fargo & Company,Finance,Banks - Major Regional,135768016000.0,True
+MDT,Medtronic Inc,Medical,Medical Products,135396976000.0,True
+NKE,Nike Inc,Consumer Staples,Shoes and Related Apparel,135164320000.0,True
+BMY,Bristol-Myers Squibb Company,Medical,Large Cap Pharma,132989912000.0,True
+COST,Costco Wholesale,Retail-Wholesale,Retail - Discount,132478416000.0,True
+AMGN,Amgen Inc,Medical,Medical - Biomedical,128255768000.0,True
+TMO,Thermo Fisher Scientific Inc,Medical,Medical Instruments,126580032000.0,True
+PYPL,Paypal Holdings,Computers and Technology,Internet - Software,124145664000.0,True
+NEE,Nextera Energy,Utilities,Utility - Electric Power,120048128000.0,True
+ABBV,Abbvie Inc,Medical,Large Cap Pharma,117764672000.0,True
+PM,Philip Morris International Inc,Consumer Staples,Tobacco,117312360000.0,True
+AZN,Astrazeneca Plc,Medical,Large Cap Pharma,117204544000.0,True
+ASML,Asml Hld NY Reg,Computers and Technology,Semi-Eqpt Wafer Fabrication,116207880000.0,True
+AMT,American Tower Corp,Finance,REIT - Equity Trust Other,114979704000.0,True
+SNY,Sanofi-Aventis S.A.,Medical,Large Cap Pharma,113838112000.0,True
+ACN,Accenture Plc,Business Services,Consulting,113098760000.0,True
+HSBC,HSBC Holdings Plc,Finance,Banks - Foreign,108718760000.0,True
+IBM,International Business Machines,Computers and Technology,Computer - Integrated Systems,107941576000.0,True
+LMT,Lockheed Martin Corp,Aerospace,Aerospace - Defense,104515528000.0,True
+TSLA,Tesla Inc,Auto-Tires-Trucks,Auto - Domestic,103908960000.0,True
+LIN,Linde Plc,Oils-Energy,Oil - Field Services,103249536000.0,True
+HON,Honeywell International Inc,Conglomerates,Conglomerates - Div Operations,102208208000.0,True
+AVGO,Broadcom Ltd,Computers and Technology,Electronics - Semiconductors,101666848000.0,True
+DHR,Danaher Corp,Conglomerates,Conglomerates - Div Operations,101558512000.0,True
+UNP,Union Pacific Corp,Transportation,Transportation - Rail,100921336000.0,True
+TXN,Texas Instruments,Computers and Technology,Semi General,100579880000.0,True
+C,Citigroup Inc,Finance,Banks - Major Regional,99476040000.0,True
+BUD,Anheuser-Busch Inbev S.A.,Consumer Staples,Beverages - Alcohol,98601968000.0,True
+CHTR,Charter Communicatio,Consumer Discretionary,Cable TV,97982736000.0,True
+TOT,Totalfinaelf S.A.,Oils-Energy,Oil - International Integrated,97982536000.0,True
+GSK,Glaxosmithkline Plc,Medical,Large Cap Pharma,97016376000.0,True
+GILD,Gilead Sciences Inc,Medical,Medical - Biomedical,92550200000.0,True
+RY,Royal Bank of Canada,Finance,Banks - Foreign,89818912000.0,True
+DEO,Diageo Plc,Consumer Staples,Beverages - Alcohol,86840888000.0,True
+SBUX,Starbucks Corp,Retail-Wholesale,Retail - Restaurants,86712952000.0,True
+BTI,British American Tobacco Industries,Consumer Staples,Tobacco,86104000000.0,True
+UN,Unilever NV,Consumer Staples,Soap and Cleaning Products,85684912000.0,True
+BA,Boeing Company,Aerospace,Aerospace - Defense,85508992000.0,True
+MMM,3M Company,Conglomerates,Conglomerates - Div Operations,84981040000.0,True
+UPS,United Parcel Service,Transportation,Transportation - Air Freight,84724088000.0,True
+BP,BP Plc,Oils-Energy,Oil - International Integrated,84000848000.0,True
+QCOM,Qualcomm Inc,Computers and Technology,Wireless Equipment,81819016000.0,True
+CVS,CVS Corp,Retail-Wholesale,Retail - Drug Stores,78862560000.0,True
+TD,Toronto Dominion Bank,Finance,Banks - Foreign,77879168000.0,True
+FIS,Fidelity National Information Services,Business Services,Financial Transaction Services,77114216000.0,True
+SNE,Sony Corp,Consumer Discretionary,Audio & Video Products,77021184000.0,True
+AXP,American Express Company,Finance,Finance - Misc Services,76618448000.0,True
+MO,Altria Group,Consumer Staples,Tobacco,76025792000.0,True
+MDLZ,Mondelez Intl Inc,Consumer Staples,Food - Misc & Diversified,75000240000.0,True
+HDB,Hdfc Bank Ltd,Finance,Banks - Foreign,74001328000.0,True
+TMUS,T-Mobile US,Utilities,Wireless National,73610544000.0,True
+LOW,Lowe's Companies,Retail-Wholesale,Building Prds Retail - Wsale,71954184000.0,True
+PTR,Petrochina Company Ltd,Oils-Energy,Oil - International Integrated,69566280000.0,True
+CAT,Caterpillar Inc,Industrial Products,Machinery - Construct & Mining,68776880000.0,True
+SYK,Stryker Corp,Medical,Medical Products,68488576000.0,True
+CCI,Crown Castle International Corp,Finance,REIT - Equity Trust Other,68405176000.0,True
+D,Dominion Resources,Utilities,Utility - Electric Power,68372416000.0,True
+SPGI,S&P Global Inc,Business Services,Business Information,68318248000.0,True
+CME,CME Group Inc,Finance,Securities Exchanges,68154296000.0,True
+PLD,Prologis Inc,Finance,REIT - Equity Trust Other,67796728000.0,True
+CI,Cigna Corp,Finance,Insurance - Multi Line,67626032000.0,True
+FISV,Fiserv Inc,Business Services,Financial Transaction Services,67106060000.0,True
+BDX,Becton Dickinson and Company,Medical,Medical - Dental Suppliers,67101760000.0,True
+DUK,Duke Energy Corp,Utilities,Utility - Electric Power,66290156000.0,True
+INTU,Intuit Inc,Computers and Technology,Computer - Software,65669280000.0,True
+MS,Morgan Stanley,Finance,Finance - Investment Brokers,64723552000.0,True
+VRTX,Vertex Pharmaceutic,Medical,Medical - Biomedical,63938332000.0,True
+SO,Southern Company,Utilities,Utility - Electric Power,63601580000.0,True
+BHP,Bhp Billiton Ltd,Basic Materials,Mining - Misc,63453056000.0,True
+GS,Goldman Sachs Group,Finance,Finance - Investment Brokers,63362220000.0,True
+GE,General Electric Company,Conglomerates,Conglomerates - Div Operations,62413004000.0,True
+SNP,China Petroleum & Chemical Corp,Oils-Energy,Emerging Markets Integrated,61746208000.0,True
+ADP,Automatic Data Procs,Business Services,Outsourcing,61533580000.0,True
+JD,Jd.com Inc Ads,Retail-Wholesale,Internet Commerce,61505960000.0,True
+ZTS,Zoetis Inc Cl A,Medical,Medical - Drugs,61144664000.0,True
+ANTM,Anthem Inc,Medical,Medical - HMO,61133136000.0,True
+UL,Unilever Plc,Consumer Staples,Soap and Cleaning Products,60448108000.0,True
+AGN,Allergan Plc,Medical,Medical - Generic Drugs,59944164000.0,False
+CL,Colgate-Palmolive Company,Consumer Staples,Soap and Cleaning Products,59775152000.0,True
+RIO,Rio Tinto Plc,Basic Materials,Mining - Misc,59481536000.0,True
+EL,Estee Lauder Companies,Consumer Staples,Cosmetics & Toiletries,59262816000.0,True
+ISRG,Intuitive Surg Inc,Medical,Medical Instruments,58817484000.0,True
+TJX,TJX Companies,Retail-Wholesale,Retail - Discount,58459640000.0,True
+BKNG,Booking Holdings Inc,Retail-Wholesale,Internet Commerce,58334320000.0,True
+ENB,Enbridge Inc,Oils-Energy,Oil - Production & Pipeline,58112164000.0,True
+USB,U.S. Bancorp,Finance,Banks - Major Regional,57883980000.0,True
+AMD,Adv Micro Devices,Computers and Technology,Electronics - Semiconductors,56645824000.0,True
+CNI,Canadian National Railway,Transportation,Transportation - Rail,56632032000.0,True
+LFC,China Life Insurance Company Ltd,Finance,Insurance - Life,56472880000.0,True
+REGN,Regeneron Pharmaceuticals,Medical,Medical - Biomedical,56434832000.0,True
+NOC,Northrop Grumman Corp,Aerospace,Aerospace - Defense,56319184000.0,True
+RTX,Raytheon Technologies Corp.,Aerospace,Aerospace - Defense Equipment,56049536000.0,True
+BIIB,Biogen Inc,Medical,Medical - Biomedical,55883244000.0,True
+EQIX,Equinix Inc,Finance,REIT - Equity Trust Retail,55549396000.0,True
+CB,Chubb Ltd,Finance,Insurance - Proprty & Casualty,55188764000.0,True
+BAM,Brookfield Asset Management Inc,Finance,Real Estate Operations,55156100000.0,True
+VMW,Vmware Inc,Computers and Technology,Computer - Software,54938788000.0,True
+NOW,Servicenow Inc,Computers and Technology,IT Services,52775788000.0,True
+TGT,Target Corp,Retail-Wholesale,Retail - Discount,52200240000.0,True
+ECL,Ecolab Inc,Basic Materials,Chemical - Specialty,51829536000.0,True
+BSX,Boston Scientific Corp,Medical,Medical Products,51421864000.0,True
+MUFG,Mitsubishi Ufj Financial Group Inc,Finance,Banks - Foreign,51390812000.0,True
+MU,Micron Technology,Computers and Technology,Semi Memory,51305144000.0,True
+TAK,Takeda Pharmaceutical Co. Ltd,Medical,Medical - Drugs,50601604000.0,True
+ITW,Illinois Tool Works Inc,Industrial Products,Machinery - General Industrial,50574268000.0,True
+CEO,Cnooc Ltd,Oils-Energy,Emerging Markets Integrated,49808752000.0,True
+BNS,Bank of Nova Scotia,Finance,Banks - Foreign,49759220000.0,True
+CSX,CSX Corp,Transportation,Transportation - Rail,49524864000.0,True
+MMC,Marsh & Mclennan Companies,Finance,Insurance - Brokers,48700716000.0,True
+SHOP,Shopify Inc,Computers and Technology,Internet - Services,48636632000.0,True
+TFC,Truist Financial Corp.,Finance,Banks - Major Regional,48568020000.0,True
+APD,Air Products and Chemicals,Basic Materials,Chemical - Diversified,48399100000.0,True
+ICE,Intercontinental Exchange,Finance,Securities Exchanges,47983676000.0,True
+PGR,Progressive Corp,Finance,Insurance - Proprty & Casualty,47052188000.0,True
+SCHW,The Charles Schwab Corp,Finance,Finance - Investment Brokers,47037068000.0,True
+UBER,Uber Technologies Inc,Computers and Technology,Internet - Services,46731540000.0,True
+ATVI,Activision Blizzard,Consumer Discretionary,Toys & Game & Hobby,46507100000.0,True
+NEM,Newmont Mining Corp,Basic Materials,Mining - Misc,46294332000.0,True
+PDD,Pinduoduo Inc ADR,Retail-Wholesale,Internet Commerce,45715280000.0,True
+DE,Deere & Company,Industrial Products,Machinery - Farm,45710116000.0,True
+AMAT,Applied Materials,Computers and Technology,Semi-Eqpt Wafer Fabrication,45538744000.0,True
+GPN,Global Payments Inc,Business Services,Financial Transaction Services,45328332000.0,True
+MCO,Moody's Corp,Finance,Finance - Misc Services,45244428000.0,True
+ITUB,Itau Unibanco Banco Holding S.A.,Finance,Banks - Foreign,45208680000.0,True
+PNC,PNC Bank,Finance,Banks - Major Regional,45196400000.0,True
+SHW,Sherwin-Williams Company,Construction,Paint & Related Products,45181340000.0,True
+HUM,Humana Inc,Medical,Medical - HMO,45173192000.0,True
+EW,Edwards Lifesciences Corp,Medical,Medical Instruments,45053460000.0,True
+KMB,Kimberly-Clark Corp,Consumer Staples,Consumer Prdts - Misc Staple,44898576000.0,True
+TRP,Transcananda Pipelines,Oils-Energy,Other Alt Energy,44508600000.0,True
+AON,AON Plc,Finance,Insurance - Brokers,44475324000.0,True
+EQNR,Equinor ASA,Oils-Energy,Other Alt Energy,44237256000.0,True
+NSC,Norfolk Southern Corp,Transportation,Transportation - Rail,44193800000.0,True
+BAX,Baxter International Inc,Medical,Medical Products,44076168000.0,True
+RELX,Relx Plc,Computers and Technology,Internet - Content,44007004000.0,True
+PBR,Petroleo Brasileiro S.A. Petrobras,Oils-Energy,Emerging Markets Integrated,43829504000.0,True
+VALE,Vale S.A.,Basic Materials,Mining - Iron,43590408000.0,True
+PBR.A,Petroleo Brasileiro Sa Petrobr ADR,Oils-Energy,Emerging Markets Integrated,42785948000.0,False
+AEP,American Electric Power Company,Utilities,Utility - Electric Power,42709036000.0,True
+DG,Dollar General Corp,Retail-Wholesale,Retail - Discount,42566396000.0,True
+WM,Waste Management,Business Services,Waste Removal Svcs,42299156000.0,True
+ILMN,Illumina Inc,Medical,Medical - Biomedical,42280140000.0,True
+NTES,Netease Inc Ads,Computers and Technology,Internet Software Services,41887704000.0,True
+NGG,National Grid Transco Plc,Utilities,Utility - Electric Power,41668580000.0,True
+LHX,L3Harris Technologies Inc,Aerospace,Aerospace - Defense,41381584000.0,True
+GD,General Dynamics Corp,Aerospace,Aerospace - Defense,40922936000.0,True
+GOLD,Barrick Gold Corp,Basic Materials,Mining - Gold,40021812000.0,True
+HMC,Honda Motor Company,Auto-Tires-Trucks,Auto - Foreign,39290976000.0,True
+ABB,Abb Ltd,Industrial Products,Machinery - Electrical,39243480000.0,True
+CNC,Centene Corp,Medical,Medical - HMO,38975984000.0,True
+SAN,Banco Santander,Finance,Banks - Foreign,38701300000.0,True
+WBA,Walgreens Boots Alliance,Retail-Wholesale,Retail - Drug Stores,38580132000.0,True
+DLR,Digital Realty Trust,Finance,REIT - Equity Trust Other,38448480000.0,True
+SRE,Sempra Energy,Utilities,Utility - Gas Distribution,38166060000.0,True
+EXC,Exelon Corp,Utilities,Utility - Electric Power,38129360000.0,True
+VOD,Vodafone Grp Plc Ads,Computers and Technology,Wireless Non-US,38068332000.0,True
+AMX,America Movil S.A.B. DE C.V.,Computers and Technology,Wireless Non-US,37928488000.0,True
+KDP,Keurig Dr Pepper Inc,Consumer Staples,Beverages - Soft,37791644000.0,True
+ABEV,Ambev S.A.,Consumer Staples,Beverages - Alcohol,37745308000.0,True
+LRCX,Lam Research Corp,Computers and Technology,Semi-Eqpt Wafer Fabrication,37592140000.0,True
+COP,Conocophillips,Oils-Energy,Oil - US Integrated,37399348000.0,True
+BCE,BCE Inc,Utilities,Diversified Comm Services,37119216000.0,True
+PHG,Koninklijke Philips Electronics,Computers and Technology,Electronics Products - Misc,37037748000.0,True
+UBS,UBS Group Ag,Finance,Banks - Foreign,36782340000.0,True
+E,Eni S.P.A.,Oils-Energy,Oil - International Integrated,36705280000.0,True
+HCA,Hca Holdings Inc,Medical,Medical - Hospitals,36574960000.0,True
+LVS,Las Vegas Sands,Consumer Discretionary,Gaming,36552116000.0,True
+PSA,Public Storage,Finance,REIT - Equity Trust Other,36452768000.0,True
+ADI,Analog Devices,Computers and Technology,Semi Analog & Mixed,36376456000.0,True
+ADSK,Autodesk Inc,Computers and Technology,Computer - Software,36199012000.0,True
+INFY,Infosys Ltd,Computers and Technology,IT Services,36120388000.0,True
+EPD,Enterprise Products Partners LP,Oils-Energy,Oil Gas Prod Pipeline MLP,35859520000.0,True
+WBK,Westpac Banking Corp,Finance,Banks - Foreign,35544460000.0,True
+TRI,Thomson Reuters Corp,Business Services,Technology Services,35167024000.0,True
+BBD,Banco Bradesco S.A.,Finance,Banks - Foreign,35101140000.0,True
+GIS,General Mills,Consumer Staples,Food - Misc & Diversified,34792380000.0,True
+KMI,Kinder Morgan,Oils-Energy,Oil - Production & Pipeline,34791368000.0,True
+XEL,XCEL Energy Inc,Utilities,Utility - Electric Power,34769812000.0,True
+SMFG,Sumitomo Mitsui Financial Group Inc,Finance,Banks - Foreign,34741236000.0,True
+ZM,Zoom Video Communications Cl A,Computers and Technology,Internet - Software,34738292000.0,True
+BMO,Bank of Montreal,Finance,Banks - Foreign,34392852000.0,True
+GM,General Motors Company,Auto-Tires-Trucks,Auto - Domestic,34381788000.0,True
+KHC,Kraft Heinz Company,Consumer Staples,Food - Misc & Diversified,34343588000.0,True
+BBL,Bhp Billiton Plc,Basic Materials,Mining - Misc,34267200000.0,True
+BIDU,Baidu Inc,Computers and Technology,Internet - Services,34237072000.0,True
+SBAC,SBA Communications,Finance,REIT - Equity Trust Other,34229008000.0,True
+PUK,Prudential Public Ltd Company,Finance,Insurance - Multi Line,34070380000.0,True
+WDAY,Workday Inc,Computers and Technology,Internet - Software,33735120000.0,True
+ETN,Eaton Corp,Industrial Products,Machinery - Electrical,33507432000.0,True
+ROP,Roper Industries,Industrial Products,Machinery - General Industrial,33472400000.0,True
+ORAN,Orange ADR,Computers and Technology,Wireless Non-US,33197496000.0,True
+BK,Bank of New York Mellon Corp,Finance,Banks - Major Regional,32870794000.0,True
+BBDO,Banco Bradesco S.A.,Finance,Banks - Foreign,32692254000.0,True
+MNST,Monster Beverage Cp,Consumer Staples,Beverages - Soft,32487576000.0,True
+MET,Metlife Inc,Finance,Insurance - Multi Line,32475260000.0,True
+STZ.B,Constellation Brd Cl B,Consumer Staples,Beverages - Alcohol,32073874000.0,False
+FDX,Fedex Corp,Transportation,Transportation - Air Freight,31948262000.0,True
+STZ,Constellation Brands Inc,Consumer Staples,Beverages - Alcohol,31859232000.0,True
+ALL,Allstate Corp,Finance,Insurance - Proprty & Casualty,31799150000.0,True
+EMR,Emerson Electric Company,Industrial Products,Machinery - Electrical,31681126000.0,True
+ROST,Ross Stores Inc,Retail-Wholesale,Retail - Discount,31537042000.0,True
+WEC,Wisconsin Energy Corp,Utilities,Utility - Electric Power,30982026000.0,True
+CP,Canadian Pacific Railway,Transportation,Transportation - Rail,30739388000.0,True
+EA,Electronic Arts Inc,Consumer Discretionary,Toys & Game & Hobby,30647512000.0,True
+DELL,Dell Technologies Inc,Computers and Technology,IT Services,30327786000.0,True
+HSY,Hershey Foods Corp,Consumer Staples,Food - Confectionery,30184836000.0,True
+DD,Du Pont De.Nemours Inc,Basic Materials,Chemical - Diversified,30152242000.0,True
+BF.B,Brown Forman Inc Cl B,Consumer Staples,Beverages - Alcohol,30070162000.0,False
+CTSH,Cognizant Tech Sol,Computers and Technology,Business Software Services,29780016000.0,True
+ES,Eversource Energy,Utilities,Utility - Electric Power,29762912000.0,True
+MFG,Mizuho Financial Group,Finance,Banks - Foreign,29419896000.0,True
+ED,Consolidated Edison Company of New York,Utilities,Utility - Electric Power,29352174000.0,True
+IBN,Icici Bank Ltd,Finance,Banks - Foreign,29241480000.0,True
+RACE,Ferrari N.V.,Auto-Tires-Trucks,Auto - Truck Original Parts,29096842000.0,True
+TAL,Tal Education Group,Consumer Discretionary,Schools,28808332000.0,True
+BF.A,Brown Forman Inc Cl A,Consumer Staples,Beverages - Alcohol,28444490000.0,True
+LYG,Lloyds Banking Group Plc,Finance,Banks - Foreign,28012400000.0,True
+TRV,The Travelers Companies Inc,Finance,Insurance - Proprty & Casualty,27987102000.0,True
+CHT,Chunghwa Telecom Co. Ltd,Utilities,Diversified Comm Services,27849066000.0,True
+INFO,IHS Markit Ltd,Business Services,Business Information,27824228000.0,True
+AFL,Aflac Incorporated,Finance,Insurance - Accident & Health,27513220000.0,True
+COF,Capital One Financial Corp,Finance,Finance - Consumer Loans,27495576000.0,True
+CM,Canadian Imperial Bank of Commerce,Finance,Banks - Foreign,27404694000.0,True
+CHA,China Telecom Corp Ltd,Utilities,Wireline Non-US,27152686000.0,True
+DOW,Dow Inc,Basic Materials,Chemical - Diversified,27152382000.0,True
+ERIC,Ericsson ADR,Computers and Technology,Wireless Equipment,27072080000.0,True
+PSX,Phillips 66,Oils-Energy,Oil - Refining and Marketing,27034720000.0,True
+EBAY,Ebay Inc,Retail-Wholesale,Internet Commerce,26931422000.0,True
+PEG,Public Service Enterprise Group Inc,Utilities,Utility - Electric Power,26746476000.0,True
+MELI,Mercadolibre Inc,Retail-Wholesale,Internet Commerce,26509346000.0,True
+LULU,Lululemon Athletica,Consumer Staples,Textile - Apparel,26489676000.0,True
+MSCI,MSCI Inc,Computers and Technology,Business Software Services,26413308000.0,True
+MAR,Marriot Int Cl A,Consumer Discretionary,Hotels & Motels,26361920000.0,True
+MSI,Motorola Solutions,Computers and Technology,Wireless Equipment,26228738000.0,True
+RSG,Republic Services,Business Services,Waste Removal Svcs,26113100000.0,True
+EOG,Eog Resources,Oils-Energy,Oil - US Exploration & Product,26087704000.0,True
+ALC,Alcon Inc,Medical,Medical Instruments,26035708000.0,True
+EQR,Equity Residential,Finance,REIT - Equity Trust Resident,25822712000.0,True
+SQ,Square,Computers and Technology,Internet - Software,25770146000.0,True
+HRL,Hormel Foods Corp,Consumer Staples,Food - Meat Products,25565872000.0,True
+ORLY,O'Reilly Automotive,Retail-Wholesale,Retail - Wholesale Auto Parts,25426852000.0,True
+WLTW,Willis Towers WT,Finance,Insurance - Brokers,25231498000.0,True
+SYY,Sysco Corp,Consumer Staples,Food - Misc & Diversified,25216962000.0,True
+DXCM,Dexcom,Medical,Medical Instruments,25213080000.0,True
+NXPI,Nxp Semiconductors,Computers and Technology,Semi Analog & Mixed,25169198000.0,True
+SU,Suncor Energy Inc,Oils-Energy,Oil - C$ Integrated,24871738000.0,True
+MFC,Manulife Financial Corp,Finance,Insurance - Life,24825140000.0,True
+IQV,Iqvia Holdings Inc,Business Services,Technology Services,24721332000.0,True
+EC,Ecopetrol S.A.,Oils-Energy,Emerging Markets Integrated,24505552000.0,True
+APH,Amphenol Corp,Computers and Technology,Electronics - Connectors,24417456000.0,True
+TEF,Telefonica S.A.,Utilities,Diversified Comm Services,24403014000.0,True
+A,Agilent Technologies,Computers and Technology,Electronic Test Equipment,24254964000.0,True
+FE,Firstenergy Corp,Utilities,Utility - Electric Power,24242416000.0,True
+YUM,Yum! Brands,Retail-Wholesale,Retail - Restaurants,24183334000.0,True
+KR,Kroger Company,Retail-Wholesale,Retail - Supermarket,24161326000.0,True
+VEEV,Veeva Systems Inc,Computers and Technology,Internet - Software,24087116000.0,True
+VRSK,Verisk Analytics Inc,Business Services,Business Information,24085132000.0,True
+SCCO,Southern Peru Copper Corp,Basic Materials,Mining - Non Ferrous,24057566000.0,True
+PAYX,Paychex Inc,Business Services,Outsourcing,23868896000.0,True
+AWK,American Water Works,Utilities,Utility - Water Supply,23849386000.0,True
+TEL,Te Connectivity Ltd,Computers and Technology,Electronics - Misc Components,23749642000.0,True
+SLF,Sun Life Financial Inc,Finance,Insurance - Life,23694754000.0,True
+SPOT,Spotify Technology S.A.,Business Services,Technology Services,23635508000.0,True
+MCK,Mckesson Corp,Medical,Medical - Dental Suppliers,23588308000.0,True
+AVB,Avalonbay Communities,Finance,REIT - Equity Trust Resident,23553410000.0,True
+KLAC,K L A-Tencor Corp,Computers and Technology,Electronics Products - Misc,23534612000.0,True
+CRH,CRH Plc,Construction,Building & Construction - Misc,23492284000.0,True
+JCI,Johnson Controls Intl,Industrial Products,Protection - Safety,23379838000.0,True
+VFC,V.F. Corp,Consumer Staples,Textile - Apparel,23371370000.0,True
+PCAR,Paccar Inc,Auto-Tires-Trucks,Auto - Domestic,23301788000.0,True
+PRU,Prudential Financial Inc,Finance,Insurance - Multi Line,23247784000.0,True
+WELL,Welltower Inc,Finance,REIT - Equity Trust Other,23237468000.0,True
+AIG,American International Group,Finance,Insurance - Multi Line,23180620000.0,True
+SIRI,Sirius XM Holdings,Consumer Discretionary,Broadcast - Radio & TV,23173206000.0,True
+CSGP,Costar Group Inc,Computers and Technology,IT Services,23133260000.0,True
+RMD,Resmed Inc,Medical,Medical Products,23112690000.0,True
+ING,ING Groep N.V. ADR,Finance,Banks - Foreign,23102686000.0,True
+WCN,Waste Connections Inc,Business Services,Waste Removal Svcs,23062328000.0,True
+CLX,Clorox Company,Consumer Staples,Soap and Cleaning Products,23044670000.0,True
+PPG,PPG Industries,Basic Materials,Chemical - Diversified,22923374000.0,True
+HPQ,HP Inc,Computers and Technology,Computer - Mini,22833332000.0,True
+VRSN,Verisign Inc,Computers and Technology,Internet Software Services,22826076000.0,True
+SLB,Schlumberger N.V.,Oils-Energy,Oil - Field Services,22802962000.0,True
+BLL,Ball Corp,Industrial Products,Containers - Metal & Glass,22785404000.0,True
+ZBH,Zimmer Biomet Holdings,Medical,Medical Products,22778746000.0,True
+CAJ,Canon Inc,Computers and Technology,Office Automation & Equipment,22553408000.0,True
+CMI,Cummins Inc,Auto-Tires-Trucks,Engines - Internal Combustion,22321984000.0,True
+TSN,Tyson Foods,Consumer Staples,Food - Meat Products,22245354000.0,True
+CS,Credit Suisse Group,Finance,Banks - Foreign,22244186000.0,True
+IDXX,Idexx Laboratories,Medical,Medical Instruments,22066954000.0,True
+AZO,Autozone,Retail-Wholesale,Retail - Wholesale Auto Parts,21970252000.0,True
+EIX,Edison International,Utilities,Utility - Electric Power,21854746000.0,True
+SPG,Simon Property Group,Finance,REIT - Equity Trust Retail,21844598000.0,True
+TT,Trane Technologies Plc,Business Services,Technology Services,21837532000.0,True
+TWTR,Twitter Inc,Computers and Technology,Internet - Software,21724110000.0,True
+RCI,Rogers Communication,Consumer Discretionary,Cable TV,21711732000.0,True
+STT,State Street Corp,Finance,Banks - Major Regional,21597146000.0,True
+BBVA,Banco Bilbao Viscaya Argentaria S.A.,Finance,Banks - Foreign,21537640000.0,True
+FNV,Franco Nev Corp,Basic Materials,Mining - Gold,21531864000.0,True
+FMX,Fomento Economico Mexicano S.A.B. DE C.V.,Consumer Staples,Beverages - Soft,21494248000.0,True
+K,Kellogg Company,Consumer Staples,Food - Misc & Diversified,21488388000.0,True
+CMG,Chipotle Mexican Grill,Retail-Wholesale,Retail - Restaurants,21439968000.0,True
+DTE,Dte Energy Company,Utilities,Utility - Electric Power,21424748000.0,True
+ALXN,Alexion Pharm Inc,Medical,Medical - Biomedical,21372684000.0,True
+F,Ford Motor Company,Auto-Tires-Trucks,Auto - Domestic,21291674000.0,True
+CCEP,Coca Cola European Partners,Consumer Staples,Beverages - Soft,21138344000.0,True
+BCS,Barclays Plc,Finance,Banks - Foreign,21132910000.0,True
+LBRDK,Liberty Broadbd C,Consumer Discretionary,Cable TV,21005928000.0,True
+NTR,Nutrien Ltd,Basic Materials,Fertilizers,20947722000.0,True
+ADM,Archer Daniels Midland,Consumer Staples,Agriculture Operations,20939878000.0,True
+STM,Stmicroelectronics N.V.,Computers and Technology,Semi General,20939054000.0,True
+CTVA,Corteva Inc,Consumer Staples,Agriculture Operations,20927474000.0,True
+CERN,Cerner Corp,Medical,Medical Information Systems,20804340000.0,True
+SGEN,Seattle Genetics Inc,Medical,Medical - Biomedical,20751110000.0,True
+FMS,Fresenius Medical Care Corp,Medical,Medical Instruments,20715968000.0,True
+XLNX,Xilinx Inc,Computers and Technology,Semi Pro Logic Devices,20680844000.0,True
+CTAS,Cintas Corp,Industrial Products,Uniform & Related,20678898000.0,True
+ETR,Entergy Corp,Utilities,Utility - Electric Power,20665974000.0,True
+SNPS,Synopsys Inc,Computers and Technology,Computer - Software,20560072000.0,True
+FTV,Fortive Corp,Computers and Technology,Electronic Test Equipment,20534772000.0,True
+AMTD,TD Ameritrade HD,Finance,Finance - Investment Brokers,20522958000.0,False
+MKC,Mccormick & Company Inc,Consumer Staples,Food - Misc & Diversified,20508476000.0,True
+VLO,Valero Energy Corp,Oils-Energy,Oil - Refining and Marketing,20507784000.0,True
+PPL,PPL Corp,Utilities,Utility - Electric Power,20500636000.0,True
+ANSS,Ansys Inc,Computers and Technology,Computer - Software,20440660000.0,True
+CHU,China Unicom [Hong Kong] Ltd,Computers and Technology,Wireless Non-US,20408946000.0,True
+BSBR,Banco Santander Brasil S.A.,Finance,Banks - Foreign,20396008000.0,True
+LBRDA,Liberty Broadbd A,Consumer Discretionary,Cable TV,20305608000.0,True
+WMB,Williams Companies,Oils-Energy,Oil - Production & Pipeline,20125728000.0,True
+CDNS,Cadence Design Sys,Computers and Technology,Computer - Software,20074038000.0,True
+ARE,Alexandria Real Estate Equities,Finance,REIT - Equity Trust Other,19913570000.0,True
+TLK,P.T. Telekomunikasi Indonesia Tbk,Utilities,Diversified Comm Services,19713338000.0,True
+LYB,Lyondellbasell Industries NV,Basic Materials,Chemical - Diversified,19656396000.0,True
+SPLK,Splunk Inc,Computers and Technology,Internet - Software,19530880000.0,True
+AEE,Ameren Corp,Utilities,Utility - Electric Power,19492222000.0,True
+ROK,Rockwell Automation Inc,Computers and Technology,Industrial Robotics,19477084000.0,True
+O,Realty Income Corp,Finance,REIT - Equity Trust Retail,19463800000.0,True
+TU,Telus Corporation,Utilities,Diversified Comm Services,19370700000.0,True
+SNAP,Snap Inc,Computers and Technology,Internet - Software,19328772000.0,True
+FAST,Fastenal Company,Retail-Wholesale,Building Prds Retail - Wsale,19311192000.0,True
+FLT,Fleetcor Technologies,Business Services,Financial Transaction Services,19220672000.0,True
+MTCH,Match Group Inc CS,Computers and Technology,Internet - Services,19147424000.0,True
+HLT,Hilton Inc,Consumer Discretionary,Hotels & Motels,18991314000.0,True
+IBKR,Interactive Brokers,Finance,Finance - Investment Brokers,18914482000.0,True
+LUV,Southwest Airlines Company,Transportation,Transportation - Airline,18865786000.0,True
+INCY,Incyte Corp,Medical,Medical - Biomedical,18818324000.0,True
+MCHP,Microchip Technology,Computers and Technology,Semi Analog & Mixed,18791754000.0,True
+PH,Parker-Hannifin Corp,Industrial Products,Machinery - General Industrial,18634458000.0,True
+WIT,Wipro Ltd,Computers and Technology,Business Software Services,18629668000.0,True
+RBS,Royal Bank Scotland Group Plc,Finance,Banks - Foreign,18626004000.0,False
+TDG,Transdigm Group Inc,Aerospace,Aerospace - Defense Equipment,18497660000.0,True
+SWK,Stanley Black & Decker Inc,Industrial Products,Machinery - Tools & Related,18385964000.0,True
+FTS,Fortis Inc,Utilities,Utility - Electric Power,18368822000.0,True
+DLTR,Dollar Tree Inc,Retail-Wholesale,Retail - Discount,18367060000.0,True
+NOK,Nokia Corp,Computers and Technology,Wireless Equipment,18330250000.0,True
+EDU,New Oriental Education & Technology Group,Consumer Discretionary,Schools,18269560000.0,True
+ABC,Amerisourcebergen Corp,Medical,Medical - Dental Suppliers,18079288000.0,True
+AME,Amtek Inc,Computers and Technology,Electronic Test Equipment,17929534000.0,True
+TME,Tencent Music Entertainment Group ADR,Computers and Technology,Internet - Content,17913934000.0,True
+RNG,Ringcentral Inc,Computers and Technology,Internet Software Services,17868512000.0,True
+NDAQ,Nasdaq Inc,Finance,Securities Exchanges,17808094000.0,True
+NTRS,Northern Trust Corp,Finance,Banks - Major Regional,17764674000.0,True
+PANW,Palo Alto Networks Inc,Computers and Technology,Security,17735526000.0,True
+CMS,Cms Energy Corp,Utilities,Utility - Electric Power,17714686000.0,True
+SNN,Smith & Nephew Snats,Medical,Medical Products,17680112000.0,True
+FTNT,Fortinet Inc,Computers and Technology,Security,17584452000.0,True
+CPRT,Copart Inc,Business Services,Auction Valuation Services,17525538000.0,True
+MTD,Mettler-Toledo International,Computers and Technology,Industrial Scientific,17444260000.0,True
+KEYS,Keysight Technologies Inc Comm,Computers and Technology,Electronics - Measuring Inst,17259080000.0,True
+YUMC,Yum China Holdings Inc,Retail-Wholesale,Retail - Restaurants,17090748000.0,True
+BBY,Best Buy Company,Retail-Wholesale,Retail - Consumer Electronics,17076694000.0,True
+CTXS,Citrix Systems Inc,Computers and Technology,Computer - Software,17056704000.0,True
+CHWY,Chewy Inc,Consumer Staples,Consumer Prdts - Misc Staple,16984346000.0,True
+VIV,Telecomunicacoes DE Sao Paulo ADR,Utilities,Diversified Comm Services,16937560000.0,True
+TEAM,Atlassian Cls A Ord,Computers and Technology,Internet - Software,16819138000.0,True
+CHD,Church & Dwight Company,Consumer Staples,Soap and Cleaning Products,16808620000.0,True
+FRC,First Republic Bank,Finance,Banks - West,16760775000.0,True
+MPC,Marathon Petroleum Corp,Oils-Energy,Oil - Refining and Marketing,16646788000.0,True
+IAC,Iac Interactive,Retail-Wholesale,Internet Commerce,16528853000.0,True
+AJG,Arthur J. Gallagher & Company,Finance,Insurance - Brokers,16465471000.0,True
+DOCU,Docusign Inc,Business Services,Technology Services,16445356000.0,True
+BXP,Boston Properties,Finance,REIT - Equity Trust Other,16442931000.0,True
+ESS,Essex Property Trust,Finance,REIT - Equity Trust Resident,16341835000.0,True
+MRVL,Marvell Tech Group,Computers and Technology,Semi Communications,16284597000.0,True
+GIB,CGI Group,Computers and Technology,Computer - Services,16195655000.0,True
+ODFL,Old Dominion Freight Line Inc.,Transportation,Transportation - Truck,16156640000.0,True
+GLW,Corning Inc,Computers and Technology,Communications Components,16152292000.0,True
+FCAU,Fiat Chrysler Automobiles N.V.,Auto-Tires-Trucks,Auto - Foreign,16087971000.0,True
+OKTA,Okta Inc Cl A,Computers and Technology,Internet Software Services,16078484000.0,True
+ANET,Arista Networks Inc,Computers and Technology,Communications Components,16053705000.0,True
+CNQ,Canadian Natural Resources,Oils-Energy,Oil - C$ Exploration & Product,15883876000.0,True
+APTV,Aptiv Plc,Business Services,Technology Services,15882278000.0,True
+COO,Cooper Companies,Medical,Medical - Dental Suppliers,15816079000.0,True
+CAG,Conagra Brands Inc,Consumer Staples,Food - Misc & Diversified,15810486000.0,True
+FOXA,Fox Corp Cl A,Consumer Discretionary,Broadcast - Radio & TV,15771563000.0,True
+ZTO,Zto Express [Cayman] Inc,Transportation,Transportation - Services,15725362000.0,True
+WY,Weyerhaeuser Company,Construction,Building Products - Wood,15663354000.0,True
+ET,Energy Transfer LP,Oils-Energy,Oil Gas Prod Pipeline MLP,15628307000.0,True
+DAL,Delta Air Lines Inc,Transportation,Transportation - Airline,15611892000.0,True
+FOX,Fox Corp Cl B,Consumer Discretionary,Broadcast - Radio & TV,15559171000.0,True
+TIF,Tiffany & Company,Retail-Wholesale,Retail - Jewelry,15498840000.0,True
+ATUS,Altice USA Inc Cl A,Computers and Technology,Communications Components,15447644000.0,True
+AKAM,Akamai Technologies,Computers and Technology,Internet - Services,15441924000.0,True
+DISCB,Discovery Comm B,Consumer Discretionary,Broadcast - Radio & TV,15360211000.0,True
+CBRE,CBRE Group Inc,Finance,Real Estate Operations,15333854000.0,True
+CHKP,Check Point Software,Computers and Technology,Security,15326403000.0,True
+MKTX,Marketaxess Holdings,Finance,Securities Exchanges,15295839000.0,True
+SWKS,Skyworks Solutions,Computers and Technology,Semi Radio Frequency,15252192000.0,True
+ALGN,Align Technology,Medical,Medical - Dental Suppliers,15215452000.0,True
+CDW,CDW Corp,Computers and Technology,IT Services,15170953000.0,True
+EFX,Equifax Inc,Business Services,Financial Transaction Services,15151238000.0,True
+TFX,Teleflex Inc,Medical,Medical Instruments,15096540000.0,True
+DHI,D.R. Horton,Construction,Building - Residential & Comm,15035579000.0,True
+GWW,W.W. Grainger,Industrial Products,Industrial Services,15021462000.0,True
+HIG,Hartford Financial Services Group,Finance,Insurance - Multi Line,15003595000.0,True
+GRMN,Garmin Ltd,Computers and Technology,Electronics Products - Misc,14997533000.0,True
+VMC,Vulcan Materials Company,Construction,Building - CMT & CNT & AG,14991969000.0,True
+MTB,M&T Bank Corp,Finance,Banks - Major Regional,14911878000.0,True
+IX,Orix Corp ADR,Finance,Finance - Misc Services,14840045000.0,True
+CAH,Cardinal Health,Medical,Medical - Dental Suppliers,14714667000.0,True
+AMCR,Amcor Plc,Industrial Products,Containers - Paper Products,14693070000.0,True
+GMAB,Genmab A/S,Medical,Medical - Biomedical,14550547000.0,True
+CPB,Campbell Soup Company,Consumer Staples,Food - Misc & Diversified,14408324000.0,True
+PEAK,Healthpeak Properties Inc.,Finance,REIT - Equity Trust Other,14334667000.0,True
+WPM,Wheaton Precious Metals,Basic Materials,Mining - Misc,14320100000.0,True
+BMRN,Biomarin Pharmaceuticals,Medical,Medical - Biomedical,14313113000.0,True
+EVRG,Evergy Inc,Oils-Energy,Other Alt Energy,14302182000.0,True
+LH,Laboratory Corp of America Holdings,Medical,Medical - Dental Suppliers,14254719000.0,True
+AGR,Avangrid Inc,Utilities,Utility - Electric Power,14189509000.0,True
+LEN,Lennar Corp,Construction,Building - Residential & Comm,14150438000.0,True
+MXIM,Maxim Integrated,Computers and Technology,Semi Analog & Mixed,13951916000.0,True
+MKL,Markel Corp,Finance,Insurance - Proprty & Casualty,13855418000.0,True
+DB,Deutsche Bank Ag,Finance,Banks - Foreign,13826711000.0,True
+WORK,Slack Technologies Inc,Business Services,Technology Services,13753133000.0,True
+OXY,Occidental Petroleum Corp,Oils-Energy,Oil - US Integrated,13750655000.0,True
+TCOM,Trip.com Group Ltd,Consumer Discretionary,Leisure & Recreation Services,13724963000.0,True
+IFF,International Flavors & Fragrances,Consumer Staples,Consumer Prdts - Misc Staple,13603371000.0,True
+GRFS,Grifols S.A.,Medical,Medical - Drugs,13592864000.0,True
+TRU,Transunion,Business Services,Business Information,13567730000.0,True
+HPE,Hewlett Packard Enterprise Comp,Computers and Technology,Computer - Integrated Systems,13566241000.0,True
+CINF,Cincinnati Financial,Finance,Insurance - Proprty & Casualty,13560521000.0,True
+TTWO,Take-Two Interacti,Consumer Discretionary,Toys & Game & Hobby,13542826000.0,True
+LDOS,Leidos Holdings Inc,Aerospace,Aerospace - Defense,13540715000.0,True
+CQP,Cheniere Energy Partners LP,Oils-Energy,Oil - Production & Pipeline,13513671000.0,True
+WDC,Western Digital Cp,Computers and Technology,Computer - Storage Devices,13466887000.0,True
+IP,International Paper Company,Basic Materials,Paper & Related Products,13443537000.0,True
+DPZ,Domino's Pizza Inc,Retail-Wholesale,Retail - Restaurants,13410896000.0,True
+STX,Seagate Tech Ord Shs,Computers and Technology,Computer - Storage Devices,13373995000.0,True
+GLPG,Galapagos NV,Medical,Medical - Biomedical,13355647000.0,True
+EXR,Extra Space Storage Inc,Finance,REIT - Equity Trust Other,13338475000.0,True
+MAA,Mid-America Apartment Communities,Finance,REIT - Equity Trust Resident,13330761000.0,True
+TWLO,Twilio,Computers and Technology,Internet - Software,13319854000.0,True
+BKR,Baker Hughes A Ge Co. Cl A,Oils-Energy,Oil - Field Services,13257837000.0,True
+INVH,Invitation Homes Inc,Finance,REIT - Equity Trust Resident,13218976000.0,True
+RYAAY,Ryanair Hlds Plc,Transportation,Transportation - Airline,13162678000.0,True
+ALNY,Alnylam Pharmaceuticals,Medical,Medical - Biomedical,13159318000.0,True
+KSU,Kansas City Southern,Transportation,Transportation - Rail,13134227000.0,True
+QSR,Restaurant Brands International,Retail-Wholesale,Retail - Restaurants,13117013000.0,True
+MPLX,Mplx LP,Oils-Energy,Oil - Production & Pipeline,13103178000.0,True
+DRE,Duke Realty Corp,Finance,REIT - Equity Trust Other,13098277000.0,True
+PAYC,Paycom Software Inc,Computers and Technology,Internet - Software,13063224000.0,True
+JKHY,Jack Henry & Assoc,Computers and Technology,Electronic Misc Services,13054676000.0,True
+LNT,Alliant Energy Corp,Utilities,Utility - Electric Power,13020948000.0,True
+STE,Steris Corp,Medical,Medical Instruments,12950098000.0,True
+MLM,Martin Marietta Materials,Construction,Building - CMT & CNT & AG,12949210000.0,True
+SKM,Sk Telecom Corp,Computers and Technology,Wireless Non-US,12890095000.0,True
+DOV,Dover Corp,Industrial Products,Machinery - General Industrial,12882550000.0,True
+ATO,Atmos Energy Corp,Utilities,Utility - Gas Distribution,12866695000.0,True
+SJM,J.M. Smucker Company,Consumer Staples,Food - Misc & Diversified,12857785000.0,True
+IQ,Iqiyi Inc ADR,Consumer Discretionary,Movie & TV Production & Dist,12743415000.0,True
+SSNC,SS&C Technologies,Computers and Technology,Computer - Software,12677480000.0,True
+FITB,Fifth Third Bncp,Finance,Banks - Major Regional,12672390000.0,True
+ACGL,Arch Capital Grp Ltd,Finance,Insurance - Proprty & Casualty,12653735000.0,True
+NMR,Nomura Holdings Inc ADR,Finance,Finance - Investment Brokers,12614132000.0,True
+VTR,Ventas Inc,Finance,REIT - Equity Trust Other,12602667000.0,True
+PXD,Pioneer Natural Resources Company,Oils-Energy,Oil - US Exploration & Product,12508168000.0,True
+XYL,Xylem Inc,Industrial Products,Machinery - General Industrial,12496663000.0,True
+XP,XP Inc Cl A,Finance,Finance - Misc Services,12454104000.0,True
+SUI,Sun Communities,Finance,REIT - Equity Trust Resident,12432890000.0,True
+TYL,Tyler Technologies,Computers and Technology,Business Software Services,12401912000.0,True
+HES,Hess Corp,Oils-Energy,Oil - US Integrated,12324582000.0,True
+OMC,Omnicom Group Inc,Business Services,Advertising Marketing Services,12318102000.0,True
+WAT,Waters Corp,Computers and Technology,Industrial Scientific,12178617000.0,True
+BR,Broadridge Financial Solutions Llc,Business Services,Outsourcing,12158786000.0,True
+UDR,United Dominion Realty Trust,Finance,REIT - Equity Trust Resident,12125507000.0,True
+DFS,Discover Financial Services,Finance,Finance - Consumer Loans,12089933000.0,True
+DISH,Dish Network Corp,Consumer Discretionary,Cable TV,12066694000.0,True
+WPC,W.P. Carey & Co. Llc,Finance,REIT - Equity Trust Other,12059459000.0,True
+WST,West Pharmaceutical Services,Medical,Medical - Dental Suppliers,12031566000.0,True
+TDY,Teledyne Technologies Inc,Aerospace,Aerospace - Defense Equipment,12016301000.0,True
+EXPD,Expeditors Intl,Transportation,Transportation - Services,12007853000.0,True
+VIACA,Viacomcbs Inc. Cl A,Consumer Discretionary,Movie & TV Production & Dist,12004735000.0,True
+BIP,Brookfield Infrastructure Partners LP,Utilities,Utility - Electric Power,11990619000.0,True
+BIO.B,Bio Rad Labs Cl B,Medical,Medical - Biomedical,11983660000.0,False
+DGX,Quest Diagnostics Inc,Medical,Medical - Outpatient & Hm Care,11980255000.0,True
+CRWD,Crowdstrike Holdings Inc,Computers and Technology,Internet - Software,11952384000.0,True
+FCX,Freeport-Mcmoran Inc,Basic Materials,Mining - Non Ferrous,11883460000.0,True
+NUE,Nucor Corp,Basic Materials,Steel - Producers,11868430000.0,True
+ROL,Rollins Inc,Construction,Building - Maint & Service,11806528000.0,True
+AEM,Agnico-Eagle Mines Ltd,Basic Materials,Mining - Gold,11798997000.0,True
+PKX,Posco ADR,Basic Materials,Steel - Producers,11773596000.0,True
+BIO,Bio-Rad Laboratories,Medical,Medical Products,11764318000.0,True
+LBTYA,Liberty Global Ord A,Consumer Discretionary,Cable TV,11760090000.0,True
+OKE,Oneok Inc,Utilities,Utility - Gas Distribution,11753538000.0,True
+YNDX,Yandex N.V.,Computers and Technology,Internet - Content,11735598000.0,True
+LN,Line Corp,Computers and Technology,Internet - Software,11726039000.0,True
+DISCA,Discovery Comm A,Consumer Discretionary,Broadcast - Radio & TV,11725031000.0,True
+BURL,Burlington Stores Inc,Retail-Wholesale,Retail - Discount,11718962000.0,True
+LBTYB,Liberty Global Ord B,Consumer Discretionary,Cable TV,11658874000.0,True
+FMC,FMC Corp,Basic Materials,Chemical - Diversified,11649689000.0,True
+KEY,Keycorp,Finance,Banks - Major Regional,11648379000.0,True
+NLOK,Nortonlifelock Inc.,Industrial Products,Protection - Safety,11629438000.0,True
+CTL,Centurylink,Utilities,Wireless National,11603601000.0,False
+IEX,Idex Corp,Industrial Products,Machinery - General Industrial,11551732000.0,True
+ELS,Equity Lifestyle Properties,Finance,REIT - Equity Trust Resident,11505087000.0,True
+PODD,Insulet Corp,Medical,Medical Products,11500156000.0,True
+ULTA,Ulta Beauty Inc,Retail-Wholesale,Retail - Misc & Diversified,11401444000.0,True
+PBA,Pembina Pipeline Cor,Oils-Energy,Oil - Production & Pipeline,11248212000.0,True
+L,Loews Corp,Finance,Insurance - Multi Line,11161260000.0,True
+KB,KB Financial Group Inc,Finance,Banks - Foreign,11121779000.0,True
+MGA,Magna International,Auto-Tires-Trucks,Auto - Truck Original Parts,11107695000.0,True
+TEVA,Teva Pharmaceutical Industries Ltd,Medical,Medical - Generic Drugs,11096640000.0,True
+ROKU,Roku Inc,Consumer Discretionary,Broadcast - Radio & TV,11091872000.0,True
+HEI,Heico Corp,Aerospace,Aerospace - Defense Equipment,11042038000.0,True
+SHG,Shinhan Financial Group Co. Ltd,Finance,Banks - Foreign,11022623000.0,True
+LBTYK,Liberty Global Ord C,Consumer Discretionary,Broadcast - Radio & TV,11000966000.0,True
+BRO,Brown & Brown,Finance,Insurance - Brokers,10989014000.0,True
+DDOG,Datadog Inc Cl A,Computers and Technology,Internet - Software,10976810000.0,True
+GDDY,Godaddy Inc,Computers and Technology,Internet Services - Delivery,10937996000.0,True
+ZBRA,Zebra Technologies,Industrial Products,Machinery - Thermal Processing,10867488000.0,True
+KMX,Carmax Inc,Retail-Wholesale,Retail - Wholesale Auto Parts,10865102000.0,True
+HOLX,Hologic Inc,Medical,Medical Instruments,10824345000.0,True
+J,Jacobs Engineering Group Inc,Industrial Products,Engineering & R&D Services,10818295000.0,True
+BAP,Credicorp Ltd,Finance,Banks - Foreign,10817051000.0,True
+NVR,NVR Inc,Construction,Building - Residential & Comm,10798471000.0,True
+TDOC,Teladoc Health Inc,Medical,Medical Services,10707354000.0,True
+WRB,W.R. Berkley Corp,Finance,Insurance - Proprty & Casualty,10697171000.0,True
+IEP,Icahn Enterprises,Conglomerates,Conglomerates - Div Operations,10686823000.0,True
+LEN.B,Lennar Corp Cl B,Construction,Building - Residential & Comm,10669683000.0,False
+MAS,Masco Corp,Construction,Building & Construction - Misc,10647789000.0,True
+TW,Tradeweb Markets Inc,Finance,Finance - Investment Brokers,10645867000.0,True
+EPAM,Epam Systems Inc,Computers and Technology,IT Services,10625751000.0,True
+FDS,Factset Research Systems Inc,Business Services,Business Information,10581836000.0,True
+DISCK,Discovery Comm Inc,Consumer Discretionary,Broadcast - Radio & TV,10579844000.0,True
+MT,Arcelormittal,Basic Materials,Steel - Producers,10574700000.0,True
+RF,Regions Financial Corp,Finance,Banks - Southeast,10540897000.0,True
+JBHT,J B Hunt Transport,Transportation,Transportation - Truck,10539831000.0,True
+WAB,Wabtec Corp,Transportation,Transportation - Equip & Lease,10500616000.0,True
+MRNA,Moderna Inc,Medical,Medical - Biomedical,10482035000.0,True
+GPC,Genuine Parts Company,Auto-Tires-Trucks,Auto - Truck Replacement Parts,10419528000.0,True
+BAH,Booz Allen Hamilton Holding Corp,Business Services,Government Services,10410963000.0,True
+CXO,Concho Resources Inc,Oils-Energy,Oil - US Exploration & Product,10374328000.0,True
+HAS,Hasbro Inc,Consumer Discretionary,Toys & Game & Hobby,10367320000.0,True
+SYF,Synchrony Financial,Finance,Finance - Misc Services,10347045000.0,True
+VIPS,Vipshop Holdings Ltd,Computers and Technology,Internet Services - Delivery,10342208000.0,True
+CBOE,CBOE Global Markets Inc,Finance,Securities Exchanges,10316837000.0,True
+BNTX,Biontech Se ADR,Medical,Medical - Biomedical,10274557000.0,True
+VAR,Varian Medical Systems,Medical,Medical Instruments,10258858000.0,True
+TAP,Molson Coors Brewing Company,Consumer Staples,Beverages - Alcohol,10256413000.0,True
+TSCO,Tractor Supply Company,Retail-Wholesale,Retail - Misc & Diversified,10236886000.0,True
+TER,Teradyne Inc,Computers and Technology,Electronic Test Equipment,10188508000.0,True
+UI,Ubiquiti Networks,Computers and Technology,Wireless Equipment,10169381000.0,True
+VIAC,Viacomcbs Inc. Cl B,Consumer Discretionary,Movie & TV Production & Dist,10163518000.0,True
+NI,NiSource Inc,Utilities,Utility - Electric Power,10160551000.0,True
+KEP,Korea Electric Power Corp,Utilities,Utility - Electric Power,10117369000.0,True
+LSXMA,Liberty Srs XM CS A,Computers and Technology,Satellite Communication,10106070000.0,True
+CE,Celanese Corp,Basic Materials,Chemical - Specialty,10031861000.0,True
+OTEX,Open Text Cp,Computers and Technology,Computer - Software,10004096000.0,True
+WTRG,Essential Utilities Inc.,Utilities,Utility - Water Supply,9961769000.0,True
+EXAS,Exact Sciences Cor,Medical,Medical - Biomedical,9922666000.0,True
+MASI,Masimo Corp,Medical,Medical Instruments,9889747000.0,True
+LNG,Cheniere Energy,Oils-Energy,Oil - US Exploration & Product,9802561000.0,True
+HEI.A,Heico Cp Cl A,Aerospace,Aerospace - Defense Equipment,9797789000.0,True
+BGNE,Beigene Ltd Ads,Medical,Medical - Biomedical,9796003000.0,True
+AES,The Aes Corp,Utilities,Utility - Electric Power,9774625000.0,True
+ELAN,Elanco Animal Health Inc,Medical,Medical - Outpatient & Hm Care,9764034000.0,True
+CABO,Cable One Inc,Consumer Discretionary,Cable TV,9756944000.0,True
+TTD,Trade Desk Inc,Computers and Technology,Internet - Services,9741685000.0,True
+NICE,Nice Ltd,Computers and Technology,Internet - Software,9717500000.0,True
+RJF,Raymond James Financial,Finance,Finance - Investment Brokers,9671881000.0,True
+CHRW,C.H. Robinson Ww,Transportation,Transportation - Services,9616715000.0,True
+QRVO,Qorvo Inc,Computers and Technology,Semi Radio Frequency,9614580000.0,True
+PINS,Pinterest Inc,Computers and Technology,Internet - Software,9591335000.0,True
+AVY,Avery Dennison Corp,Industrial Products,Office Supply & Forms,9581538000.0,True
+SIVB,Svb Financial Group,Finance,Banks - West,9571763000.0,True
+IMO,Imperial Oil Ltd,Oils-Energy,Oil - C$ Integrated,9528603000.0,True
+MPW,Medical Properties Trust,Finance,REIT - Equity Trust Other,9527755000.0,True
+IT,Gartner Inc,Business Services,Consulting,9524005000.0,True
+BKI,Black Knight Inc,Business Services,Business Information,9522698000.0,True
+NTAP,Netapp Inc,Computers and Technology,Computer - Storage Devices,9450893000.0,True
+CFG,Citizens Financial Group Inc/Ri,Finance,Finance - Savings & Loan,9450566000.0,True
+DVA,Davita Healthcare Partners Inc,Medical,Medical - Outpatient & Hm Care,9397391000.0,True
+MOH,Molina Healthcare Inc,Medical,Medical - HMO,9326475000.0,True
+CVNA,Carvana Co. Cl A,Retail-Wholesale,Internet Commerce,9310660000.0,True
+LYFT,Lyft Inc Cl A,Computers and Technology,Internet - Services,9300331000.0,True
+SUZ,Suzano Papel E Celul,Basic Materials,Paper & Related Products,9297426000.0,True
+PNW,Pinnacle West Capital Corp,Utilities,Utility - Electric Power,9249970000.0,True
+ETFC,E*Trade Finl Corp,Finance,Finance - Investment Brokers,9229962000.0,False
+ENIA,Enersis Americas S.A. American,Oils-Energy,Other Alt Energy,9226952000.0,True
+HBAN,Huntington Bcshs,Finance,Banks - Midwest,9198225000.0,True
+XRAY,Dentsply Sirona Inc,Medical,Medical - Dental Suppliers,9170618000.0,True
+CNA,Cna Financial Corp,Finance,Insurance - Proprty & Casualty,9151907000.0,True
+QGEN,Qiagen N.V.,Medical,Medical - Biomedical,9066807000.0,True
+UHS,Universal Health Services,Medical,Medical - Hospitals,9062166000.0,True
+KOF,Coca Cola Femsa S.A.B. DE C.V.,Consumer Staples,Beverages - Soft,9057356000.0,True
+CNP,Centerpoint Energy Inc,Utilities,Utility - Electric Power,8951573000.0,True
+MMP,Magellan Midstream Partners LP,Oils-Energy,Oil Gas Prod Pipeline MLP,8935890000.0,True
+NBIX,Neurocrine Bioscienc,Medical,Medical - Drugs,8922790000.0,True
+AU,Anglogold Ashanti Ltd,Basic Materials,Mining - Gold,8906897000.0,True
+CY,Cypress Semiconductor,Computers and Technology,Semi Communications,8900200000.0,True
+CPT,Camden Property Trust,Finance,REIT - Equity Trust Resident,8876035000.0,True
+BCH,Banco DE Chile,Finance,Banks - Foreign,8864153000.0,True
+ALLE,Allegion Plc,Industrial Products,Protection - Safety,8860564000.0,True
+WPP,Wpp Plc ADR,Business Services,Advertising Marketing Services,8854235000.0,True
+CNHI,CNH Industrial N.V.,Auto-Tires-Trucks,Auto - Foreign,8829863000.0,True
+NDSN,Nordson Corp,Industrial Products,Machinery - General Industrial,8829131000.0,True
+COUP,Coupa Software Inc,Computers and Technology,Internet - Software,8787163000.0,True
+FICO,Fair Isaac and Company Inc,Computers and Technology,IT Services,8776754000.0,True
+BILI,Bilibili Inc ADR,Computers and Technology,Internet - Services,8749799000.0,True
+EXPE,Expedia Group Inc,Retail-Wholesale,Internet Commerce,8738051000.0,True
+PKI,Perkinelmer,Computers and Technology,Industrial Scientific,8719555000.0,True
+NLY,Annaly Capital Management Inc,Finance,REIT - Mortgage Trusts,8682674000.0,True
+VST,Vistra Energy Corp,Utilities,Utility - Electric Power,8680560000.0,True
+RE,Everest Re Group,Finance,Insurance - Proprty & Casualty,8664598000.0,True
+GL,Globe Life Inc,Finance,Finance - Misc Services,8634719000.0,True
+TRMB,Trimble Navigation,Computers and Technology,Electronics Products - Misc,8620720000.0,True
+ASX,Ase Industrial Holding Co. Ltd,Computers and Technology,Electronics - Semiconductors,8594816000.0,True
+PKG,Packaging Corp of America,Industrial Products,Containers - Paper Products,8580130000.0,True
+HST,Host Marriott Financial Trust,Finance,REIT - Equity Trust Other,8541590000.0,True
+RPM,RPM International Inc,Construction,Paint & Related Products,8539965000.0,True
+LW,Lamb Weston Holdings Inc,Consumer Staples,Food - Misc & Diversified,8528678000.0,True
+ATHM,Autohome Inc,Computers and Technology,Internet - Services,8527473000.0,True
+Z,Zillow Group Cl C,Finance,Real Estate Operations,8502722000.0,True
+SRPT,Sarepta Therapeutics,Medical,Medical - Biomedical,8458249000.0,True
+SJR,Shaw Communications Inc,Consumer Discretionary,Cable TV,8457905000.0,True
+CCK,Crown Cork & Seal Company,Industrial Products,Containers - Metal & Glass,8440354000.0,True
+RCL,Royal Caribbean Cruises Ltd,Consumer Discretionary,Leisure & Recreation Services,8405980000.0,True
+PSXP,Phillips 66 Partners LP,Oils-Energy,Oil Refining & Marketing MLP,8390025000.0,True
+Y,Alleghany Corp,Finance,Insurance - Proprty & Casualty,8389243000.0,True
+ZG,Zillow Grp Inc Cl A,Computers and Technology,Internet - Services,8385529000.0,True
+HTHT,Huazhu Group Ltd,Consumer Discretionary,Hotels & Motels,8370649000.0,True
+IHG,Intercontinental Hotels Group,Consumer Discretionary,Hotels & Motels,8361992000.0,True
+EBR.B,Centrais Eletricas Brasileiras ADR,Utilities,Utility - Electric Power,8359266000.0,True
+WRK,Westrock Company,Basic Materials,Paper & Related Products,8311945000.0,True
+VNO,Vornado Realty Trust,Finance,REIT - Equity Trust Other,8309202000.0,True
+MYL,Mylan NV Ord Shs,Medical,Medical - Generic Drugs,8300126000.0,True
+WU,Western Union Company,Business Services,Financial Transaction Services,8295486000.0,True
+CTLT,Catalent Inc,Medical,Medical - Drugs,8266647000.0,True
+ICLR,Icon Plc,Medical,Medical Services,8226152000.0,True
+LYV,Live Nation Entertainment,Consumer Discretionary,Leisure & Recreation Services,8210102000.0,True
+BEP,Brookfield Renewable,Utilities,Utility - Electric Power,8206141000.0,True
+EMN,Eastman Chemical Company,Basic Materials,Chemical - Diversified,8114231000.0,True
+ZS,Zscaler Inc,Computers and Technology,Internet - Services,8096142000.0,True
+PPD,Ppd Inc.,Medical,Medical Services,8087056000.0,True
+GGG,Graco Inc,Industrial Products,Machinery - General Industrial,8082034000.0,True
+VICI,Vici Properties Inc,Finance,REIT - Equity Trust Other,8041554000.0,True
+POOL,Pool Corp,Consumer Discretionary,Leisure & Recreational Prdcts,8029865000.0,True
+WB,Weibo Corp Ads,Computers and Technology,Internet - Content,8015925000.0,True
+PTON,Peloton Interactive Inc,Consumer Discretionary,Leisure & Recreational Prdcts,7984976000.0,True
+CGNX,Cognex Cp,Computers and Technology,Electronic Test Equipment,7981032000.0,True
+URI,United Rentals,Construction,Building & Construction - Misc,7978942000.0,True
+AVTR,Avantor Inc,Medical,Medical Services,7974838000.0,True
+MDB,Mongodb Inc Cl A,Computers and Technology,Internet - Software,7963172000.0,True
+FNF,Fidelity National Financial,Finance,Insurance - Proprty & Casualty,7954047000.0,True
+BSAC,Banco Santander Chile ADR,Finance,Banks - Foreign,7914732000.0,True
+LII,Lennox International,Construction,Building Prdcts - Air Heating,7885388000.0,True
+DOX,Amdocs Ltd Ord,Computers and Technology,IT Services,7876134000.0,True
+OHI,Omega Healthcare Investors,Finance,REIT - Equity Trust Other,7845358000.0,True
+HII,Huntington Ingalls Industries,Aerospace,Aerospace - Defense,7834889000.0,True
+UAL,United Continental Holdings,Transportation,Transportation - Airline,7810457000.0,True
+IRM,Iron Mountain Inc,Finance,REIT - Equity Trust Other,7804129000.0,True
+GSX,Gsx Techedu Inc ADR,Business Services,Technology Services,7799530000.0,True
+ZEN,Zendesk Inc,Computers and Technology,Internet - Software,7788347000.0,True
+DRI,Darden Restaurants,Retail-Wholesale,Retail - Restaurants,7773751000.0,True
+CCC,Clarivate Analytics Plc,Computers and Technology,Internet - Software,7772138000.0,True
+RDY,Dr. Reddy's Laboratories Ltd,Medical,Medical - Generic Drugs,7767297000.0,True
+CONE,Cyrusone Inc,Finance,REIT - Equity Trust Other,7744908000.0,True
+EQH,Axa Equitable Holdings Inc,Finance,Finance - Misc Services,7709482000.0,True
+NRG,NRG Energy,Utilities,Utility - Electric Power,7706672000.0,True
+WUBA,58.com Inc,Computers and Technology,Internet Software Services,7695676000.0,True
+CDAY,Ceridian Hcm Holding Inc,Computers and Technology,Internet - Software,7689752000.0,True
+TS,Tenaris S.A.,Basic Materials,Steel - Pipe & Tube,7673511000.0,True
+ERIE,Erie Indemnity Company,Finance,Insurance - Brokers,7672030000.0,True
+FFIV,F5 Networks Inc,Computers and Technology,Internet - Software,7624214000.0,True
+WYNN,Wynn Resorts Ltd,Consumer Discretionary,Gaming,7596005000.0,True
+DBX,Dropbox Inc,Computers and Technology,Internet - Services,7564503000.0,True
+CHE,Chemed Inc,Medical,Medical - Outpatient & Hm Care,7561103000.0,True
+COG,Cabot Oil & Gas Corp,Oils-Energy,Oil - US Exploration & Product,7525115000.0,True
+KL,Kirkland Lake Gold Ltd,Basic Materials,Mining - Gold,7517117000.0,True
+MPWR,Monolithic Power Sys,Computers and Technology,Semi Analog & Mixed,7490014000.0,True
+HSIC,Henry Schein Inc,Medical,Medical - Dental Suppliers,7459001000.0,True
+HRC,Hill-Rom Holdings Inc,Medical,Medical Products,7444709000.0,True
+LOGI,Logitech Int S.A.,Computers and Technology,Computers - Peripheral Equpt,7435619000.0,True
+AMH,American Homes 4 Rent,Finance,REIT - Equity Trust Resident,7426777000.0,True
+AEG,Aegon N.V.,Finance,Insurance - Multi Line,7425456000.0,True
+MBT,Mobile Telesystems,Computers and Technology,Wireless Non-US,7423651000.0,True
+REG,Regency Centers Corp,Finance,REIT - Equity Trust Retail,7399630000.0,True
+TECH,Bio-Techne Cp,Medical,Medical - Biomedical,7390047000.0,True
+PTC,Ptc Inc,Computers and Technology,Computer - Software,7384687000.0,True
+AAP,Advance Auto Parts Inc,Retail-Wholesale,Retail - Wholesale Auto Parts,7382850000.0,True
+AQN,Algonquin Pwr & Util,Utilities,Utility - Electric Power,7379762000.0,True
+IONS,Ionis Pharmaceuticals,Medical,Medical - Drugs,7378660000.0,True
+SCI,Service Corp International,Consumer Staples,Funeral Services & Related,7323316000.0,True
+RNR,Renaissancere Holdings Ltd,Finance,Insurance - Proprty & Casualty,7272941000.0,True
+W,Wayfair Inc,Retail-Wholesale,Internet Commerce,7233276000.0,True
+AFG,American Financial Group,Finance,Insurance - Proprty & Casualty,7232590000.0,True
+ABMD,Abiomed Inc,Medical,Medical Instruments,7213683000.0,True
+COLD,Americold Realty Trust,Finance,REIT - Equity Trust Other,7195896000.0,True
+JNPR,Juniper Networks,Computers and Technology,Wireless Equipment,7173030000.0,True
+HAL,Halliburton Company,Oils-Energy,Oil - Field Services,7170212000.0,True
+MGM,MGM Resorts International,Consumer Discretionary,Gaming,7168655000.0,True
+PAGS,Pagseguro Digital Ltd Cl A,Business Services,Financial Transaction Services,7149034000.0,True
+ALB,Albemarle Corp,Basic Materials,Chemical - Diversified,7125499000.0,True
+PHM,Pultegroup,Construction,Building - Residential & Comm,7111142000.0,True
+FBHS,Fortune Brands Home & Security,Industrial Products,Protection - Safety,7101256000.0,True
+KGC,Kinross Gold Corp,Basic Materials,Mining - Gold,7065363000.0,True
+AYX,Alteryx Inc,Computers and Technology,Internet - Software,7058507000.0,True
+CSL,Carlisle Companies Inc,Conglomerates,Conglomerates - Div Operations,7054808000.0,True
+EHC,Encompass Health Corp,Medical,Medical - Outpatient & Hm Care,7026147000.0,True
+KRC,Kilroy Realty Corp,Finance,REIT - Equity Trust Other,7012330000.0,True
+CIEN,Ciena Corp,Computers and Technology,Fiber Optics,7007413000.0,True
+NVCR,Novocure Ltd Ord Sh,Medical,Medical Services,6974870000.0,True
+STNE,Stoneco Ltd Cl A,Computers and Technology,Internet - Software,6965590000.0,True
+TTC,Toro Company,Consumer Discretionary,Tools - Hand Held,6958984000.0,True
+DT,Dynatrace Inc,Computers and Technology,IT Services,6952658000.0,True
+LKQ,LKQ Corp,Auto-Tires-Trucks,Auto - Truck Replacement Parts,6920045000.0,True
+GWRE,Guidewire Software Inc,Computers and Technology,Business Software Services,6913522000.0,True
+WBC,Wabco Holdings Inc,Auto-Tires-Trucks,Auto - Truck Original Parts,6906715000.0,True
+RGA,Reinsurance Group of America Inc,Finance,Insurance - Life,6903232000.0,True
+RGLD,Royal Gold Inc,Basic Materials,Mining - Gold,6887787000.0,True
+CRL,Charles River Laboratories Intl,Medical,Medical Services,6876436000.0,True
+NTCO,Natura &Co Holding S.A. ADR,Consumer Staples,Cosmetics & Toiletries,6875567000.0,True
+ATR,Aptargroup,Industrial Products,Containers - Paper Products,6871073000.0,True
+PRGO,Perrigo Company,Medical,Medical Products,6867607000.0,True
+BFAM,Bright Horizons Family Solutions Inc,Consumer Discretionary,Schools,6811728000.0,True
+ACAD,Acadia Pharmaceutica,Medical,Medical - Biomedical,6803892000.0,True
+EBR,Centrais Electricas Brazil,Utilities,Utility - Electric Power,6803739000.0,True
+HUBB,Hubbell Inc B,Industrial Products,Machinery - Elect Utilities,6773766000.0,True
+AIZ,Assurant Inc,Finance,Insurance - Multi Line,6723620000.0,True
+MLCO,Melco Resorts & Entertainment,Consumer Discretionary,Gaming,6722929000.0,True
+ENTG,Entegris Inc,Computers and Technology,Electrical - Manufacturing,6713998000.0,True
+CIB,Bancolombia S.A.,Finance,Banks - Foreign,6713532000.0,True
+MLNX,Mellanox Technologies,Computers and Technology,Electronics - Semiconductors,6713425000.0,True
+CF,Cf Industries Holdings,Basic Materials,Fertilizers,6703463000.0,True
+TXT,Textron Inc,Aerospace,Aerospace - Defense,6701869000.0,True
+LNC,Lincoln National Corp,Finance,Insurance - Life,6699306000.0,True
+SNA,Snap-On Inc,Consumer Discretionary,Tools - Hand Held,6678377000.0,True
+CBSH,Commerce Bancshares,Finance,Banks - Midwest,6668260000.0,True
+PFPT,Proofpoint Inc,Computers and Technology,Security,6651797000.0,True
+MTN,Vail Resorts,Consumer Discretionary,Leisure & Recreation Services,6631406000.0,True
+AGNC,American Capital Age,Finance,REIT - Mortgage Trusts,6604914000.0,True
+AZPN,Aspen Technology,Computers and Technology,Computer - Software,6603763000.0,True
+ZNGA,Zynga Inc Cl A,Consumer Discretionary,Gaming,6575211000.0,True
+LSXMK,Liberty Srs XM CS C,Computers and Technology,Satellite Communication,6566864000.0,True
+WHR,Whirlpool Corp,Consumer Discretionary,Appliances - Household,6565521000.0,True
+CCL,Carnival Corp,Consumer Discretionary,Leisure & Recreation Services,6553786000.0,True
+OLED,Universal Display,Computers and Technology,Electronics - Misc Components,6528930000.0,True
+AOS,Smith [A.O.] Corp,Industrial Products,Machinery - Electrical,6512814000.0,True
+OGE,Oge Energy Corp,Utilities,Utility - Electric Power,6509756000.0,True
+FRT,Federal Realty Investment Trust,Finance,REIT - Equity Trust Retail,6503578000.0,True
+GH,Guardant Health Inc,Medical,Medical - Biomedical,6500158000.0,True
+NET,Cloudflare Inc Cl A,Computers and Technology,Internet - Software,6409810000.0,True
+POST,Post Holdings Inc,Consumer Staples,Food - Misc & Diversified,6384145000.0,True
+TXG,10X Genomics Inc,Medical,Medical Information Systems,6364642000.0,True
+PCG,Pacific Gas & Electric Company,Utilities,Utility - Electric Power,6352134000.0,True
+BHC,Bausch Health Companies Inc,Medical,Medical - Generic Drugs,6341790000.0,True
+GNRC,Generac Holdings Inc,Computers and Technology,Electrical Power,6340641000.0,True
+ETSY,Etsy Inc,Computers and Technology,Internet - Services,6331502000.0,True
+IPGP,Ipg Photonics Corp,Computers and Technology,Lasers - Systems & Components,6326554000.0,True
+TSU,Tim Participacoes S.A.,Computers and Technology,Wireless Non-US,6314099000.0,True
+IPG,Interpublic Group of Companies,Business Services,Advertising Marketing Services,6313775000.0,True
+ALLY,Ally Financial,Finance,Finance - Consumer Loans,6301051000.0,True
+REYN,Reynolds Consumer Products Inc,Consumer Discretionary,Consumer Prdts - Misc Discr,6270060000.0,True
+MHK,Mohawk Industries,Consumer Discretionary,Textile - Home Furnishings,6264903000.0,True
+UGI,Ugi Corp,Utilities,Utility - Gas Distribution,6264782000.0,True
+GLIBA,Gci Liberty Inc Cl A,Utilities,Wireless National,6250587000.0,True
+TSG,The Stars Group Inc,Consumer Discretionary,Gaming,6248969000.0,True
+AMED,Amedisys Inc,Medical,Medical - Outpatient & Hm Care,6200732000.0,True
+SMG,Scotts Miracle-Gro Company,Basic Materials,Fertilizers,6188391000.0,True
+WSO,Watsco Inc,Construction,Building Prdcts - Air Heating,6181614000.0,True
+JAZZ,Jazz Pharma Plc,Medical,Medical - Drugs,6157228000.0,True
+HUBS,Hubspot Inc,Computers and Technology,Internet - Software,6142566000.0,True
+ARGX,Argenx Se Ads,Medical,Medical - Biomedical,6134025000.0,True
+GLPI,Gaming & Leisure,Finance,REIT - Equity Trust Other,6117501000.0,True
+NNN,National Retail Properties,Finance,REIT - Equity Trust Retail,6084051000.0,True
+PEGA,Pegasystems Inc,Computers and Technology,Computer - Software,6044372000.0,True
+SQM,Sociedad Quimica Y Minera S.A.,Basic Materials,Fertilizers,6011489000.0,True
+RS,Reliance Steel & Aluminum Company,Basic Materials,Metal Products - Distribution,6006792000.0,True
+NWL,Newell Rubbermaid Inc,Consumer Staples,Consumer Prdts - Misc Staple,5992525000.0,True
+KNX,Knight-Swift Transporation Inc,Transportation,Transportation - Truck,5985401000.0,True
+GDS,Gds Holdings Ltd,Business Services,Technology Services,5975042000.0,True
+CEA,China Eastern Airlines Corp Ltd,Transportation,Transportation - Airline,5965414000.0,True
+AIV,Apartment Investment and Management,Finance,REIT - Equity Trust Resident,5952732000.0,True
+JLL,Jones Lang Lasalle Inc,Finance,Real Estate Operations,5949053000.0,True
+RL,Ralph Lauren Corp,Consumer Staples,Textile - Apparel,5929594000.0,True
+HTA,Healthcare Trust of America,Finance,REIT - Equity Trust Other,5926363000.0,True
+WSO.B,Watsco Inc Cl B,Construction,Building Prdcts - Air Heating,5920538000.0,True
+LITE,Lumentum Hld,Computers and Technology,Lasers - Systems & Components,5916239000.0,True
+HZNP,Horizon Therapeutics,Medical,Medical - Biomedical,5900541000.0,True
+GNTX,Gentex Corp,Auto-Tires-Trucks,Auto - Truck Original Parts,5898472000.0,True
+ARMK,Aramark Holdings Corp,Consumer Staples,Food - Misc & Diversified,5875322000.0,True
+WLK,Westlake Chemical Corp,Basic Materials,Chemical - Plastics,5856005000.0,True
+DEI,Douglas Emmett,Finance,REIT - Equity Trust Other,5825925000.0,True
+MSG,The Madison Square Garden Comp,Consumer Discretionary,Leisure & Recreation Services,5808695000.0,True
+ASND,Ascendis Pharma Ads,Medical,Medical - Biomedical,5793727000.0,True
+BG,Bunge Ltd,Basic Materials,Agriculture Products,5791899000.0,True
+DLB,Dolby Laboratories,Consumer Discretionary,Audio & Video Products,5781428000.0,True
+HWM,Howmet Aerospace Inc.,Industrial Products,Engineering & R&D Services,5775927000.0,True
+FWONK,Liberty Media F1 Series K,Consumer Discretionary,Media Conglomerates,5772793000.0,True
+CACI,Caci International,Computers and Technology,Computer - Services,5767563000.0,True
+CACC,Credit Acceptance,Finance,Finance - Consumer Loans,5756950000.0,True
+VOYA,VOYA Financial Inc,Finance,Insurance - Life,5755644000.0,True
+G,Genpact Ltd,Business Services,Outsourcing,5753858000.0,True
+AVLR,Avalara Inc,Computers and Technology,Internet - Software,5750898000.0,True
+XPO,Xpo Logistics Inc,Transportation,Transportation - Services,5716961000.0,True
+WIX,Wix.com Ltd,Computers and Technology,IT Services,5707318000.0,True
+PEN,Penumbra Inc,Medical,Medical Instruments,5706464000.0,True
+JHX,James Hardie Industries Se,Construction,Building & Construction - Misc,5705283000.0,True
+NWS,News Cp Cl B,Consumer Discretionary,Movie & TV Production & Dist,5700288000.0,True
+VER,Vereit Inc,Finance,REIT - Equity Trust Other,5690684000.0,True
+BRKR,Bruker Corp,Computers and Technology,Industrial Scientific,5674634000.0,True
+PRAH,Pra Health,Medical,Medical Services,5671163000.0,True
+SBS,Cia DE Saneamento Basico Do Estado,Utilities,Utility - Water Supply,5632123000.0,True
+ON,On Semiconductor,Computers and Technology,Semi Analog & Mixed,5621762000.0,True
+SC,Santander Consumer USA Holdings,Finance,Finance - Consumer Loans,5603783000.0,True
+NWSA,News Cp Cl A,Consumer Discretionary,Movie & TV Production & Dist,5582635000.0,True
+ARCC,Ares Capital Corp,Finance,Finance - SBIC & Commercial,5568706000.0,True
+FANG,Diamondback Energy,Oils-Energy,Oil - US Exploration & Product,5517780000.0,True
+FWONA,Liberty Media F1 Series A,Consumer Discretionary,Media Conglomerates,5508708000.0,True
+PNR,Pentair Ltd,Industrial Products,Machinery - Thermal Processing,5505133000.0,True
+EXEL,Exelixis Inc,Medical,Medical - Biomedical,5503182000.0,True
+INGR,Ingredion Inc,Consumer Staples,Food - Misc & Diversified,5491013000.0,True
+UHAL,A M E R C O,Transportation,Transportation - Equip & Lease,5448443000.0,True
+IR,Ingersoll Rand Inc.,Industrial Products,Machinery - General Industrial,5438118000.0,True
+LEA,Lear Corp,Auto-Tires-Trucks,Auto - Truck Original Parts,5433725000.0,True
+LEVI,Levi Strauss & Co. Cl A,Retail-Wholesale,Retail - Apparel & Shoes,5430905000.0,True
+HNP,Huaneng Power Intl,Utilities,Utility - Electric Power,5430343000.0,True
+ESLT,Elbit Systems Ltd,Aerospace,Aerospace - Defense Equipment,5416665000.0,True
+PCTY,Paylocity Hld Corp,Computers and Technology,Internet - Software,5415046000.0,True
+CZR,Caesars Entertainment Corp,Consumer Discretionary,Gaming,5410393000.0,True
+ST,Sensata Technologies Holding N.V.,Computers and Technology,Industrial Controls,5410344000.0,True
+DCI,Donaldson Company,Industrial Products,Pollution Controls,5409319000.0,True
+ATH,Athene Holding Ltd,Finance,Insurance - Life,5394076000.0,True
+UMC,United Microelectronics Corp,Computers and Technology,Electronics - Semiconductors,5393040000.0,True
+H,Hyatt Hotels Corp,Consumer Discretionary,Hotels & Motels,5385321000.0,True
+CUBE,Cubesmart,Finance,REIT - Equity Trust Other,5374991000.0,True
+ZNH,China Southern Airlines Company,Transportation,Transportation - Airline,5368039000.0,True
+WEX,Wex Inc,Business Services,Financial Transaction Services,5330199000.0,True
+AAL,American Airlines Gp,Transportation,Transportation - Airline,5329998000.0,True
+FAF,First American Corp,Finance,Insurance - Proprty & Casualty,5328276000.0,True
+ORCC,Owl Rock Capital Corp,Finance,Finance - Misc Services,5327916000.0,True
+BWA,Borgwarner Inc,Auto-Tires-Trucks,Auto - Truck Original Parts,5320561000.0,True
+MORN,Morningstar Inc,Business Services,Business Information,5320200000.0,True
+RP,Realpage Inc,Computers and Technology,Business Software Services,5316788000.0,True
+SWI,Solarwinds Corp,Computers and Technology,Internet - Software,5314967000.0,True
+CASY,Casey's General Stor,Retail-Wholesale,Retail - Convenience Stores,5274051000.0,True
+ACM,Aecom Technology Corp,Industrial Products,Engineering & R&D Services,5247249000.0,True
+SMAR,Smartsheet Inc Cl A,Computers and Technology,Internet - Software,5242998000.0,True
+TGE,Tallgrass Energy Gp LP,Oils-Energy,E&P MLP,5223979000.0,True
+PBCT,People's United Finl,Finance,Finance - Savings & Loan,5223343000.0,True
+HDS,HD Supply Hlds Cmm,Industrial Products,Industrial Services,5194891000.0,True
+PSO,Pearson Plc,Consumer Discretionary,Media Conglomerates,5194096000.0,True
+ORI,Old Republic International Corp,Finance,Insurance - Multi Line,5185046000.0,True
+FCN,Fti Consulting,Business Services,Consulting,5180545000.0,True
+SYNH,Syneos Health Inc,Medical,Medical Information Systems,5171694000.0,True
+RGEN,Repligen Cp,Medical,Medical - Biomedical,5153711000.0,True
+PB,Prosperity Bancshares,Finance,Banks - Southwest,5116122000.0,True
+NYT,New York Times Company,Consumer Staples,Publishing - Newspapers,5113411000.0,True
+STLD,Steel Dynamics Inc,Basic Materials,Steel - Producers,5095789000.0,True
+LAMR,Lamar Advertis A,Finance,REIT - Equity Trust Other,5091085000.0,True
+CGC,Canopy Growth Corp,Medical,Medical Products,5090204000.0,True
+GFI,Gold Fields Ltd,Basic Materials,Mining - Gold,5085290000.0,True
+ZION,Zions Bancorp,Finance,Banks - West,5083583000.0,True
+SON,Sonoco Products Company,Industrial Products,Containers - Paper Products,5070079000.0,True
+COLM,Columbia Sprtswr,Consumer Staples,Textile - Apparel,5069379000.0,True
+REXR,Rexford Industrial Realty Inc,Finance,REIT - Equity Trust Other,5068007000.0,True
+HAE,Haemonetics Corp,Medical,Medical Products,5052937000.0,True
+NLSN,Nielsen Holdings Plc,Business Services,Business Information,5040557000.0,True
+ALV,Autoliv Inc,Auto-Tires-Trucks,Auto - Truck Original Parts,5034641000.0,True
+GFL,Gfl Environmental Hlds Inc.,Business Services,Waste Removal Svcs,5017060000.0,True
+TREX,Trex Company,Construction,Building Products - Wood,4992415000.0,True
+RHI,Robert Half International Inc,Business Services,Staffing,4982394000.0,True
+HE,Hawaiian Electric Industries,Utilities,Utility - Electric Power,4977012000.0,True
+BERY,Berry Global Group,Industrial Products,Containers - Paper Products,4964775000.0,True
+MDU,Mdu Res Group Inc,Utilities,Utility - Gas Distribution,4947723000.0,True
+NYCB,New York Community Bancorp,Finance,Finance - Savings & Loan,4939382000.0,True
+IDA,Idacorp Inc,Utilities,Utility - Electric Power,4934303000.0,True
+MOS,Mosaic Company,Basic Materials,Fertilizers,4912570000.0,True
+PLAN,Anaplan Inc,Computers and Technology,Internet - Software,4893336000.0,True
+TECD,Tech Data Cp,Retail-Wholesale,Retail - Wholesale Computers,4888213000.0,True
+BWXT,Bwx Technologies Inc,Computers and Technology,Electronics - Misc Components,4885247000.0,True
+CMA,Comerica Inc,Finance,Banks - Major Regional,4876954000.0,True
+KMPR,Kemper Corp,Finance,Insurance - Multi Line,4866097000.0,True
+PLNT,Planet Fitness,Consumer Discretionary,Leisure & Recreation Services,4841611000.0,True
+CUZ,Cousins Properties Inc,Finance,REIT - Equity Trust Other,4831912000.0,True
+SBNY,Signature Bank,Finance,Banks - Northeast,4829020000.0,True
+FIVN,Five9 Inc,Computers and Technology,Internet - Software,4825028000.0,True
+GMED,Globus Medical Inc,Medical,Medical Instruments,4824027000.0,True
+SAM,Boston Beer Company,Consumer Staples,Beverages - Alcohol,4820363000.0,True
+OGS,One Gas Inc,Utilities,Utility - Gas Distribution,4813432000.0,True
+NUAN,Nuance Communicatns,Computers and Technology,Computer - Software,4806267000.0,True
+SEDG,Solaredge Tech,Oils-Energy,Solar,4793247000.0,True
+PPC,Pilgrim's Pride,Consumer Staples,Food - Meat Products,4787459000.0,True
+PWR,Quanta Services,Industrial Products,Engineering & R&D Services,4781177000.0,True
+LSI,Life Storage,Finance,REIT - Equity Trust Other,4778344000.0,True
+OC,Owens Corning Inc,Construction,Building & Construction - Misc,4773561000.0,True
+SEE,Sealed Air Corp,Industrial Products,Containers - Paper Products,4763867000.0,True
+DNKN,Dunkin' Brands Group,Retail-Wholesale,Retail - Restaurants,4754190000.0,True
+MKSI,Mks Instruments Inc,Computers and Technology,Electrical - Manufacturing,4747438000.0,True
+XLRN,Acceleron Pharma,Medical,Medical - Biomedical,4740060000.0,True
+EEFT,Euronet Worldwide,Finance,Finance - Misc Services,4725281000.0,True
+ENPH,Enphase Energy Inc,Oils-Energy,Solar,4713769000.0,True
+UAA,Under Armour,Consumer Staples,Textile - Apparel,4712545000.0,True
+POR,Portland General Electric Company,Utilities,Utility - Electric Power,4698649000.0,True
+LECO,Lincoln Elec Hld,Industrial Products,Machinery - Tools & Related,4698262000.0,True
+RETA,Reata Pharma,Medical,Medical - Biomedical,4691462000.0,True
+FLO,Flowers Foods,Consumer Staples,Food - Misc & Diversified,4690618000.0,True
+KIM,Kimco Realty Corp,Finance,REIT - Equity Trust Retail,4679748000.0,True
+ACC,American Campus Communities Inc,Finance,REIT - Equity Trust Resident,4678640000.0,True
+FR,First Industrial Realty Trust,Finance,REIT - Equity Trust Other,4674380000.0,True
+NATI,Natl Instruments Cor,Computers and Technology,Electronic Test Equipment,4662866000.0,True
+ARW,Arrow Electronics,Computers and Technology,Electronics - Parts Distrib,4657145000.0,True
+PHI,Philippine Long Distance Telephone,Computers and Technology,Wireless Non-US,4639680000.0,True
+FLIR,Flir Systems Inc,Aerospace,Electronics - Military,4638732000.0,True
+SRCL,Stericycle Inc,Business Services,Waste Removal Svcs,4629266000.0,True
+FIVE,Five Below Inc,Retail-Wholesale,Retail - Misc & Diversified,4613937000.0,True
+YY,YY Inc,Computers and Technology,Internet - Services,4611684000.0,True
+VIRT,Virtu Financial Cm A,Finance,Finance - Misc Services,4606411000.0,True
+FTSV,Forty Seven Inc,Medical,Medical - Drugs,4599379000.0,True
+CHGG,Chegg Inc,Computers and Technology,Internet - Software,4589159000.0,True
+LPLA,Lpl Financial Hld,Finance,Finance - Investment Brokers,4584463000.0,True
+COTY,Coty Inc,Consumer Staples,Cosmetics & Toiletries,4578511000.0,True
+COR,Coresite Realty Corp,Finance,REIT - Equity Trust Other,4578165000.0,True
+BPY,Brookfield Property Partners L,Finance,Real Estate Developers,4545785000.0,True
+MOMO,Momo Inc Ads,Computers and Technology,Internet Software Services,4532563000.0,True
+EWBC,East West Bancorp,Finance,Banks - West,4530425000.0,True
+SAIC,Science Applications International,Computers and Technology,IT Services,4529107000.0,True
+CLR,Continental Resources,Oils-Energy,Oil - US Exploration & Product,4527622000.0,True
+NEU,Newmarket Corp,Basic Materials,Chemical - Specialty,4519413000.0,True
+ITT,ITT Inc,Conglomerates,Conglomerates - Div Operations,4508590000.0,True
+STOR,Store Capital Corpstore Capital,Finance,REIT - Equity Trust Retail,4499851000.0,True
+HR,Healthcare Realty Trust Inc,Finance,REIT - Equity Trust Other,4495502000.0,True
+NOV,National-Oilwell,Oils-Energy,Oil Field Machinery & Equip,4476985000.0,True
+OSK,Oshkosh Truck Corp,Auto-Tires-Trucks,Auto - Truck Original Parts,4474067000.0,True
+BYND,Beyond Meat Inc,Consumer Staples,Food - Meat Products,4471394000.0,True
+EGP,Eastgroup Properties,Finance,REIT - Equity Trust Other,4463227000.0,True
+HLF,Herbalife Ltd,Retail-Wholesale,Retail - Drug Stores,4462047000.0,True
+JBGS,Jbg Smith Properties,Finance,REIT - Equity Trust Other,4453837000.0,True
+AAXN,Axon Inc,Industrial Products,Protection - Safety,4446741000.0,True
+CFR,Cullen/Frost Bankers,Finance,Banks - Southwest,4445679000.0,True
+FLEX,Flextronics Intl Ltd,Computers and Technology,Electronics Products - Misc,4440170000.0,True
+BKH,Black Hills Corp,Utilities,Utility - Electric Power,4433986000.0,True
+ESTC,Elastic N.V.,Business Services,Technology Services,4412934000.0,True
+MSA,Msa Safety Inc,Industrial Products,Protection - Safety,4412326000.0,True
+Downloaded from Barchart.com as of 04-13-2020 12:57pm CDT,,,,,True
