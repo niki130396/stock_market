@@ -1,8 +1,6 @@
-from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework.generics import RetrieveAPIView, ListAPIView
 from rest_framework.response import Response
-from rest_framework.filters import SearchFilter
+
 from api.serializers import (
     StockSerializer,
     AggregatedDataSerializer,
@@ -66,4 +64,3 @@ class SingleFinancialStatementView(RetrieveSpecificStatementView):
 class FilteredStatementsView(FilterStatementsMixin):
     serializer_class = SingleFinancialStatementSerializer
     model = FinancialsData
-
