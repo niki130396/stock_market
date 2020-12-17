@@ -1,10 +1,14 @@
 import requests
 from lxml import html
 import pandas as pd
+import redis
 
 from pipeline.db_connections import StockMarketDBConnector
 
 from schedulers.celery import celery_app
+
+
+redis_instance = redis.Redis()
 
 
 class Financials(StockMarketDBConnector):
@@ -186,9 +190,27 @@ def check_faults_status(faults):
     return True
 
 
+def check_if_active(symbol):
+    if not redis_instance.exists(symbol):
+        redis_instance.set(symbol, 1)
+    else:
+        redis_instance.incr(symbol, 1)
+    if int(redis_instance.get(symbol)) >= 2:
+        return False
+    return True
+
+
+celery_app.conf.beat_schedule = {
+    'run-every-ten-secs': {
+        'task': 'financials_spider.yahoo_spider.run',
+        'schedule': 299
+    }
+}
+
+
 @celery_app.task
 def run():
-    initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/barchart.csv')
+    initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/nasdaq.csv')
     active_data = initial_data.loc[initial_data['IsActive'] == True][['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
@@ -213,13 +235,14 @@ def run():
 
         for statement in statements:
             statement_type, obj = statements[statement]
-            document[statement_type] = []
             url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement}?p={dict_["Symbol"]}'
             try:
                 statement_data = obj(url).fetch_statement()
-                document[statement_type].extend(statement_data)
+                document.update({statement_type: statement_data})
             except TypeError:
                 print(f'{statement} FOR {document["name"]} MISSING')
+                if not check_if_active(dict_['Symbol']):
+                    initial_data.loc[initial_data['Symbol'] == dict_['Symbol'], 'IsActive'] = False
                 faults += 1
                 status = check_faults_status(faults)
                 break
@@ -229,4 +252,5 @@ def run():
             faults = 0
             print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')
         if not status:
+            initial_data.to_csv('~/PycharmProjects/stock_market_project/nasdaq.csv', index=False)
             return

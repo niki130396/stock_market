@@ -654,7 +654,7 @@ CNP,Centerpoint Energy Inc,Utilities,Utility - Electric Power,8951573000.0,True
 MMP,Magellan Midstream Partners LP,Oils-Energy,Oil Gas Prod Pipeline MLP,8935890000.0,True
 NBIX,Neurocrine Bioscienc,Medical,Medical - Drugs,8922790000.0,True
 AU,Anglogold Ashanti Ltd,Basic Materials,Mining - Gold,8906897000.0,True
-CY,Cypress Semiconductor,Computers and Technology,Semi Communications,8900200000.0,True
+CY,Cypress Semiconductor,Computers and Technology,Semi Communications,8900200000.0,False
 CPT,Camden Property Trust,Finance,REIT - Equity Trust Resident,8876035000.0,True
 BCH,Banco DE Chile,Finance,Banks - Foreign,8864153000.0,True
 ALLE,Allegion Plc,Industrial Products,Protection - Safety,8860564000.0,True
@@ -687,10 +687,10 @@ Y,Alleghany Corp,Finance,Insurance - Proprty & Casualty,8389243000.0,True
 ZG,Zillow Grp Inc Cl A,Computers and Technology,Internet - Services,8385529000.0,True
 HTHT,Huazhu Group Ltd,Consumer Discretionary,Hotels & Motels,8370649000.0,True
 IHG,Intercontinental Hotels Group,Consumer Discretionary,Hotels & Motels,8361992000.0,True
-EBR.B,Centrais Eletricas Brasileiras ADR,Utilities,Utility - Electric Power,8359266000.0,True
+EBR.B,Centrais Eletricas Brasileiras ADR,Utilities,Utility - Electric Power,8359266000.0,False
 WRK,Westrock Company,Basic Materials,Paper & Related Products,8311945000.0,True
 VNO,Vornado Realty Trust,Finance,REIT - Equity Trust Other,8309202000.0,True
-MYL,Mylan NV Ord Shs,Medical,Medical - Generic Drugs,8300126000.0,True
+MYL,Mylan NV Ord Shs,Medical,Medical - Generic Drugs,8300126000.0,False
 WU,Western Union Company,Business Services,Financial Transaction Services,8295486000.0,True
 CTLT,Catalent Inc,Medical,Medical - Drugs,8266647000.0,True
 ICLR,Icon Plc,Medical,Medical Services,8226152000.0,True
@@ -724,7 +724,7 @@ RDY,Dr. Reddy's Laboratories Ltd,Medical,Medical - Generic Drugs,7767297000.0,Tr
 CONE,Cyrusone Inc,Finance,REIT - Equity Trust Other,7744908000.0,True
 EQH,Axa Equitable Holdings Inc,Finance,Finance - Misc Services,7709482000.0,True
 NRG,NRG Energy,Utilities,Utility - Electric Power,7706672000.0,True
-WUBA,58.com Inc,Computers and Technology,Internet Software Services,7695676000.0,True
+WUBA,58.com Inc,Computers and Technology,Internet Software Services,7695676000.0,False
 CDAY,Ceridian Hcm Holding Inc,Computers and Technology,Internet - Software,7689752000.0,True
 TS,Tenaris S.A.,Basic Materials,Steel - Pipe & Tube,7673511000.0,True
 ERIE,Erie Indemnity Company,Finance,Insurance - Brokers,7672030000.0,True
@@ -772,7 +772,7 @@ TTC,Toro Company,Consumer Discretionary,Tools - Hand Held,6958984000.0,True
 DT,Dynatrace Inc,Computers and Technology,IT Services,6952658000.0,True
 LKQ,LKQ Corp,Auto-Tires-Trucks,Auto - Truck Replacement Parts,6920045000.0,True
 GWRE,Guidewire Software Inc,Computers and Technology,Business Software Services,6913522000.0,True
-WBC,Wabco Holdings Inc,Auto-Tires-Trucks,Auto - Truck Original Parts,6906715000.0,True
+WBC,Wabco Holdings Inc,Auto-Tires-Trucks,Auto - Truck Original Parts,6906715000.0,False
 RGA,Reinsurance Group of America Inc,Finance,Insurance - Life,6903232000.0,True
 RGLD,Royal Gold Inc,Basic Materials,Mining - Gold,6887787000.0,True
 CRL,Charles River Laboratories Intl,Medical,Medical Services,6876436000.0,True
@@ -787,7 +787,7 @@ AIZ,Assurant Inc,Finance,Insurance - Multi Line,6723620000.0,True
 MLCO,Melco Resorts & Entertainment,Consumer Discretionary,Gaming,6722929000.0,True
 ENTG,Entegris Inc,Computers and Technology,Electrical - Manufacturing,6713998000.0,True
 CIB,Bancolombia S.A.,Finance,Banks - Foreign,6713532000.0,True
-MLNX,Mellanox Technologies,Computers and Technology,Electronics - Semiconductors,6713425000.0,True
+MLNX,Mellanox Technologies,Computers and Technology,Electronics - Semiconductors,6713425000.0,False
 CF,Cf Industries Holdings,Basic Materials,Fertilizers,6703463000.0,True
 TXT,Textron Inc,Aerospace,Aerospace - Defense,6701869000.0,True
 LNC,Lincoln National Corp,Finance,Insurance - Life,6699306000.0,True
@@ -814,14 +814,14 @@ BHC,Bausch Health Companies Inc,Medical,Medical - Generic Drugs,6341790000.0,Tru
 GNRC,Generac Holdings Inc,Computers and Technology,Electrical Power,6340641000.0,True
 ETSY,Etsy Inc,Computers and Technology,Internet - Services,6331502000.0,True
 IPGP,Ipg Photonics Corp,Computers and Technology,Lasers - Systems & Components,6326554000.0,True
-TSU,Tim Participacoes S.A.,Computers and Technology,Wireless Non-US,6314099000.0,True
+TSU,Tim Participacoes S.A.,Computers and Technology,Wireless Non-US,6314099000.0,False
 IPG,Interpublic Group of Companies,Business Services,Advertising Marketing Services,6313775000.0,True
 ALLY,Ally Financial,Finance,Finance - Consumer Loans,6301051000.0,True
 REYN,Reynolds Consumer Products Inc,Consumer Discretionary,Consumer Prdts - Misc Discr,6270060000.0,True
 MHK,Mohawk Industries,Consumer Discretionary,Textile - Home Furnishings,6264903000.0,True
 UGI,Ugi Corp,Utilities,Utility - Gas Distribution,6264782000.0,True
 GLIBA,Gci Liberty Inc Cl A,Utilities,Wireless National,6250587000.0,True
-TSG,The Stars Group Inc,Consumer Discretionary,Gaming,6248969000.0,True
+TSG,The Stars Group Inc,Consumer Discretionary,Gaming,6248969000.0,False
 AMED,Amedisys Inc,Medical,Medical - Outpatient & Hm Care,6200732000.0,True
 SMG,Scotts Miracle-Gro Company,Basic Materials,Fertilizers,6188391000.0,True
 WSO,Watsco Inc,Construction,Building Prdcts - Air Heating,6181614000.0,True
@@ -841,14 +841,14 @@ AIV,Apartment Investment and Management,Finance,REIT - Equity Trust Resident,595
 JLL,Jones Lang Lasalle Inc,Finance,Real Estate Operations,5949053000.0,True
 RL,Ralph Lauren Corp,Consumer Staples,Textile - Apparel,5929594000.0,True
 HTA,Healthcare Trust of America,Finance,REIT - Equity Trust Other,5926363000.0,True
-WSO.B,Watsco Inc Cl B,Construction,Building Prdcts - Air Heating,5920538000.0,True
+WSO.B,Watsco Inc Cl B,Construction,Building Prdcts - Air Heating,5920538000.0,False
 LITE,Lumentum Hld,Computers and Technology,Lasers - Systems & Components,5916239000.0,True
 HZNP,Horizon Therapeutics,Medical,Medical - Biomedical,5900541000.0,True
 GNTX,Gentex Corp,Auto-Tires-Trucks,Auto - Truck Original Parts,5898472000.0,True
 ARMK,Aramark Holdings Corp,Consumer Staples,Food - Misc & Diversified,5875322000.0,True
 WLK,Westlake Chemical Corp,Basic Materials,Chemical - Plastics,5856005000.0,True
 DEI,Douglas Emmett,Finance,REIT - Equity Trust Other,5825925000.0,True
-MSG,The Madison Square Garden Comp,Consumer Discretionary,Leisure & Recreation Services,5808695000.0,True
+MSG,The Madison Square Garden Comp,Consumer Discretionary,Leisure & Recreation Services,5808695000.0,False
 ASND,Ascendis Pharma Ads,Medical,Medical - Biomedical,5793727000.0,True
 BG,Bunge Ltd,Basic Materials,Agriculture Products,5791899000.0,True
 DLB,Dolby Laboratories,Consumer Discretionary,Audio & Video Products,5781428000.0,True
@@ -903,7 +903,7 @@ SWI,Solarwinds Corp,Computers and Technology,Internet - Software,5314967000.0,Tr
 CASY,Casey's General Stor,Retail-Wholesale,Retail - Convenience Stores,5274051000.0,True
 ACM,Aecom Technology Corp,Industrial Products,Engineering & R&D Services,5247249000.0,True
 SMAR,Smartsheet Inc Cl A,Computers and Technology,Internet - Software,5242998000.0,True
-TGE,Tallgrass Energy Gp LP,Oils-Energy,E&P MLP,5223979000.0,True
+TGE,Tallgrass Energy Gp LP,Oils-Energy,E&P MLP,5223979000.0,False
 PBCT,People's United Finl,Finance,Finance - Savings & Loan,5223343000.0,True
 HDS,HD Supply Hlds Cmm,Industrial Products,Industrial Services,5194891000.0,True
 PSO,Pearson Plc,Consumer Discretionary,Media Conglomerates,5194096000.0,True
