@@ -1,18 +1,16 @@
 from djongo import models
-from pymongo import MongoClient
+
+from pipeline.db_connections import StockMarketDBConnector
 # Create your models here.
 
 
-class MongoConnector:
-    def __init__(self):
-        self.client = MongoClient()
-        self.db = self.client.stock_market
-        self.collection = self.db.visualisations_financialsdata
+class FinancialsDataConnector(StockMarketDBConnector):
+    COLLECTION = 'api_financialsdata'
 
 
 class CustomManager(models.DjongoManager):
     def get_revenues(self, n):
-        cursor = MongoConnector()
+        cursor = FinancialsDataConnector()
         result = cursor.collection.find({'financials.total_revenue': {'$gt': n}}, {'_id': 0})
         result_list = []
         for item in result:
