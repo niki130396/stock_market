@@ -3,6 +3,8 @@ from lxml import html
 import pandas as pd
 import redis
 
+from celery import shared_task, group
+
 from pipeline.db_connections import StockMarketDBConnector
 
 from schedulers.celery import celery_app
@@ -190,7 +192,7 @@ def check_faults_status(faults):
     return True
 
 
-def check_if_active(symbol):
+def is_active(symbol):
     if not redis_instance.exists(symbol):
         redis_instance.set(symbol, 1)
     else:
@@ -208,13 +210,77 @@ celery_app.conf.beat_schedule = {
 }
 
 
-@celery_app.task
-def run():
+# celery_app.conf.beat_schedule = {
+#     'collect_financial_statements' : {
+#         'task': 'financials_spider.yahoo_spider.fetch_statements',
+#         'schedule': 299
+#     }
+# }
+
+
+# @celery_app.task
+# def run():
+#     initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/nasdaq.csv')
+#     active_data = initial_data.loc[initial_data['IsActive'] == True][['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
+#     cursor = Financials()
+#
+#     data_to_work = filter_out_present_symbols(active_data, cursor.get_present_symbols())
+#     statements = {
+#         'financials': ('financials', IncomeStatementParser),
+#         'balance-sheet': ('balance_sheet', BalanceSheetParser),
+#         'cash-flow': ('cash_flow', CashFlowParser)
+#     }
+#
+#     from_id = cursor.from_id
+#     faults = 0
+#     for dict_ in data_to_work:
+#         status = True
+#         document = {
+#             'id': from_id,
+#             'symbol': dict_['Symbol'],
+#             'name': dict_['Name'],
+#             'sector': dict_['Sector'],
+#             'industry': dict_['Industry']
+#         }
+#
+#         for statement in statements:
+#             statement_type, obj = statements[statement]
+#             url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement}?p={dict_["Symbol"]}'
+#             try:
+#                 statement_data = obj(url).fetch_statement()
+#                 document.update({statement_type: statement_data})
+#             except TypeError:
+#                 print(f'{statement} FOR {document["name"]} MISSING')
+#                 if not is_active(dict_['Symbol']):
+#                     initial_data.loc[initial_data['Symbol'] == dict_['Symbol'], 'IsActive'] = False
+#                 faults += 1
+#                 status = check_faults_status(faults)
+#                 break
+#         else:
+#             from_id += 1
+#             cursor.collection.insert_one(document)
+#             faults = 0
+#             print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')
+#         if not status:
+#             initial_data.to_csv('~/PycharmProjects/stock_market_project/nasdaq.csv', index=False)
+#             return
+
+
+@shared_task
+def fetch_statements():
     initial_data = pd.read_csv('~/PycharmProjects/stock_market_project/nasdaq.csv')
-    active_data = initial_data.loc[initial_data['IsActive'] == True][['Symbol', 'Name', 'Sector', 'Industry']].to_dict('records')
     cursor = Financials()
 
-    data_to_work = filter_out_present_symbols(active_data, cursor.get_present_symbols())
+    reformatted_rows = {}
+    for row in initial_data.itertuples():
+        reformatted_rows.update({
+            row.Symbol: {
+                'name': row.Name,
+                'sector': row.Sector,
+                'industry': row.Industry
+            }
+        })
+
     statements = {
         'financials': ('financials', IncomeStatementParser),
         'balance-sheet': ('balance_sheet', BalanceSheetParser),
@@ -223,34 +289,53 @@ def run():
 
     from_id = cursor.from_id
     faults = 0
-    for dict_ in data_to_work:
-        status = True
+    while faults < 10:
+        symbol = str(redis_instance.lpop('symbols').decode('utf-8'))
+
         document = {
             'id': from_id,
-            'symbol': dict_['Symbol'],
-            'name': dict_['Name'],
-            'sector': dict_['Sector'],
-            'industry': dict_['Industry']
+            'symbol': symbol,
+            'name': reformatted_rows[symbol]['name'],
+            'sector': reformatted_rows[symbol]['sector'],
+            'industry': reformatted_rows[symbol]['industry']
         }
 
         for statement in statements:
             statement_type, obj = statements[statement]
-            url = f'https://finance.yahoo.com/quote/{dict_["Symbol"]}/{statement}?p={dict_["Symbol"]}'
+            url = f'https://finance.yahoo.com/quote/{symbol}/{statement}?p={symbol}'
+
             try:
                 statement_data = obj(url).fetch_statement()
                 document.update({statement_type: statement_data})
             except TypeError:
                 print(f'{statement} FOR {document["name"]} MISSING')
-                if not check_if_active(dict_['Symbol']):
-                    initial_data.loc[initial_data['Symbol'] == dict_['Symbol'], 'IsActive'] = False
+                if not is_active(symbol):
+                    initial_data.loc[initial_data['Symbol'] == symbol, 'IsActive'] = False
+                else:
+                    redis_instance.rpush('symbols', symbol)
                 faults += 1
-                status = check_faults_status(faults)
                 break
         else:
             from_id += 1
             cursor.collection.insert_one(document)
             faults = 0
             print(f'{document["name"]} DOWNLOADED SUCCESSFULLY')
-        if not status:
-            initial_data.to_csv('~/PycharmProjects/stock_market_project/nasdaq.csv', index=False)
-            return
+    initial_data.to_csv('~/PycharmProjects/stock_market_project/nasdaq.csv', index=False)
+    return
+
+
+celery_app.conf.beat_schedule = {
+    'execute_collection_in_parallel': {
+        'task': 'financials_spider.yahoo_spider.fetch_statements_in_parallel',
+        'schedule': 299
+    }
+}
+
+
+@shared_task
+def fetch_statements_in_parallel():
+    return group(
+        fetch_statements.s(),
+        fetch_statements.s()
+    )
+
