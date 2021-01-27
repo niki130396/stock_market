@@ -1,5 +1,7 @@
-from djongo import models
+import sys
 
+from djongo import models
+sys.path.append('/home/Nikolayp/PycharmProjects/stock_market_project')
 from pipeline.db_connections import StockMarketDBConnector
 # Create your models here.
 
