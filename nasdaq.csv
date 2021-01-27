@@ -6,8 +6,8 @@ AACQ,Artius Acquisition Inc. Class A Common Stock,$10.30,0.01,0.097%,932793750.0
 AACQU,Artius Acquisition Inc. Unit ,$10.90,0.1,0.926%,0.0,United States,2020.0,102806,Finance,Business Services,True
 AACQW,Artius Acquisition Inc Warrant,$1.71,-0.09,-5.00%,0.0,United States,2020.0,196790,Finance,Business Services,True
 AAIC,Arlington Asset Investment Corp Class A (new),$3.70,0.01,0.271%,123682442.0,United States,,274212,Consumer Services,Real Estate Investment Trusts,True
-AAIC.PRB,Arlington Asset Investment Corp,,,,,,,0,,,True
-AAIC.PRC,Arlington Asset Investment Corp,,,,,,,0,,,True
+AAIC.PRB,Arlington Asset Investment Corp,,,,,,,0,,,False
+AAIC.PRC,Arlington Asset Investment Corp,,,,,,,0,,,False
 AAL,American Airlines Group Inc. Common Stock,$16.86,-0.15,-0.882%,10297646437.0,United States,,58992449,Transportation,Air Freight/Delivery Services,True
 AAMC,Altisource Asset Management Corp Com,$22.9797,0.0,0.00%,37921377.0,United States,,134,Finance,Real Estate,True
 AAME,Atlantic American Corporation Common Stock,$2.29,0.05,2.232%,46748699.0,United States,,8623,Finance,Life Insurance,True
@@ -35,16 +35,16 @@ ABM,ABM Industries Incorporated Common Stock,$40.34,-0.76,-1.849%,2690157735.0,U
 ABMD,ABIOMED Inc. Common Stock,$274.14,-1.22,-0.443%,12388354526.0,United States,,303020,Health Care,Medical/Dental Instruments,True
 ABNB,Airbnb Inc. Class A Common Stock,$137.99,13.19,10.569%,82297098976.0,United States,2020.0,20396964,Finance,Diversified Commercial Services,True
 ABR,Arbor Realty Trust Common Stock,$14.41,0.03,0.209%,1778123232.0,United States,2004.0,961907,Consumer Services,Real Estate Investment Trusts,True
-ABR.PRA,Arbor Realty Trust,,,,,,,0,,,True
-ABR.PRB,Arbor Realty Trust,,,,,,,0,,,True
-ABR.PRC,Arbor Realty Trust,,,,,,,0,,,True
+ABR.PRA,Arbor Realty Trust,,,,,,,0,,,False
+ABR.PRB,Arbor Realty Trust,,,,,,,0,,,False
+ABR.PRC,Arbor Realty Trust,,,,,,,0,,,False
 ABST,Absolute Software Corporation Common Stock,$11.24,0.21,1.904%,548262337.0,Canada,2020.0,34207,Technology,Computer Software: Prepackaged Software,True
 ABT,Abbott Laboratories Common Stock,$107.34,-0.11,-0.102%,190245292105.0,United States,,4458335,Health Care,Major Pharmaceuticals,True
 ABTX,Allegiance Bancshares Inc. Common Stock,$34.19,-0.8,-2.286%,699100367.0,United States,2015.0,113311,Finance,Major Banks,True
 ABUS,Arbutus Biopharma Corporation Common Stock,$4.41,-0.56,-11.268%,374449828.0,Canada,,6593313,Health Care,Major Pharmaceuticals,True
 AC,Associated Capital Group Inc. Common Stock,$35.50,-0.7,-1.934%,791832683.0,United States,2015.0,12807,Finance,Investment Bankers/Brokers/Service,True
 ACA,Arcosa Inc. Common Stock ,$54.35,0.12,0.221%,2623331288.0,,2018.0,198308,Capital Goods,Metal Fabrications,True
-ACAC,Acies Acquisition Corp. Class A Ordinary Share,,,,,United States,2020.0,0,Finance,Business Services,True
+ACAC,Acies Acquisition Corp. Class A Ordinary Share,,,,,United States,2020.0,0,Finance,Business Services,False
 ACACU,Acies Acquisition Corp. Unit,$10.47,-0.045,-0.428%,0.0,United States,2020.0,34201,Finance,Business Services,True
 ACACW,Acies Acquisition Corp. Warrant,$1.52,0.0,0.00%,0.0,United States,2020.0,2,Finance,Business Services,True
 ACAD,ACADIA Pharmaceuticals Inc. Common Stock,$53.08,0.51,0.97%,8438556858.0,United States,2004.0,943385,Health Care,Major Pharmaceuticals,True
@@ -56,7 +56,7 @@ ACBI,Atlantic Capital Bancshares Inc. Common Stock,$15.70,0.04,0.255%,326235842.
 ACC,American Campus Communities Inc Common Stock,$43.20,-0.55,-1.257%,5945706331.0,United States,2004.0,763634,Consumer Services,Real Estate Investment Trusts,True
 ACCD,Accolade Inc. Common Stock,$50.88,1.07,2.148%,2800392664.0,United States,2020.0,351669,,,True
 ACCO,Acco Brands Corporation Common Stock,$8.77,0.08,0.921%,828737260.0,United States,,618098,Consumer Durables,Publishing,True
-ACCP,Accelerated Pharma Inc.,,,,,,,0,,,True
+ACCP,Accelerated Pharma Inc.,,,,,,,0,,,False
 ACEL,Accel Entertainment Inc. ,$10.05,0.38,3.93%,971675306.0,United States,2017.0,325488,Consumer Services,Services-Misc. Amusement & Recreation,True
 ACER,Acer Therapeutics Inc. Common Stock (DE),$2.44,0.0,0.00%,29975412.0,United States,,108592,Health Care,Major Pharmaceuticals,True
 ACET,Adicet Bio Inc. Common Stock ,$13.95,0.71,5.363%,273278101.0,United States,2018.0,102500,Health Care,Major Pharmaceuticals,True
@@ -71,18 +71,18 @@ ACHC,Acadia Healthcare Company Inc. Common Stock,$48.38,0.43,0.897%,4305396772.0
 ACHV,Achieve Life Sciences Inc. Common Shares,$7.94,0.04,0.506%,48355902.0,United States,,149477,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,True
 ACI,Albertsons Companies Inc. Class A Common Stock,$15.41,0.17,1.115%,7283579879.0,United States,2020.0,1626324,Consumer Services,Food Chains,True
 ACIA,Acacia Communications Inc. Common Stock,$70.30,0.23,0.328%,2962722497.0,United States,2016.0,808094,Technology,Semiconductors,True
-ACIC.U,Atlas Crest Investment Corp. Units each consisting of one Class A common stock and one-third of one redeemable warrant,,,,,United States,2020.0,0,,,True
+ACIC.U,Atlas Crest Investment Corp. Units each consisting of one Class A common stock and one-third of one redeemable warrant,,,,,United States,2020.0,0,,,False
 ACIU,AC Immune SA Common Stock,$5.30,0.04,0.76%,380228811.0,Switzerland,2016.0,200701,Health Care,Major Pharmaceuticals,True
 ACIW,ACI Worldwide Inc. Common Stock,$38.63,-0.34,-0.872%,4510497943.0,United States,,488046,Technology,Computer Software: Prepackaged Software,True
-ACLL,ACell Inc.,,,,,,,0,,,True
+ACLL,ACell Inc.,,,,,,,0,,,False
 ACLS,Axcelis Technologies Inc. Common Stock,$28.93,0.12,0.417%,969039454.0,United States,2000.0,249158,Technology,Industrial Machinery/Components,True
 ACM,AECOM Common Stock,$47.45,-0.43,-0.898%,7153741883.0,United States,2007.0,1509511,Consumer Services,Military/Government/Technical,True
 ACMR,ACM Research Inc. Class A Common Stock,$74.50,-0.63,-0.839%,1375629388.0,United States,2017.0,127994,Technology,Industrial Machinery/Components,True
 ACN,Accenture plc Class A Ordinary Shares (Ireland),$247.45,0.4,0.162%,163597887919.0,Ireland,2001.0,2246889,Miscellaneous,Business Services,True
 ACNB,ACNB Corporation Common Stock,$26.69,-0.55,-2.019%,232291424.0,United States,,7476,Finance,Major Banks,True
 ACND,Ascendant Digital Acquisition Corp. Class A Ordinary Shares,$10.13,0.03,0.297%,524227500.0,United States,2020.0,61675,Finance,Business Services,True
-ACND.U,Ascendant Digital Acquisition Corp. Units each consisting of one Class A ordinary share and one-half of one redeemable warrant,,,,,United States,2020.0,0,,,True
-ACND.WS,Ascendant Digital Acquisition Corp. Warrants each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share,,,,,United States,,0,,,True
+ACND.U,Ascendant Digital Acquisition Corp. Units each consisting of one Class A ordinary share and one-half of one redeemable warrant,,,,,United States,2020.0,0,,,False
+ACND.WS,Ascendant Digital Acquisition Corp. Warrants each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share,,,,,United States,,0,,,False
 ACOR,Acorda Therapeutics Inc. Common Stock,$0.7377,-0.0021,-0.284%,41954194.0,United States,2006.0,2074154,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 ACP,Aberdeen Income Credit Strategies Fund Common Shares,$10.80,0.0426,0.396%,188266637.0,United States,2011.0,65458,,,True
 ACRE,Ares Commercial Real Estate Corporation Common Stock,$12.88,0.31,2.466%,430732149.0,United States,2012.0,366721,Consumer Services,Real Estate Investment Trusts,True
@@ -101,13 +101,13 @@ ADBE,Adobe Inc. Common Stock,$489.90,7.26,1.504%,235014329772.0,United States,19
 ADC,Agree Realty Corporation Common Stock,$66.86,-0.33,-0.491%,3702073302.0,United States,,1005670,Consumer Services,Real Estate Investment Trusts,True
 ADCT,ADC Therapeutics SA Common Shares,$31.48,-0.6,-1.87%,2415103039.0,,2020.0,162856,Health Care,Major Pharmaceuticals,True
 ADES,Advanced Emissions Solutions Inc. Common Stock,$5.55,0.0,0.00%,102940773.0,United States,,70257,Basic Industries,Major Chemicals,True
-ADFI,Anfield Dynamic Fixed Income ETF,$9.95,-0.0044,-0.044%,,,2020.0,1081,,,True
+ADFI,Anfield Dynamic Fixed Income ETF,$9.95,-0.0044,-0.044%,,,2020.0,1081,,,False
 ADI,Analog Devices Inc. Common Stock,$142.80,-1.26,-0.875%,52762443577.0,United States,,1583055,Technology,Semiconductors,True
 ADIL,Adial Pharmaceuticals Inc Common Stock,$1.92,0.06,3.226%,27634752.0,United States,2018.0,345524,Health Care,Major Pharmaceuticals,True
 ADILW,Adial Pharmaceuticals Inc Warrant,$0.42,0.04,10.526%,0.0,United States,2018.0,6830,Health Care,Major Pharmaceuticals,True
 ADM,Archer-Daniels-Midland Company Common Stock,$49.20,-0.37,-0.746%,27374341211.0,United States,,1937235,Consumer Non-Durables,Packaged Foods,True
 ADMA,ADMA Biologics Inc Common Stock,$2.06,-0.04,-1.905%,194768987.0,United States,,1995650,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
-ADME,Aptus Drawdown Managed Equity ETF,$35.4711,0.1012,0.286%,,United States,2016.0,42954,,,True
+ADME,Aptus Drawdown Managed Equity ETF,$35.4711,0.1012,0.286%,,United States,2016.0,42954,,,False
 ADMP,Adamis Pharmaceuticals Corporation Common Stock,$0.4996,-0.012,-2.346%,46791351.0,United States,,1377995,Health Care,Major Pharmaceuticals,True
 ADMS,Adamas Pharmaceuticals Inc. Common Stock,$5.12,0.1,1.992%,146025057.0,United States,2014.0,256255,Health Care,Major Pharmaceuticals,True
 ADNT,Adient plc Ordinary Shares ,$35.87,-0.49,-1.348%,3367962320.0,,2016.0,839778,Capital Goods,Auto Parts:O.E.M.,True
@@ -129,7 +129,7 @@ ADX,Adams Diversified Equity Fund Inc.,$17.16,0.12,0.704%,1865006664.0,United St
 ADXN,Addex Therapeutics Ltd American Depositary Shares,$12.89,0.29,2.302%,57477155.0,Switzerland,,6358,Health Care,Major Pharmaceuticals,True
 ADXS,Advaxis Inc. Common Stock,$0.3135,-0.0166,-5.029%,34429100.0,United States,,5769717,Health Care,Major Pharmaceuticals,True
 AE,Adams Resources & Energy Inc. Common Stock,$26.98,0.22,0.822%,114456822.0,United States,,14093,Energy,Oil Refining/Marketing,True
-AEB,AEGON N.V. Perp. Cap. Secs. Floating Rate (Netherlands),$25.04,0.05,0.20%,0.0,Netherlands,,22347,Finance,Life Insurance,True
+AEB,AEGON N.V. Perp. Cap. Secs. Floating Rate (Netherlands),$25.04,0.05,0.20%,0.0,Netherlands,,22347,Finance,Life Insurance,False
 AEE,Ameren Corporation Common Stock,$78.00,-0.73,-0.927%,19282144284.0,United States,,1326558,Public Utilities,Power Generation,True
 AEF,Aberdeen Emerging Markets Equity Income Fund Inc. Common Stock,$8.12,0.05,0.62%,412104437.0,United States,,44964,,,True
 AEFC,Aegon Funding Company LLC 5.10% Subordinated Notes due 2049,$26.79,0.24,0.904%,0.0,,2019.0,65079,Finance,Life Insurance,True
@@ -139,8 +139,8 @@ AEHL,Antelope Enterprise Holdings Limited Common Stock (0.024 par),$2.37,0.08,3.
 AEHR,Aehr Test Systems Common Stock,$2.16,0.08,3.846%,50350274.0,United States,1997.0,178851,Capital Goods,Electrical Products,True
 AEIS,Advanced Energy Industries Inc. Common Stock,$100.05,-0.44,-0.438%,3829185136.0,United States,1995.0,224577,Capital Goods,Industrial Machinery/Components,True
 AEL,American Equity Investment Life Holding Company Common Stock,$27.91,0.2,0.722%,2769316023.0,United States,2003.0,1640195,Finance,Life Insurance,True
-AEL.PRA,American Equity Investment Life Holding Company,,,,,,,0,,,True
-AEL.PRB,American Equity Investment Life Holding Company,,,,,,,0,,,True
+AEL.PRA,American Equity Investment Life Holding Company,,,,,,,0,,,False
+AEL.PRB,American Equity Investment Life Holding Company,,,,,,,0,,,False
 AEM,Agnico Eagle Mines Limited Common Stock,$71.42,1.16,1.651%,17308664068.0,Canada,,1228488,Basic Industries,Precious Metals,True
 AEMD,Aethlon Medical Inc. Common Stock,$2.26,0.64,39.506%,27319587.0,United States,,92819617,Health Care,Medical/Dental Instruments,True
 AENZ,Aenza S.A.A. American Depositary Shares,$2.31,0.0,0.00%,402826049.0,,2018.0,76803,Basic Industries,Military/Government/Technical,True
@@ -152,7 +152,7 @@ AER,AerCap Holdings N.V. Ordinary Shares,$42.00,0.54,1.302%,5449777746.0,Netherl
 AERI,Aerie Pharmaceuticals Inc. Common Stock,$12.84,-0.14,-1.079%,601101942.0,United States,2013.0,373436,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 AES,The AES Corporation Common Stock,$21.90,-0.38,-1.706%,14566372141.0,United States,,6493362,Basic Industries,Electric Utilities: Central,True
 AESE,Allied Esports Entertainment Inc. Common Stock,$1.60,-0.04,-2.439%,56177349.0,United States,2017.0,4616351,Consumer Services,Services-Misc. Amusement & Recreation,True
-AESR,Anfield U.S. Equity Sector Rotation ETF,$11.79,0.0444,0.378%,,,2019.0,3658,,,True
+AESR,Anfield U.S. Equity Sector Rotation ETF,$11.79,0.0444,0.378%,,,2019.0,3658,,,False
 AEY,ADDvantage Technologies Group Inc. Common Stock,$3.75,0.01,0.267%,44208525.0,United States,,317450,Consumer Services,Office Equipment/Supplies/Services,True
 AEYE,AudioEye Inc. Common Stock,$21.21,0.97,4.792%,212526915.0,United States,,246993,Technology,Computer Software: Prepackaged Software,True
 AEZS,Aeterna Zentaris Inc. Common Stock,$0.376,-0.005,-1.312%,23567158.0,Canada,,781895,Health Care,Major Pharmaceuticals,True
@@ -188,11 +188,11 @@ AGI,Alamos Gold Inc. Class A Common Shares,$9.33,0.11,1.193%,3663869261.0,Canada
 AGIO,Agios Pharmaceuticals Inc. Common Stock,$34.03,-0.36,-1.047%,2356911573.0,United States,2013.0,371448,Health Care,Major Pharmaceuticals,True
 AGLE,Aeglea BioTherapeutics Inc. Common Stock,$8.78,-0.31,-3.41%,420887799.0,United States,2016.0,153540,Health Care,Major Pharmaceuticals,True
 AGM,Federal Agricultural Mortgage Corporation Common Stock,$73.03,-0.99,-1.337%,784049496.0,United States,,68149,Finance,Finance Companies,True
-AGM.A,Federal Agricultural Mortgage Corporation Common Stock,,,,,,,0,,,True
-AGM.PRC,Federal Agricultural Mortgage Corporation,,,,,,,0,,,True
-AGM.PRD,Federal Agricultural Mortgage Corporation,,,,,,,0,,,True
-AGM.PRE,Federal Agricultural Mortgage Corporation,,,,,,,0,,,True
-AGM.PRF,Federal Agricultural Mortgage Corporation,,,,,,,0,,,True
+AGM.A,Federal Agricultural Mortgage Corporation Common Stock,,,,,,,0,,,False
+AGM.PRC,Federal Agricultural Mortgage Corporation,,,,,,,0,,,False
+AGM.PRD,Federal Agricultural Mortgage Corporation,,,,,,,0,,,False
+AGM.PRE,Federal Agricultural Mortgage Corporation,,,,,,,0,,,False
+AGM.PRF,Federal Agricultural Mortgage Corporation,,,,,,,0,,,False
 AGMH,AGM Group Holdings Inc. Class A Ordinary Shares,$15.00,-0.06,-0.398%,433365825.0,Hong Kong,2018.0,8068,Technology,EDP Services,True
 AGNC,AGNC Investment Corp. Common Stock,$15.43,0.0,0.00%,8412614510.0,United States,2008.0,6440012,Consumer Services,Real Estate Investment Trusts,True
 AGNCM,AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock,$24.09,0.16,0.669%,0.0,United States,,41886,Consumer Services,Real Estate Investment Trusts,True
@@ -200,9 +200,9 @@ AGNCN,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Inter
 AGNCO,AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock,$24.23,0.17,0.707%,0.0,United States,,53630,Consumer Services,Real Estate Investment Trusts,True
 AGNCP,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,$23.34,0.2,0.864%,0.0,United States,,80305,Consumer Services,Real Estate Investment Trusts,True
 AGO,Assured Guaranty Ltd. Common Stock,$31.78,-0.26,-0.811%,2568020400.0,Bermuda,2004.0,593311,Finance,Property-Casualty Insurers,True
-AGO.PRB,Assured Guaranty Ltd.,,,,,,,0,,,True
-AGO.PRE,Assured Guaranty Ltd.,,,,,,,0,,,True
-AGO.PRF,Assured Guaranty Ltd.,,,,,,,0,,,True
+AGO.PRB,Assured Guaranty Ltd.,,,,,,,0,,,False
+AGO.PRE,Assured Guaranty Ltd.,,,,,,,0,,,False
+AGO.PRF,Assured Guaranty Ltd.,,,,,,,0,,,False
 AGR,Avangrid Inc. Common Stock,$45.25,-0.08,-0.176%,13982694219.0,United States,2015.0,740090,Public Utilities,Electric Utilities: Central,True
 AGRO,Adecoagro S.A. Common Shares,$6.18,0.0,0.00%,725154921.0,Luxembourg,2011.0,182903,Consumer Non-Durables,Farming/Seeds/Milling,True
 AGRX,Agile Therapeutics Inc. Common Stock,$2.90,0.01,0.346%,253560352.0,United States,2014.0,765794,Health Care,Major Pharmaceuticals,True
@@ -216,24 +216,24 @@ AHACW,Alpha Healthcare Acquisition Corp. Warrant,$1.00,0.1,11.111%,0.0,United St
 AHC,A.H. Belo Corporation (TX) Common Stock,$1.50,-0.01,-0.662%,32115635.0,United States,,31530,Consumer Services,Newspapers/Magazines,True
 AHCO,AdaptHealth Corp. Class A Common Stock,$34.76,-0.2,-0.572%,3120149505.0,United States,2018.0,772252,Health Care,Medical/Nursing Services,True
 AHH,Armada Hoffler Properties Inc. Common Stock,$11.16,-0.01,-0.09%,879402721.0,United States,2013.0,252409,Finance,Real Estate,True
-AHH.PRA,Armada Hoffler Properties Inc.,,,,,,,0,,,True
-AHI,Avadim Health Inc.,,,,,,,0,Consumer Non-Durables,Package Goods/Cosmetics,True
-AHL.PRC,Aspen Insurance Holdings Limited,,,,,,,0,,,True
-AHL.PRD,Aspen Insurance Holdings Limited,,,,,,,0,,,True
-AHL.PRE,Aspen Insurance Holdings Limited,,,,,,,0,,,True
+AHH.PRA,Armada Hoffler Properties Inc.,,,,,,,0,,,False
+AHI,Avadim Health Inc.,,,,,,,0,Consumer Non-Durables,Package Goods/Cosmetics,False
+AHL.PRC,Aspen Insurance Holdings Limited,,,,,,,0,,,False
+AHL.PRD,Aspen Insurance Holdings Limited,,,,,,,0,,,False
+AHL.PRE,Aspen Insurance Holdings Limited,,,,,,,0,,,False
 AHPI,Allied Healthcare Products Inc. Common Stock,$4.83,-0.1,-2.028%,19385384.0,United States,1992.0,126007,Health Care,Industrial Specialties,True
 AHT,Ashford Hospitality Trust Inc Common Stock,$3.80,0.1,2.703%,202189822.0,United States,2003.0,4206831,Consumer Services,Real Estate Investment Trusts,True
-AHT.PRD,Ashford Hospitality Trust Inc,,,,,,,0,,,True
-AHT.PRF,Ashford Hospitality Trust Inc,,,,,,,0,,,True
-AHT.PRG,Ashford Hospitality Trust Inc,,,,,,,0,,,True
-AHT.PRH,Ashford Hospitality Trust Inc,,,,,,,0,,,True
-AHT.PRI,Ashford Hospitality Trust Inc,,,,,,,0,,,True
+AHT.PRD,Ashford Hospitality Trust Inc,,,,,,,0,,,False
+AHT.PRF,Ashford Hospitality Trust Inc,,,,,,,0,,,False
+AHT.PRG,Ashford Hospitality Trust Inc,,,,,,,0,,,False
+AHT.PRH,Ashford Hospitality Trust Inc,,,,,,,0,,,False
+AHT.PRI,Ashford Hospitality Trust Inc,,,,,,,0,,,False
 AI,C3.ai Inc. Class A Common Stock,$113.69,11.69,11.461%,10896959347.0,,2020.0,5367478,Technology,Computer Software: Prepackaged Software,True
 AIC,Arlington Asset Investment Corp 6.750% Notes due 2025,$24.2999,0.2499,1.039%,0.0,United States,2015.0,3167,Consumer Services,Real Estate Investment Trusts,True
 AIF,Apollo Tactical Income Fund Inc. Common Stock,$14.23,-0.02,-0.14%,205823090.0,,2013.0,78344,,,True
 AIG,American International Group Inc. New Common Stock,$38.32,-0.22,-0.571%,33013666127.0,United States,,3691199,Finance,Property-Casualty Insurers,True
-AIG.PRA,American International Group Inc.,,,,,,,0,,,True
-AIG.WS,American International Group Inc. Warrant expiring January 19 2021,,,,,United States,,0,,,True
+AIG.PRA,American International Group Inc.,,,,,,,0,,,False
+AIG.WS,American International Group Inc. Warrant expiring January 19 2021,,,,,United States,,0,,,False
 AIH,Aesthetic Medical International Holdings Group Ltd. American Depositary Shares,$4.49,-0.21,-4.468%,106021876.0,China,2019.0,150656,Health Care,Medical Specialities,True
 AIHS,Senmiao Technology Limited Common Stock,$1.06,-0.06,-5.357%,45960347.0,China,2018.0,435217,Finance,Finance: Consumer Services,True
 AIKI,AIkido Pharma Inc. Common Stock,$0.575,-0.0238,-3.975%,20079126.0,United States,,805854,Health Care,Biotechnology: Commercial Physical & Biological Resarch,True
@@ -256,16 +256,16 @@ AIW,Arlington Asset Investment Corp 6.625% Notes due 2023,$24.75,-0.1,-0.402%,0.
 AIZ,Assurant Inc. Common Stock,$134.21,1.82,1.375%,7886071024.0,United States,2004.0,310859,Finance,Property-Casualty Insurers,True
 AIZN,Assurant Inc. 5.25% Subordinated Notes due 2061,$26.97,0.01,0.037%,0.0,United States,2020.0,81115,Finance,Property-Casualty Insurers,True
 AIZP,Assurant Inc. 6.50% Series D Mandatory Convertible Preferred Stock $1.00 par value,$127.66,1.71,1.358%,0.0,United States,,11049,Finance,Property-Casualty Insurers,True
-AJAX.U,Ajax I Units each consisting of one Class A ordinary share and one-fourth of one redeemable warrant,,,,,United States,2020.0,0,,,True
+AJAX.U,Ajax I Units each consisting of one Class A ordinary share and one-fourth of one redeemable warrant,,,,,United States,2020.0,0,,,False
 AJG,Arthur J. Gallagher & Co. Common Stock,$126.45,2.82,2.281%,24319116900.0,United States,,981424,Finance,Specialty Insurers,True
 AJRD,Aerojet Rocketdyne Holdings Inc. Common Stock,$42.83,-0.58,-1.336%,3272212000.0,United States,,614796,Capital Goods,Military/Government/Technical,True
 AJX,Great Ajax Corp. Common Stock,$10.41,-0.17,-1.607%,239788552.0,United States,2015.0,87853,Consumer Services,Real Estate Investment Trusts,True
-AJXA,Great Ajax Corp. 7.25% Convertible Senior Notes due 2024,$25.61,0.142,0.558%,0.0,United States,2017.0,2645,Consumer Services,Real Estate Investment Trusts,True
+AJXA,Great Ajax Corp. 7.25% Convertible Senior Notes due 2024,$25.61,0.142,0.558%,0.0,United States,2017.0,2645,Consumer Services,Real Estate Investment Trusts,False
 AKAM,Akamai Technologies Inc. Common Stock,$104.52,0.65,0.626%,17015227626.0,United States,1999.0,1392506,Miscellaneous,Business Services,True
 AKBA,Akebia Therapeutics Inc. Common Stock,$3.04,-0.04,-1.299%,439398238.0,United States,2014.0,3021477,Health Care,Major Pharmaceuticals,True
 AKER,Akers Biosciences Inc. Common Stock,$1.99,0.03,1.531%,37065344.0,United States,2014.0,140578,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,True
-AKO.A,Embotelladora Andina S.A. Common Stock,,,,,,,0,,,True
-AKO.B,Embotelladora Andina S.A. Common Stock,,,,,Chile,,0,,,True
+AKO.A,Embotelladora Andina S.A. Common Stock,,,,,,,0,,,False
+AKO.B,Embotelladora Andina S.A. Common Stock,,,,,Chile,,0,,,False
 AKR,Acadia Realty Trust Common Stock,$14.91,-0.24,-1.584%,1286257416.0,United States,,511219,Consumer Services,Real Estate Investment Trusts,True
 AKRO,Akero Therapeutics Inc. Common Stock,$27.66,-1.45,-4.981%,960406233.0,United States,2019.0,178652,Health Care,Major Pharmaceuticals,True
 AKTS,Akoustis Technologies Inc. Common Stock,$10.66,0.94,9.671%,411772497.0,United States,,1727070,Public Utilities,Telecommunications Equipment,True
@@ -273,7 +273,7 @@ AKTX,Akari Therapeutics plc ADR (0.01 USD),$2.00,-0.02,-0.99%,76946638.0,United 
 AKU,Akumin Inc. Common Shares,$3.09,-0.01,-0.323%,216851343.0,Canada,,178860,Health Care,Medical Specialities,True
 AKUS,Akouos Inc. Common Stock,$18.96,-0.77,-3.903%,651895328.0,United States,2020.0,73885,Health Care,Major Pharmaceuticals,True
 AL,Air Lease Corporation Class A Common Stock,$41.78,-0.22,-0.524%,4753682693.0,United States,2011.0,823041,Technology,Diversified Commercial Services,True
-AL.PRA,Air Lease Corporation,,,,,,,0,,,True
+AL.PRA,Air Lease Corporation,,,,,,,0,,,False
 ALAC,Alberton Acquisition Corporation Ordinary Shares,$10.92,0.1,0.924%,50409319.0,Hong Kong,2018.0,35462,Finance,Business Services,True
 ALACR,Alberton Acquisition Corporation Rights exp April 26 2021,$0.4203,-0.0229,-5.167%,0.0,Hong Kong,2018.0,20511,Finance,Business Services,True
 ALACU,Alberton Acquisition Corporation Unit,$12.99,0.0,0.00%,0.0,Hong Kong,2018.0,0,Finance,Business Services,True
@@ -292,28 +292,28 @@ ALGN,Align Technology Inc. Common Stock,$516.34,0.04,0.008%,40713611405.0,United
 ALGS,Aligos Therapeutics Inc. Common Stock,$24.16,1.27,5.548%,920928706.0,United States,2020.0,506991,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 ALGT,Allegiant Travel Company Common Stock,$174.37,0.2,0.115%,2857833802.0,United States,2006.0,206373,Transportation,Air Freight/Delivery Services,True
 ALIM,Alimera Sciences Inc. Common Stock,$4.18,-0.05,-1.182%,21450690.0,United States,2010.0,46943,Health Care,Major Pharmaceuticals,True
-ALIN.PRA,Altera Infrastructure L.P.,,,,,,,0,,,True
-ALIN.PRB,Altera Infrastructure L.P.,,,,,,,0,,,True
-ALIN.PRE,Altera Infrastructure L.P.,,,,,,,0,,,True
-ALIT,Alight Inc.,,,,,,,0,,,True
+ALIN.PRA,Altera Infrastructure L.P.,,,,,,,0,,,False
+ALIN.PRB,Altera Infrastructure L.P.,,,,,,,0,,,False
+ALIN.PRE,Altera Infrastructure L.P.,,,,,,,0,,,False
+ALIT,Alight Inc.,,,,,,,0,,,False
 ALJJ,ALJ Regional Holdings Inc. Common Stock,$1.17,0.03,2.632%,49342165.0,United States,,65133,Miscellaneous,Business Services,True
 ALK,Alaska Air Group Inc. Common Stock,$49.75,-0.58,-1.152%,6152272956.0,United States,,1485535,Transportation,Air Freight/Delivery Services,True
 ALKS,Alkermes plc Ordinary Shares,$21.50,-0.6,-2.715%,3421720378.0,Ireland,1991.0,1251686,Health Care,Major Pharmaceuticals,True
 ALL,Allstate Corporation (The) Common Stock,$106.42,0.5,0.472%,32358919327.0,United States,,1823643,Finance,Property-Casualty Insurers,True
-ALL.PRB,Allstate Corporation (The),,,,,,,0,,,True
-ALL.PRG,Allstate Corporation (The),,,,,,,0,,,True
-ALL.PRH,Allstate Corporation (The),,,,,,,0,,,True
-ALL.PRI,Allstate Corporation (The),,,,,,,0,,,True
+ALL.PRB,Allstate Corporation (The),,,,,,,0,,,False
+ALL.PRG,Allstate Corporation (The),,,,,,,0,,,False
+ALL.PRH,Allstate Corporation (The),,,,,,,0,,,False
+ALL.PRI,Allstate Corporation (The),,,,,,,0,,,False
 ALLE,Allegion plc Ordinary Shares,$111.20,-0.5,-0.448%,10234738468.0,United States,2013.0,674705,Consumer Services,Diversified Commercial Services,True
 ALLK,Allakos Inc. Common Stock,$121.21,0.74,0.614%,6363930569.0,United States,2018.0,241014,Health Care,Major Pharmaceuticals,True
 ALLO,Allogene Therapeutics Inc. Common Stock,$27.09,-1.14,-4.038%,3800189318.0,United States,2018.0,1788080,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 ALLT,Allot Ltd. Ordinary Shares,$10.65,0.14,1.332%,375013221.0,Israel,2006.0,151267,Technology,Computer Communications Equipment,True
 ALLY,Ally Financial Inc. Common Stock,$34.35,-0.17,-0.492%,12841997018.0,United States,2014.0,2976698,Finance,Major Banks,True
-ALLY.PRA,Ally Financial Inc.,,,,,,,0,,,True
+ALLY.PRA,Ally Financial Inc.,,,,,,,0,,,False
 ALNA,Allena Pharmaceuticals Inc. Common Stock,$1.35,-0.01,-0.735%,67838783.0,United States,2017.0,719845,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 ALNY,Alnylam Pharmaceuticals Inc. Common Stock,$138.32,2.62,1.931%,16070123830.0,United States,2004.0,584820,Health Care,Major Pharmaceuticals,True
 ALOT,AstroNova Inc. Common Stock,$10.35,-0.4,-3.721%,74214530.0,United States,1983.0,14853,Technology,Computer peripheral equipment,True
-ALP.PRQ,Alabama Power Company,,,,,,,0,,,True
+ALP.PRQ,Alabama Power Company,,,,,,,0,,,False
 ALPN,Alpine Immune Sciences Inc. Common Stock,$13.77,0.19,1.399%,327769830.0,United States,2015.0,107607,Health Care,Major Pharmaceuticals,True
 ALRM,Alarm.com Holdings Inc. Common Stock,$86.92,3.61,4.333%,4268821211.0,United States,2015.0,737981,Technology,Computer Software: Prepackaged Software,True
 ALRN,Aileron Therapeutics Inc. Common Stock,$1.01,0.0403,4.156%,41091495.0,United States,2017.0,456444,Health Care,Major Pharmaceuticals,True
@@ -323,13 +323,13 @@ ALSN,Allison Transmission Holdings Inc. Common Stock,$42.93,-0.23,-0.533%,483695
 ALT,Altimmune Inc. Common Stock,$12.27,-0.26,-2.075%,405781415.0,United States,,1132573,Health Care,Major Pharmaceuticals,True
 ALTA,Altabancorp Common Stock,$30.10,-0.43,-1.408%,565982882.0,United States,2015.0,47362,Finance,Major Banks,True
 ALTG,Alta Equipment Group Inc. Class A Common Stock,$9.05,-0.07,-0.768%,271667443.0,,2019.0,72326,Capital Goods,Industrial Machinery/Components,True
-ALTG.WS,Alta Equipment Group Inc. Warrants,,,,,,,0,,,True
+ALTG.WS,Alta Equipment Group Inc. Warrants,,,,,,,0,,,False
 ALTM,Altus Midstream Company Class A Common Stock,$46.79,-0.95,-1.99%,760171863.0,United States,2017.0,32283,Public Utilities,Natural Gas Distribution,True
 ALTR,Altair Engineering Inc. Class A Common Stock,$56.98,-0.06,-0.105%,4196994492.0,United States,2017.0,481501,Technology,Computer Software: Prepackaged Software,True
 ALTUU,Altitude Acquisition Corp. Unit,$10.25,-0.05,-0.485%,0.0,United States,2020.0,63567,Finance,Business Services,True
 ALUS,Alussa Energy Acquisition Corp. Class A Ordinary Shares,$10.01,0.02,0.20%,359734375.0,,2020.0,101755,Finance,Business Services,True
-ALUS.U,Alussa Energy Acquisition Corp. Units each consisting of one Class A Ordinary Share and one-half of one redeemable warrant,,,,,,2019.0,0,,,True
-ALUS.WS,Alussa Energy Acquisition Corp. Redeemable Warrants each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50,,,,,,,0,,,True
+ALUS.U,Alussa Energy Acquisition Corp. Units each consisting of one Class A Ordinary Share and one-half of one redeemable warrant,,,,,,2019.0,0,,,False
+ALUS.WS,Alussa Energy Acquisition Corp. Redeemable Warrants each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50,,,,,,,0,,,False
 ALV,Autoliv Inc. Common Stock,$92.64,-0.25,-0.269%,8090946093.0,Sweden,,240848,Capital Goods,Auto Parts:O.E.M.,True
 ALVR,AlloVir Inc. Common Stock,$43.84,1.93,4.605%,2747425312.0,United States,2020.0,336725,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 ALX,Alexander's Inc. Common Stock,$285.28,-1.91,-0.665%,1457007691.0,United States,,9934,Consumer Services,Real Estate Investment Trusts,True
@@ -341,7 +341,7 @@ AMAL,Amalgamated Bank Class A Common Stock,$13.96,0.18,1.306%,433451369.0,United
 AMAT,Applied Materials Inc. Common Stock,$88.55,0.08,0.09%,80965177936.0,United States,1972.0,5807458,Technology,Semiconductors,True
 AMBA,Ambarella Inc. Ordinary Shares,$89.88,-2.99,-3.22%,3161262686.0,United States,2012.0,493432,Technology,Semiconductors,True
 AMBC,Ambac Financial Group Inc. Common Stock,$17.60,-0.13,-0.733%,806240846.0,United States,,336094,Finance,Property-Casualty Insurers,True
-AMBC.WS,Ambac Financial Group Inc. Warrants,,,,,United States,,0,,,True
+AMBC.WS,Ambac Financial Group Inc. Warrants,,,,,United States,,0,,,False
 AMBO,Ambow Education Holding Ltd. American Depository Shares each representing two Class A ordinary shares,$2.34,0.04,1.739%,54323886.0,China,,106917,Consumer Services,Other Consumer Services,True
 AMC,AMC Entertainment Holdings Inc. Class A Common Stock,$2.78,-0.08,-2.797%,446732536.0,,2013.0,25259290,Consumer Services,Movies/Entertainment,True
 AMCI,AMCI Acquisition Corp. Class A Common Stock,$12.39,0.19,1.557%,253229397.0,United States,2018.0,721398,Miscellaneous,Industrial Machinery/Components,True
@@ -353,15 +353,15 @@ AMD,Advanced Micro Devices Inc. Common Stock,$96.85,-0.27,-0.278%,116614594405.0
 AME,AMETEK Inc.,$116.78,-1.01,-0.857%,26866973884.0,United States,,660284,Capital Goods,Industrial Machinery/Components,True
 AMED,Amedisys Inc Common Stock,$271.26,-3.73,-1.356%,8900186809.0,United States,,194322,Health Care,Medical/Nursing Services,True
 AMEH,Apollo Medical Holdings Inc. Common Stock,$17.71,0.12,0.682%,651549040.0,United States,,85850,Consumer Services,Professional Services,True
-AMER,Emles Made in America ETF,$26.1537,-0.0547,-0.209%,,,2020.0,0,,,True
+AMER,Emles Made in America ETF,$26.1537,-0.0547,-0.209%,,,2020.0,0,,,False
 AMG,Affiliated Managers Group Inc. Common Stock,$99.20,0.93,0.946%,4499817053.0,United States,,269199,Finance,Investment Managers,True
 AMGN,Amgen Inc. Common Stock,$228.44,-2.09,-0.907%,132990597725.0,United States,1983.0,2589051,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),True
 AMH,American Homes 4 Rent Common Shares of Beneficial Interest,$29.97,-0.11,-0.366%,9478406366.0,,2013.0,1454854,Consumer Services,Real Estate Investment Trusts,True
-AMH.PRD,American Homes 4 Rent,,,,,,,0,,,True
-AMH.PRE,American Homes 4 Rent,,,,,,,0,,,True
-AMH.PRF,American Homes 4 Rent,,,,,,,0,,,True
-AMH.PRG,American Homes 4 Rent,,,,,,,0,,,True
-AMH.PRH,American Homes 4 Rent,,,,,,,0,,,True
+AMH.PRD,American Homes 4 Rent,,,,,,,0,,,False
+AMH.PRE,American Homes 4 Rent,,,,,,,0,,,False
+AMH.PRF,American Homes 4 Rent,,,,,,,0,,,False
+AMH.PRG,American Homes 4 Rent,,,,,,,0,,,False
+AMH.PRH,American Homes 4 Rent,,,,,,,0,,,False
 AMHC,Amplitude Healthcare Acquisition Corporation Class A Common Stock,$10.07,0.0,0.00%,125875000.0,United States,2020.0,5359,Finance,Business Services,True
 AMHCU,Amplitude Healthcare Acquisition Corporation Unit,$11.9568,0.0,0.00%,0.0,United States,2019.0,0,Finance,Business Services,True
 AMHCW,Amplitude Healthcare Acquisition Corporation Warrants,$1.35,-0.275,-16.923%,0.0,United States,2020.0,2451,Finance,Business Services,True
@@ -405,16 +405,16 @@ ANCN,Anchiano Therapeutics Ltd. American Depositary Share,$2.62,-0.26,-9.028%,19
 ANDA,Andina Acquisition Corp. III Ordinary Shares,$10.27,0.01,0.097%,45366657.0,United States,2019.0,4140,Finance,Business Services,True
 ANDAR,Andina Acquisition Corp. III Right,$0.33,-0.01,-2.941%,0.0,United States,2019.0,5124,Finance,Business Services,True
 ANDAU,Andina Acquisition Corp. III Unit,$11.19,0.19,1.727%,0.0,United States,2019.0,286,Finance,Business Services,True
-ANDAW,Andina Acquisition Corp. III Warrant,$0.5961,0.026000000000000002,4.561%,0.0,United States,2019.0,137492,Finance,Business Services,True
+ANDAW,Andina Acquisition Corp. III Warrant,$0.5961,0.026,4.561%,0.0,United States,2019.0,137492,Finance,Business Services,True
 ANDE,Andersons Inc. (The) Common Stock,$23.69,-0.82,-3.346%,781260618.0,United States,,205205,Consumer Services,Farming/Seeds/Milling,True
 ANET,Arista Networks Inc. Common Stock,$285.70,6.11,2.185%,21616480265.0,,2014.0,1013610,Technology,Computer Communications Equipment,True
 ANF,Abercrombie & Fitch Company Common Stock,$20.28,-0.27,-1.314%,1265282828.0,United States,,712975,Consumer Services,Clothing/Shoe/Accessory Stores,True
 ANGI,ANGI Homeservices Inc. Class A Common Stock,$11.73,-0.42,-3.457%,5862622306.0,United States,,2999907,Consumer Services,Advertising,True
 ANGO,AngioDynamics Inc. Common Stock,$14.64,-0.29,-1.942%,555633062.0,United States,2004.0,213720,Health Care,Medical/Dental Instruments,True
 ANH,Anworth Mortgage Asset Corporation Common Stock,$2.60,0.0,0.00%,258012570.0,United States,,2441040,Consumer Services,Real Estate Investment Trusts,True
-ANH.PRA,Anworth Mortgage Asset  Corporation,,,,,,,0,,,True
-ANH.PRB,Anworth Mortgage Asset  Corporation,,,,,,,0,,,True
-ANH.PRC,Anworth Mortgage Asset  Corporation,,,,,,,0,,,True
+ANH.PRA,Anworth Mortgage Asset  Corporation,,,,,,,0,,,False
+ANH.PRB,Anworth Mortgage Asset  Corporation,,,,,,,0,,,False
+ANH.PRC,Anworth Mortgage Asset  Corporation,,,,,,,0,,,False
 ANIK,Anika Therapeutics Inc. Common Stock,$40.95,1.68,4.278%,582084430.0,United States,,184158,Health Care,Medical/Dental Instruments,True
 ANIP,ANI Pharmaceuticals Inc.,$30.76,-0.17,-0.55%,380144938.0,United States,,62660,Health Care,Major Pharmaceuticals,True
 ANIX,Anixa Biosciences Inc. Common Stock,$2.64,-0.15,-5.376%,62803979.0,United States,,439204,Health Care,Major Pharmaceuticals,True
@@ -2339,7 +2339,7 @@ EYE,National Vision Holdings Inc. Common Stock,$46.20,-0.39,-0.837%,3743139385.0
 EYEG,Eyegate Pharmaceuticals Inc. Common Stock,$3.58,-0.09,-2.452%,16563783.0,United States,,21990,Health Care,Major Pharmaceuticals,True
 EYEN,Eyenovia Inc. Common Stock,$4.22,0.09,2.179%,105011539.0,United States,2018.0,185085,Health Care,Major Pharmaceuticals,True
 EYES,Second Sight Medical Products Inc. Common Stock,$1.47,0.01,0.685%,33983803.0,United States,2014.0,345997,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
-EYESW,Second Sight Medical Products Inc. Warrants expiring 03/14/2024,$0.2041,0.040999999999999995,25.138%,0.0,United States,,20963,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
+EYESW,Second Sight Medical Products Inc. Warrants expiring 03/14/2024,$0.2041,0.041,25.138%,0.0,United States,,20963,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
 EYPT,EyePoint Pharmaceuticals Inc. Common Stock,$4.42,-0.38,-7.917%,66874600.0,United States,,109442,Capital Goods,Biotechnology: Laboratory Analytical Instruments,True
 EZPW,EZCORP Inc. Class A Non Voting Common Stock,$4.69,-0.25,-5.061%,258267799.0,United States,1991.0,936928,Consumer Services,Other Specialty Stores,True
 F,Ford Motor Company Common Stock,$9.04,-0.11,-1.202%,35964983334.0,United States,,55128920,Capital Goods,Auto Manufacturing,True
@@ -2476,7 +2476,7 @@ FIX,Comfort Systems USA Inc. Common Stock,$53.42,0.3,0.565%,1944207598.0,United 
 FIXX,Homology Medicines Inc. Common Stock,$11.49,0.26,2.315%,520088174.0,United States,2018.0,761243,Health Care,Major Pharmaceuticals,True
 FIZZ,National Beverage Corp. Common Stock,$84.39,1.98,2.403%,3936382352.0,United States,,666754,Consumer Non-Durables,Beverages (Production/Distribution),True
 FJUL,FT Cboe Vest U.S. Equity Buffer ETF - July,$32.7969,0.0581,0.177%,,United States,2020.0,30231,,,True
-FJUN,FT Cboe Vest U.S. Equity Buffer ETF - June,$33.8413,0.040999999999999995,0.121%,,United States,2020.0,3774,,,True
+FJUN,FT Cboe Vest U.S. Equity Buffer ETF - June,$33.8413,0.041,0.121%,,United States,2020.0,3774,,,True
 FL,Foot Locker Inc.,$40.79,-1.39,-3.295%,4250789410.0,United States,,1685668,Consumer Services,Clothing/Shoe/Accessory Stores,True
 FLACU,Frazier Lifesciences Acquisition Corporation Unit,$10.38,-0.18,-1.705%,0.0,United States,2020.0,91684,Finance,Business Services,True
 FLC,Flaherty & Crumrine Total Return Fund Inc Common Stock,$23.67,0.26,1.111%,236488225.0,United States,2003.0,22527,,,True
@@ -2825,7 +2825,7 @@ GLP,Global Partners LP Global Partners LP Common Units representing Limited Part
 GLP.PRA,Global Partners LP,,,,,,,0,,,True
 GLPG,Galapagos NV American Depositary Shares,$97.02,-22.43,-18.778%,6346249634.0,Belgium,2015.0,1784157,Health Care,Major Pharmaceuticals,True
 GLPI,Gaming and Leisure Properties Inc. Common Stock,$43.49,0.54,1.257%,9946412415.0,United States,,1290830,Consumer Services,Real Estate Investment Trusts,True
-GLQ,Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest,$13.706,-0.013999999999999999,-0.102%,181341742.0,United States,2005.0,53782,,,True
+GLQ,Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest,$13.706,-0.014,-0.102%,181341742.0,United States,2005.0,53782,,,True
 GLRE,Greenlight Capital Re Ltd. Class A Ordinary Shares,$7.60,-0.25,-3.185%,267433907.0,Cayman Islands,2007.0,369641,Finance,Property-Casualty Insurers,True
 GLSI,Greenwich LifeSciences Inc. Common Stock,$48.69,-4.21,-7.958%,585209443.0,United States,2020.0,712331,Health Care,Major Pharmaceuticals,True
 GLT,Glatfelter Corporation Common Stock,$17.08,-0.06,-0.35%,757802639.0,United States,,206576,Basic Industries,Paper,True
@@ -4475,7 +4475,7 @@ NDLS,Noodles & Company Class A Common Stock,$8.29,0.11,1.345%,367843756.0,United
 NDMO,Nuveen Dynamic Municipal Opportunities Fund Common Shares of Beneficial Interest,$15.37,0.03,0.196%,0.0,,2020.0,138148,,,True
 NDP,Tortoise Energy Independence Fund Inc. Common Stock,$13.73,-0.11,-0.795%,25345580.0,United States,2012.0,18313,,,True
 NDRA,ENDRA Life Sciences Inc. Common Stock,$0.7555,-0.0594,-7.289%,18965788.0,United States,2017.0,2323008,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
-NDRAW,ENDRA Life Sciences Inc. Warrants,$0.1201,-0.013000000000000001,-9.767%,0.0,United States,2017.0,22928,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
+NDRAW,ENDRA Life Sciences Inc. Warrants,$0.1201,-0.013,-9.767%,0.0,United States,2017.0,22928,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,True
 NDSN,Nordson Corporation Common Stock,$193.99,-7.92,-3.923%,11258119445.0,United States,,610017,Capital Goods,Industrial Machinery/Components,True
 NEA,Nuveen AMT-Free Quality Municipal Income Fund Common Shares of Beneficial Interest Par Value $.01,$14.74,-0.17,-1.14%,4106420536.0,United States,2002.0,939939,,,True
 NEBCU,Nebula Caravel Acquisition Corp. Unit,$10.58,-0.06,-0.564%,0.0,United States,2020.0,43956,Finance,Business Services,True
@@ -4883,7 +4883,7 @@ OPES,Opes Acquisition Corp. Common Stock,$15.70,0.72,4.806%,120703013.0,Mexico,2
 OPESU,Opes Acquisition Corp. Unit,$19.99,0.0,0.00%,0.0,Mexico,2018.0,0,Consumer Services,Restaurants,True
 OPESW,Opes Acquisition Corp. Warrant,$2.88,0.0415,1.462%,0.0,Mexico,2018.0,243138,Consumer Services,Restaurants,True
 OPGN,OpGen Inc. Common Stock,$1.74,-0.04,-2.247%,39129675.0,United States,2015.0,919336,Health Care,Medical Specialities,True
-OPHC,OptimumBank Holdings Inc. Common Stock,$2.97,0.055999999999999994,1.922%,8765518.0,United States,,9227,Finance,Major Banks,True
+OPHC,OptimumBank Holdings Inc. Common Stock,$2.97,0.056,1.922%,8765518.0,United States,,9227,Finance,Major Banks,True
 OPI,Office Properties Income Trust Common Shares of Beneficial Interest,$24.31,-0.32,-1.299%,1174619477.0,United States,,222220,Finance,Real Estate,True
 OPINI,Office Properties Income Trust 5.875% Senior Notes due 2046,$25.65,0.03,0.117%,0.0,United States,,6203,Finance,Real Estate,True
 OPINL,Office Properties Income Trust 6.375% Senior Notes due 2050,$26.66,0.04,0.15%,0.0,United States,,14799,Finance,Real Estate,True
@@ -5110,7 +5110,7 @@ PFG,Principal Financial Group Inc Common Stock,$48.22,-0.12,-0.248%,13247390621.
 PFGC,Performance Food Group Company Common Stock,$46.25,0.07,0.152%,6175583929.0,United States,2015.0,709998,Consumer Non-Durables,Food Distributors,True
 PFH,Prudential Financial Inc. 4.125% Junior Subordinated Notes due 2060,$26.01,-0.03,-0.115%,0.0,United States,2020.0,89907,Finance,Life Insurance,True
 PFHD,Professional Holding Corp. Class A Common stock,$15.18,0.2,1.335%,204713958.0,United States,2020.0,38641,Finance,Major Banks,True
-PFIE,Profire Energy Inc. Common Stock,$0.862,-0.027999999999999997,-3.146%,41341160.0,United States,,23421,Energy,Metal Fabrications,True
+PFIE,Profire Energy Inc. Common Stock,$0.862,-0.028,-3.146%,41341160.0,United States,,23421,Energy,Metal Fabrications,True
 PFIN,P & F Industries Inc. Class A Common Stock,$4.82,-0.21,-4.175%,15188109.0,United States,,642,Technology,Industrial Machinery/Components,True
 PFIS,Peoples Financial Services Corp. Common Stock,$38.79,-1.19,-2.976%,280174041.0,United States,,7658,Finance,Major Banks,True
 PFL,PIMCO Income Strategy Fund Shares of Beneficial Interest,$11.23,0.06,0.537%,362471114.0,United States,2003.0,59042,,,True
@@ -6626,7 +6626,7 @@ U,Unity Software Inc. Common Stock,$146.69,2.11,1.459%,39720280037.0,United Stat
 UA,Under Armour Inc. Class C Common Stock,$15.29,-0.16,-1.036%,6951875524.0,United States,2016.0,2575983,Consumer Non-Durables,Apparel,True
 UAA,Under Armour Inc. Class A Common Stock,$17.46,-0.21,-1.188%,7938505340.0,United States,,3502148,Consumer Non-Durables,Apparel,True
 UAL,United Airlines Holdings Inc. Common Stock,$46.00,-1.46,-3.076%,13462468146.0,United States,,17336630,Transportation,Air Freight/Delivery Services,True
-UAMY,United States Antimony Corporation Common Stock,$0.425,-0.011000000000000001,-2.523%,32189610.0,United States,,886348,Capital Goods,Metal Fabrications,True
+UAMY,United States Antimony Corporation Common Stock,$0.425,-0.011,-2.523%,32189610.0,United States,,886348,Capital Goods,Metal Fabrications,True
 UAN,CVR Partners LP Common Units representing Limited Partner Interests,$13.84,-0.39,-2.741%,153608734.0,United States,2011.0,55810,Basic Industries,Agricultural Chemicals,True
 UAVS,AgEagle Aerial Systems Inc. Common Stock,$3.05,0.18,6.272%,176840150.0,United States,,5780234,Capital Goods,Aerospace,True
 UBA,Urstadt Biddle Properties Inc. Common Stock,$14.63,-0.37,-2.467%,586178923.0,United States,,212625,Consumer Services,Real Estate Investment Trusts,True
@@ -6634,7 +6634,7 @@ UBCP,United Bancorp Inc. Common Stock,$12.80,-0.05,-0.389%,76497293.0,United Sta
 UBER,Uber Technologies Inc. Common Stock,$50.49,-0.51,-1.00%,89052651268.0,,2019.0,19572308,Miscellaneous,Business Services,True
 UBFO,United Security Bancshares Common Stock,$7.36,-0.12,-1.604%,124952479.0,United States,,39342,Finance,Major Banks,True
 UBOH,United Bancshares Inc. Common Stock,$25.03,-0.46,-1.805%,81889425.0,United States,,2598,Finance,Major Banks,True
-UBP,Urstadt Biddle Properties Inc. Common Stock,$12.81,-0.09699999999999999,-0.752%,513257143.0,United States,,5741,Consumer Services,Real Estate Investment Trusts,True
+UBP,Urstadt Biddle Properties Inc. Common Stock,$12.81,-0.097,-0.752%,513257143.0,United States,,5741,Consumer Services,Real Estate Investment Trusts,True
 UBP.PRH,Urstadt Biddle Properties Inc.,,,,,,,0,,,True
 UBP.PRK,Urstadt Biddle Properties Inc.,,,,,,,0,,,True
 UBS,UBS Group AG Registered Ordinary Shares,$14.21,-0.09,-0.629%,50984684013.0,Switzerland,2014.0,1716626,Finance,Major Banks,True
@@ -6705,7 +6705,7 @@ USAK,USA Truck Inc. Common Stock,$8.99,-0.18,-1.963%,78755241.0,United States,19
 USAP,Universal Stainless & Alloy Products Inc. Common Stock,$7.02,-0.48,-6.40%,61984719.0,United States,1994.0,69774,Basic Industries,Steel/Iron Ore,True
 USAS,Americas Gold and Silver Corporation Common Shares no par value,$2.83,0.1,3.663%,333870889.0,,2017.0,1455907,Basic Industries,Precious Metals,True
 USAT,USA Technologies Inc. Common Stock,$10.45,0.26,2.552%,681931794.0,United States,,757812,Miscellaneous,Office Equipment/Supplies/Services,True
-USAU,U.S. Gold Corp. Common Stock,$11.781,0.18100000000000002,1.56%,43000650.0,United States,,63450,,,True
+USAU,U.S. Gold Corp. Common Stock,$11.781,0.181,1.56%,43000650.0,United States,,63450,,,True
 USB,U.S. Bancorp Common Stock,$45.35,0.16,0.354%,68316977540.0,United States,,5711646,Finance,Major Banks,True
 USB.PRA,U.S. Bancorp,,,,,,,0,,,True
 USB.PRH,U.S. Bancorp,,,,,,,0,,,True
@@ -7052,7 +7052,7 @@ WSFS,WSFS Financial Corporation Common Stock,$42.40,0.16,0.379%,2137059682.0,Uni
 WSG,Wanda Sports Group Company Limited American Depositary Shares,$2.25,-0.03,-1.316%,313499999.0,China,2019.0,16588,Consumer Services,Services-Misc. Amusement & Recreation,True
 WSM,Williams-Sonoma Inc. Common Stock (DE),$112.35,1.9,1.72%,8604629893.0,United States,,964882,Consumer Services,Home Furnishings,True
 WSO,Watsco Inc. Common Stock,$226.71,2.19,0.975%,8724298882.0,United States,,170610,Consumer Durables,Industrial Machinery/Components,True
-WSO.B,Watsco Inc. Class B Common Stock,,,,,United States,,0,,,True
+WSO.B,Watsco Inc. Class B Common Stock,,,,,United States,,0,,,False
 WSR,Whitestone REIT Common Shares,$8.18,0.0,0.00%,346457888.0,United States,2010.0,370168,Consumer Services,Real Estate Investment Trusts,True
 WST,West Pharmaceutical Services Inc. Common Stock,$267.62,0.44,0.165%,19784394053.0,United States,,392741,Basic Industries,Specialty Chemicals,True
 WSTG,Wayside Technology Group Inc. Common Stock,$18.57,0.5,2.767%,81005998.0,United States,,38722,Technology,Retail: Computer Software & Peripheral Equipment,True
