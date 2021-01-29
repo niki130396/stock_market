@@ -338,4 +338,3 @@ def fetch_statements_in_parallel():
         fetch_statements.s(),
         fetch_statements.s()
     )
-
